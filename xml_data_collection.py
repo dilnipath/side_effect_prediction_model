@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 # i = 0
 # for child in root:
 #     print("inside")
-#     print(child.tag, child.attrib)
+#     print(child.text, child.attrib)
 #     if i == 10:
 #         break
 
@@ -19,23 +19,30 @@ lst = []
 
 i = 0
 for event, elem in context:
-    print(elem.text)
     if event == 'start':
         if elem.tag == "{http://www.drugbank.ca}drug":
-            
-            newlst = []
+            # Only process outer drug elements that have name, description, and toxicity
             name = elem.find("{http://www.drugbank.ca}name")
-            newlst.append(name.text)
-            
             description = elem.find("{http://www.drugbank.ca}description")
-            newlst.append(description.text)
-            
             tox = elem.find("{http://www.drugbank.ca}toxicity")
-            newlst.append(tox.text)
 
-            lst.append(newlst)
+            properties = elem.find("{http://www.drugbank.ca}calculated-properties")
             
-            i += 1
+            # Skip if this is a nested drug in drug-interactions (won't have these attributes)
+            if name is not None and description is not None and tox is not None and properties is not None:
+                newlst = []
+                newlst.append(name.text)
+                newlst.append(description.text)
+                newlst.append(tox.text)
+
+                for prop in properties:
+                    if (prop.find("{http://www.drugbank.ca}kind")).text == "logP":
+                        newlst.append((prop.find("{http://www.drugbank.ca}value")).text)
+
+                lst.append(newlst)
+                
+                i += 1
+                print(f"Processed drug {i}: {name.text}")
 
         elem.clear()
         
