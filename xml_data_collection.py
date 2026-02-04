@@ -1,10 +1,14 @@
 import xml.etree.ElementTree as ET
 import csv
+import pandas as pd
 
 context = ET.iterparse('full_database.xml', events=('start',))
 
 lst = []
-drugslst = []
+
+drug_names_df = pd.read_csv('side_effect_prediction_model/data/drug_keys.csv')
+drug_names = drug_names_df['name'].tolist()
+
 
 i = 0
 for event, elem in context:
@@ -20,7 +24,7 @@ for event, elem in context:
             # Skip if this is a nested drug in drug-interactions (won't have these attributes)
             if name is not None and description is not None and tox is not None and properties is not None:
                 dict1 = {}
-                if name.text in drugslst:
+                if name.text in drug_names:
                     dict1["name"] = name.text
                     dict1["description"] = description.text
                     dict1["toxicity"] = tox.text

@@ -1,0 +1,501 @@
+key,name
+a606008,Phenylephrine
+a601105,Pyrethrin and Piperonyl Butoxide Topical
+a607073,Antipyrine-Benzocaine Otic
+a682871,Hydrocortisone Injection
+a601157,Methylprednisolone Injection
+a682078,Chlordiazepoxide
+a682563,Tetrahydrozoline Ophthalmic
+a699012,Abacavir
+a617015,"Abacavir, Dolutegravir, and Lamivudine"
+a616051,"Abacavir, Lamivudine, and Zidovudine"
+a617038,Abaloparatide Injection
+a606016,Abatacept Injection
+a621024,Idecabtagene Vicleucel Injection
+a601132,Amphotericin B Lipid Complex Injection
+a617049,Abemaciclib
+a603012,Aripiprazole
+a615048,Aripiprazole Injection
+a611046,Abiraterone
+a682018,Methotrexate Injection
+a609035,AbobotulinumtoxinA Injection
+a619008,Paclitaxel (with albumin) Injection
+a603010,Adalimumab Injection
+a622008,Abrocitinib
+a623035,RSV (Respiratory Syncytial Virus) Vaccine
+a603026,Lidocaine Transdermal Patch
+a681043,Isotretinoin
+a605043,Fentanyl
+a618004,Acalabrutinib
+a604028,Acamprosate
+a601026,Benzoyl Peroxide Topical
+a603021,Clindamycin and Benzoyl Peroxide Topical
+a696015,Acarbose
+a697007,Zafirlukast
+a622022,Somatropin Injection
+a682619,Pseudoephedrine
+a682145,Albuterol Oral Inhalation
+a692026,Quinapril
+a681006,Theophylline
+a682571,Hydrochlorothiazide
+a687003,Acebutolol
+a625091,Aceclidine Ophthalmic
+a602017,Perindopril
+a621016,Acetaminophen Rectal
+a681004,Acetaminophen
+a601005,Acetaminophen and Codeine
+a611019,Acetaminophen Injection
+a601009,"Acetaminophen, Butalbital, and Caffeine"
+a682756,Acetazolamide
+a604039,Medroxyprogesterone Injection
+a682470,Medroxyprogesterone
+a621021,Aspirin Rectal
+a682878,Aspirin
+a682098,Tetracycline
+a699060,Rabeprazole
+a601010,Acitretin
+a613001,Aclidinium Oral Inhalation
+a625071,Acoltremon Ophthalmic
+a625013,Acoramidis
+a682727,Fluoride
+a611004,Tocilizumab Injection
+a625090,Cosyntropin Injection
+a613006,"Corticotropin, Repository Injection"
+a607015,Haemophilus influenzae type b (Hib) Vaccine
+a682063,Doxycycline
+a682543,Chlorpheniramine
+a699047,Ursodiol
+a601152,Interferon Gamma-1b Injection
+a682224,Dactinomycin
+a625001,Alteplase Injection
+a601041,Estrogen and Progestin (Hormone Replacement Therapy)
+a601247,Risedronate
+a696005,Metformin
+a699016,Pioglitazone
+a601241,Ketorolac Ophthalmic
+a606001,Acyclovir Topical
+a681045,Acyclovir
+a619042,Acyclovir Buccal
+a681036,Acyclovir Injection
+a619029,Acyclovir Ophthalmic
+a616045,Dapsone Topical
+a621007,"COVID-19 Vaccine, Viral Vector (Janssen [Johnson and Johnson])"
+a607027,"Tetanus, Diphtheria, Pertussis (Tdap) Vaccine"
+a623003,Adagrasib
+a620010,Crizanlizumab-tmca Injection
+a684028,Nifedipine
+a682064,Amantadine
+a604001,Adapalene
+a622011,Tralokinumab-ldrm injection
+a611052,Brentuximab Vedotin Injection
+a604008,Tadalafil
+a682159,Ibuprofen
+a601234,Dextroamphetamine and Amphetamine
+a615040,Flibanserin
+a615005,Riociguat
+a682188,Methylphenidate
+a682187,Phentermine
+a617005,Lixisenatide Injection
+a697021,Insulin Lispro Injection
+a613031,Ado-trastuzumab Emtansine Injection
+a601163,Pamidronate Injection
+a603002,Epinephrine Injection
+a682221,Doxorubicin
+a682708,Fluorouracil Injection
+a623062,Nadofaragene firadenovec-vncg Intravesical
+a621033,Aducanumab-avwa Injection
+a682494,Guaifenesin
+a699063,Fluticasone and Salmeterol Oral Inhalation
+a682539,Diphenhydramine
+a616004,Amphetamine
+a619010,Rifamycin
+a681048,Flunisolide Oral Inhalation
+a624042,Afamitresgene Autoleucel Injection
+a613044,Afatinib
+a609032,Everolimus
+a625049,Ethinyl Estradiol and Levonorgestrel (Oral Contraceptives)
+a612004,Aflibercept Injection
+a607017,"Influenza Vaccine, Inactivated or Recombinant"
+a615014,Insulin Human Inhalation
+a608026,Oxymetazoline Nasal Spray
+a682617,Tolnaftate
+a601044,Diphenhydramine Topical
+a623025,Agalsidase beta Injection
+a624005,Vamorolone
+a699053,Aspirin and Extended-Release Dipyridamole
+a601020,Anagrelide
+a618029,Erenumab-aooe Injection
+a623009,Budesonide and Albuterol Oral Inhalation
+a618053,Fremanezumab-vfrm Injection
+a682794,Prednisolone Ophthalmic
+a601114,Sulfacetamide Ophthalmic
+a682660,Tobramycin Ophthalmic
+a686011,Levobunolol Ophthalmic
+a623037,Niraparib and Abiraterone
+a620004,Trifarotene Topical
+a616014,Cyclopentolate Ophthalmic
+a686005,Dipivefrin Ophthalmic
+a607072,Salicylic Acid Topical
+a614053,Netupitant and Palonosetron
+a682793,Hydrocortisone Topical
+a682545,Brompheniramine
+a601013,Aluminum Hydroxide and Magnesium Hydroxide
+a682683,Simethicone
+a697038,Loratadine
+a604033,Ketotifen Ophthalmic
+a610019,Albendazole
+a614031,Albiglutide Injection
+a607004,Albuterol
+a601063,Albuterol and Ipratropium Oral Inhalation
+a611022,Alcaftadine Ophthalmic
+a601111,Spironolactone and Hydrochlorothiazide
+a682627,Spironolactone
+a698010,Imiquimod Topical
+a692009,Aldesleukin
+a682537,Doxylamine
+a682242,Methyldopa
+a682341,Chlorothiazide
+a601076,Methyldopa and Hydrochlorothiazide
+a616007,Alectinib
+a608053,Alemtuzumab Injection (Chronic Lymphocytic Leukemia)
+a619012,Alemtuzumab Injection (Multiple Sclerosis)
+a601011,Alendronate
+a681029,Naproxen
+a604002,Alfuzosin
+a625040,Concizumab-mtci Injection
+a607043,Pemetrexed Injection
+a682809,Bacillus Calmette-Guerin (BCG) Vaccine
+a613017,Bacitracin Ophthalmic
+a614052,Bacitracin Topical
+a682530,Baclofen
+a618062,Baloxavir Marboxil
+a699052,Balsalazide
+a621008,Bamlanivimab and Etesevimab Injection
+a620062,Bamlanivimab Injection
+a618033,Baricitinib
+a606010,Barium Sulfate
+a612013,Basiliximab Injection
+a699049,Becaplermin Topical
+a681047,Beclomethasone Nasal Spray
+a681050,Beclomethasone Oral Inhalation
+a613022,Bedaquiline
+a620052,Belantamab Mafodotin-blmf Injection
+a612011,Belatacept Injection
+a611027,Belimumab Injection
+a614035,Belinostat Injection
+a601024,Belladonna Alkaloid Combinations and Phenobarbital
+a621043,Belumosudil
+a621047,Belzutifan
+a620020,Bempedoic Acid
+a692011,Benazepril
+a601025,Benazepril and Hydrochlorothiazide
+a608034,Bendamustine Injection
+a618002,Benralizumab Injection
+a607074,Bentoquatam Topical
+a624044,Benzgalantamine
+a620007,Benzhydrocodone and Acetaminophen
+a617043,Benznidazole
+a682640,Benzonatate
+a682155,Benztropine
+a611011,Benzyl Alcohol Topical
+a610012,Bepotastine Ophthalmic
+a624007,Berdazimer Topical
+a623026,Beremagene geperpavec-svdt
+a610011,Besifloxacin Ophthalmic
+a608012,Betaine
+a682799,Betamethasone Topical
+a609023,Betaxolol
+a686004,Betaxolol Ophthalmic
+a682849,Bethanechol
+a622065,Betibeglogene autotemcel Injection
+a617050,Betrixaban
+a607001,Bevacizumab Injection
+a623027,Bexagliflozin
+a608006,Bexarotene
+a608036,Bexarotene Topical
+a617003,Bezlotoxumab Injection
+a697047,Bicalutamide
+a618012,"Bictegravir, Emtricitabine, and Tenofovir Alafenamide"
+a602030,Bimatoprost Ophthalmic
+a609009,Bimatoprost Topical
+a623049,Bimekizumab-bkzx injection
+a618041,Binimetinib
+a624016,Birch Triterpenes Topical
+a601027,Bisacodyl
+a611051,Bisacodyl Rectal
+a607040,Bismuth Subsalicylate
+a601028,"Bismuth, Metronidazole, and Tetracycline"
+a693024,Bisoprolol
+a682125,Bleomycin
+a614061,Blinatumomab Injection
+a611039,Boceprevir
+a607007,Bortezomib Injection
+a605001,Bosentan
+a613005,Bosutinib
+a619054,Bremelanotide Injection
+a619037,Brexanolone Injection
+a615046,Brexpiprazole
+a620054,Brexucabtagene Autoleucel Injection
+a617016,Brigatinib
+a601232,Brimonidine Ophthalmic
+a616027,Brivaracetam
+a616026,Brivaracetam Injection
+a617009,Brodalumab Injection
+a620001,Brolucizumab-dbll Injection
+a611018,Bromfenac Ophthalmic
+a682079,Bromocriptine
+a608007,Budesonide
+a623022,Budesonide and Formoterol Oral Inhalation
+a601030,Budesonide Nasal Spray
+a699056,Budesonide Oral Inhalation
+a624013,Budesonide Oral Suspension (Eosinophilic Esophagitis)
+a684051,Bumetanide
+a625026,Bupivacaine Injection
+a625027,Bupivacaine Liposomal Injection
+a616019,Buprenorphine Buccal (chronic pain)
+a618015,Buprenorphine Injection (opioid dependence)
+a623028,Buprenorphine Injection (Pain Relief)
+a605002,Buprenorphine Sublingual and Buccal (opioid dependence)
+a613042,Buprenorphine Transdermal Patch
+a695033,Bupropion
+a618034,Burosumab-twza Injection
+a688005,Buspirone
+a682248,Busulfan
+a611033,Busulfan Injection
+a682417,Butabarbital
+a682012,Butoconazole Vaginal Cream
+a682667,Butorphanol Injection
+a601204,Butorphanol Nasal Spray
+a684049,Econazole Topical
+a612024,Eculizumab Injection
+a617027,Edaravone Injection
+a622056,Edaravone Oral
+a614055,Edoxaban
+a699004,Efavirenz
+a616048,"Efavirenz, Emtricitabine, and Tenofovir disoproxil fumarate"
+a618028,"Efavirenz, Lamivudine, and Tenofovir disoproxil fumarate (DF)"
+a624001,Efbemalenograstim alfa-vuxw Injection
+a624057,Efgartigimod alfa and Hyaluronidase-qvfc Injection
+a622057,Efgartigimod alfa-fcab Injection
+a614050,Efinaconazole Topical
+a624008,Eflornithine
+a623011,Elacestrant
+a624080,Eladocagene exuparvovec-tneq Injection
+a624039,Elafibranor
+a618044,Elagolix
+a620042,"Elagolix, Estradiol, and Norethindrone"
+a616016,Elbasvir and Grazoprevir
+a603029,Eletriptan
+a619061,"Elexacaftor, Tezacaftor, and Ivacaftor"
+a618038,Eliglustat
+a622071,Elivaldogene autotemcel Injection
+a616001,Elotuzumab Injection
+a623045,Elranatamab-bcmm
+a609011,Eltrombopag
+a615054,Eluxadoline
+a625076,"Elvitegravir, Cobicistat, Emtricitabine, and Tenofovir Alafenamide (AF)"
+a612035,"Elvitegravir, Cobicistat, Emtricitabine, and Tenofovir disoproxil fumarate (DF)"
+a619024,Emapalumab-lzsg Injection
+a622046,Emicizumab-kxwh Injection
+a614043,Empagliflozin
+a604004,Emtricitabine
+a625077,Emtricitabine and Tenofovir alafenamide
+a612036,Emtricitabine and Tenofovir disoproxil fumarate
+a625075,"Emtricitabine, Rilpivirine, and Tenofovir alafenamide"
+a616021,"Emtricitabine, Rilpivirine, and Tenofovir disoproxil fumarate"
+a686022,Enalapril
+a601047,Enalapril and Hydrochlorothiazide
+a617040,Enasidenib
+a618040,Encorafenib
+a620005,Enfortumab vedotin-ejfv Injection
+a603023,Enfuvirtide Injection
+a601210,Enoxaparin Injection
+a625004,Ensartinib
+a624040,Ensifentrine Oral Inhalation
+a601236,Entacapone
+a605028,Entecavir
+a619049,Entrectinib
+a612033,Enzalutamide
+a623023,Epcoritamab-bysp Injection
+a604011,Epinastine Ophthalmic
+a624049,Epinephrine Nasal Spray
+a619002,Epinephrine Oral Inhalation
+a603003,Epirubicin
+a603004,Eplerenone
+a624017,Eplontersen injection
+a692034,"Epoetin Alfa, Injection"
+a622042,Epoprostenol
+a609005,Clindamycin Topical
+a622015,C1-Esterase Inhibitor (Recombinant) Injection
+a611009,Cabazitaxel Injection
+a612020,Cabergoline
+a621010,Cabotegravir
+a616037,Cabozantinib
+a619015,Calaspargase pegol-mknl Injection
+a608018,Calcipotriene Topical
+a682788,Calcitonin Salmon Injection
+a601031,Calcitonin Salmon Nasal Spray
+a682335,Calcitriol
+a620017,Calcium Acetate
+a601032,Calcium Carbonate
+a613033,Canagliflozin
+a622024,Canakinumab Injection
+a601033,Candesartan
+a618051,Cannabidiol
+a623044,Cantharidin Topical
+a699003,Capecitabine
+a623056,Capivasertib
+a619030,Caplacizumab-yhdp Injection
+a620038,Capmatinib
+a620055,Capsaicin Topical
+a682823,Captopril
+a682237,Carbamazepine
+a695017,Carboplatin Injection
+a612031,Carfilzomib Injection
+a615050,Cariprazine
+a682578,Carisoprodol
+a682060,Carmustine
+a697042,Carvedilol
+a615001,Caspofungin Injection
+a682729,Cefaclor
+a682730,Cefadroxil
+a682731,Cefazolin Injection
+a698001,Cefdinir
+a605003,Cefditoren
+a698021,Cefepime Injection
+a620008,Cefiderocol Injection
+a690007,Cefixime
+a682765,Cefotaxime Injection
+a686015,Cefotetan Injection
+a682737,Cefoxitin Injection
+a698024,Cefpodoxime
+a698022,Cefprozil
+a611014,Ceftaroline Injection
+a615018,Ceftazidime and Avibactam Injection
+a686007,Ceftazidime Injection
+a698023,Ceftibuten
+a615010,Ceftolozane and Tazobactam Injection
+a685032,Ceftriaxone Injection
+a601206,Cefuroxime
+a684044,Cefuroxime Injection
+a699022,Celecoxib
+a618054,Cemiplimab-rwlc Injection
+a619001,Cenegermin-bkbj Ophthalmic
+a620021,Cenobamate
+a682733,Cephalexin
+a614027,Ceritinib
+a624045,Cerliponase alfa Injection
+a608041,Certolizumab Injection
+a623043,Cetirizine
+a698026,Cetirizine Injection
+a621035,Cetirizine Ophthalmic
+a607041,Cetuximab Injection
+a608025,Cevimeline
+a625044,Chenodiol
+a682201,Chloral Hydrate
+a682899,Chlorambucil
+a608008,Chloramphenicol Injection
+a601036,Chlordiazepoxide and Clidinium
+a625016,Chlorhexidine Topical
+a682318,Chloroquine
+a682040,Chlorpromazine
+a682479,Chlorpropamide
+a682342,Chlorthalidone
+a682577,Chlorzoxazone
+a620058,Cholecalciferol (Vitamin D3)
+a618024,Cholera Vaccine
+a682672,Cholestyramine Resin
+a602021,Choline Magnesium Trisalicylate
+a607008,Ciclesonide Nasal Spray
+a609004,Ciclesonide Oral Inhalation
+a604021,Ciclopirox Topical
+a696037,Cidofovir Injection
+a601038,Cilostazol
+a622041,Ciltacabtagene Autoleucel Injection
+a682256,Cimetidine
+a605004,Cinacalcet
+a623057,Cipaglucosidase alfa-atga
+a607010,Ciprofloxacin and Dexamethasone Otic
+a693022,Ciprofloxacin Injection
+a605005,Ciprofloxacin Ophthalmic
+a618027,Ciprofloxacin Otic
+a694006,Cisapride
+a684036,Cisplatin Injection
+a699001,Citalopram
+a619038,Cladribine
+a693015,Cladribine Injection
+a692005,Clarithromycin
+a682542,Clemastine
+a682399,Clindamycin
+a682382,Clindamycin Injection
+a682367,Clioquinol Topical
+a612008,Clobazam
+a686008,Clobetasol Topical
+a607012,Clofarabine Injection
+a682704,Clomiphene
+a697002,Clomipramine
+a682279,Clonazepam
+a682243,Clonidine
+a601040,Clopidogrel
+a682052,Clorazepate
+a618058,Clotrimazole Lozenge
+a618059,Clotrimazole Topical
+a682753,Clotrimazole Vaginal
+a691001,Clozapine
+a684026,Co-trimoxazole
+a601165,Co-trimoxazole Injection
+a616029,Cobicistat
+a615057,Cobimetinib
+a682065,Codeine
+a682711,Colchicine
+a699050,Colesevelam
+a682157,Colestipol
+a682860,Colistimethate Injection
+a612029,Collagenase Clostridium histolyticum Injection
+a617044,Copanlisib Injection
+a625002,Cosibelimab-ipdl Injection
+a622054,"COVID-19 Vaccine, Adjuvanted"
+a625009,Crinecerfont
+a617019,Crisaborole Topical
+a612018,Crizotinib
+a613016,Crofelemer
+a617004,Cromolyn Ophthalmic
+a601042,Cromolyn Oral Inhalation
+a682713,Cromolyn Sodium Nasal Solution
+a624046,Crovalimab-akkz injection
+a625017,Cyanocobalamin (Vitamin B12)
+a605007,Cyanocobalamin Injection
+a604029,Cyanocobalamin Nasal Gel
+a682514,Cyclobenzaprine
+a682080,Cyclophosphamide
+a611044,Cyclophosphamide Injection
+a601207,Cyclosporine
+a684054,Cyclosporine Injection
+a604009,Cyclosporine Ophthalmic
+a682541,Cyproheptadine
+a682222,Cytarabine Injection
+a612003,Cytarabine Lipid Complex Injection
+a610024,Dabigatran
+a613038,Dabrafenib
+a682750,Dacarbazine
+a615044,Daclatasvir
+a616036,Daclizumab Injection
+a618055,Dacomitinib
+a614036,Dalbavancin Injection
+a611005,Dalfampridine
+a696006,Dalteparin Injection
+a682272,Halcinonide Topical
+a601060,Halobetasol Topical
+a682180,Haloperidol
+a615023,Haloperidol Injection
+a695003,Hepatitis A Vaccine
+a607014,Hepatitis B Vaccine
+a601146,Histrelin Implant
+a682611,Human Insulin Injection
+a615028,Human Papillomavirus (HPV) Vaccine
+a610014,Human Papillomavirus (HPV) Vaccine (Cervarix)
+a682246,Hydralazine
+a614045,Hydrocodone
+a601240,Hydroxychloroquine
+a682004,Hydroxyurea
+a684010,Hyoscyamine
