@@ -1,161 +1,110 @@
 key,name
 a606008,Phenylephrine
-a601105,Pyrethrin and Piperonyl Butoxide Topical
-a607073,Antipyrine-Benzocaine Otic
-a682871,Hydrocortisone Injection
-a601157,Methylprednisolone Injection
+a682206,Hydrocortisone
+a682795,Methylprednisolone
 a682078,Chlordiazepoxide
-a682563,Tetrahydrozoline Ophthalmic
 a699012,Abacavir
-a617015,"Abacavir, Dolutegravir, and Lamivudine"
-a616051,"Abacavir, Lamivudine, and Zidovudine"
-a617038,Abaloparatide Injection
-a606016,Abatacept Injection
-a621024,Idecabtagene Vicleucel Injection
-a601132,Amphotericin B Lipid Complex Injection
+a621024,Idecabtagene Vicleucel
 a617049,Abemaciclib
 a603012,Aripiprazole
-a615048,Aripiprazole Injection
 a611046,Abiraterone
-a682018,Methotrexate Injection
-a609035,AbobotulinumtoxinA Injection
-a619008,Paclitaxel (with albumin) Injection
-a603010,Adalimumab Injection
+a682019,Methotrexate
+a603010,Adalimumab
 a622008,Abrocitinib
-a623035,RSV (Respiratory Syncytial Virus) Vaccine
-a603026,Lidocaine Transdermal Patch
+a623035,Respiratory Syncytial Virus Vaccine, adjuvanted
 a681043,Isotretinoin
 a605043,Fentanyl
 a618004,Acalabrutinib
 a604028,Acamprosate
-a601026,Benzoyl Peroxide Topical
-a603021,Clindamycin and Benzoyl Peroxide Topical
+a601026,Benzoyl Peroxide
 a696015,Acarbose
 a697007,Zafirlukast
-a622022,Somatropin Injection
 a682619,Pseudoephedrine
-a682145,Albuterol Oral Inhalation
+a607004,Albuterol
 a692026,Quinapril
 a681006,Theophylline
 a682571,Hydrochlorothiazide
 a687003,Acebutolol
-a625091,Aceclidine Ophthalmic
+a625091,Aceclidine
 a602017,Perindopril
-a621016,Acetaminophen Rectal
 a681004,Acetaminophen
-a601005,Acetaminophen and Codeine
-a611019,Acetaminophen Injection
-a601009,"Acetaminophen, Butalbital, and Caffeine"
 a682756,Acetazolamide
-a604039,Medroxyprogesterone Injection
-a682470,Medroxyprogesterone
-a621021,Aspirin Rectal
-a682878,Aspirin
 a682098,Tetracycline
 a699060,Rabeprazole
 a601010,Acitretin
-a613001,Aclidinium Oral Inhalation
-a625071,Acoltremon Ophthalmic
+a613001,Aclidinium
+a625071,Acoltremon
 a625013,Acoramidis
-a682727,Fluoride
-a611004,Tocilizumab Injection
-a625090,Cosyntropin Injection
-a613006,"Corticotropin, Repository Injection"
-a607015,Haemophilus influenzae type b (Hib) Vaccine
 a682063,Doxycycline
 a682543,Chlorpheniramine
-a699047,Ursodiol
-a601152,Interferon Gamma-1b Injection
+a601152,Interferon Gamma-1b
 a682224,Dactinomycin
-a625001,Alteplase Injection
-a601041,Estrogen and Progestin (Hormone Replacement Therapy)
-a601247,Risedronate
+a625001,Alteplase
 a696005,Metformin
 a699016,Pioglitazone
-a601241,Ketorolac Ophthalmic
-a606001,Acyclovir Topical
+a693001,Ketorolac
 a681045,Acyclovir
-a619042,Acyclovir Buccal
-a681036,Acyclovir Injection
-a619029,Acyclovir Ophthalmic
-a616045,Dapsone Topical
-a621007,"COVID-19 Vaccine, Viral Vector (Janssen [Johnson and Johnson])"
-a607027,"Tetanus, Diphtheria, Pertussis (Tdap) Vaccine"
+a682128,Dapsone
 a623003,Adagrasib
-a620010,Crizanlizumab-tmca Injection
+a620010,Crizanlizumab
 a684028,Nifedipine
 a682064,Amantadine
 a604001,Adapalene
-a622011,Tralokinumab-ldrm injection
-a611052,Brentuximab Vedotin Injection
+a622011,Tralokinumab
+a611052,Brentuximab Vedotin
 a604008,Tadalafil
 a682159,Ibuprofen
-a601234,Dextroamphetamine and Amphetamine
+a605027,Dextroamphetamine
 a615040,Flibanserin
 a615005,Riociguat
 a682188,Methylphenidate
 a682187,Phentermine
-a617005,Lixisenatide Injection
-a697021,Insulin Lispro Injection
-a613031,Ado-trastuzumab Emtansine Injection
-a601163,Pamidronate Injection
-a603002,Epinephrine Injection
+a617005,Lixisenatide
+a697021,Insulin Lispro
 a682221,Doxorubicin
-a682708,Fluorouracil Injection
-a623062,Nadofaragene firadenovec-vncg Intravesical
-a621033,Aducanumab-avwa Injection
+a623062,Nadofaragene firadenovec
 a682494,Guaifenesin
-a699063,Fluticasone and Salmeterol Oral Inhalation
+a699063,Salmeterol Oral Inhalation
 a682539,Diphenhydramine
 a616004,Amphetamine
 a619010,Rifamycin
-a681048,Flunisolide Oral Inhalation
-a624042,Afamitresgene Autoleucel Injection
+a624042,Afamitresgene Autoleucel
 a613044,Afatinib
 a609032,Everolimus
-a625049,Ethinyl Estradiol and Levonorgestrel (Oral Contraceptives)
-a612004,Aflibercept Injection
-a607017,"Influenza Vaccine, Inactivated or Recombinant"
-a615014,Insulin Human Inhalation
-a608026,Oxymetazoline Nasal Spray
+a612004,Aflibercept
 a682617,Tolnaftate
-a601044,Diphenhydramine Topical
-a623025,Agalsidase beta Injection
+a682539,Diphenhydramine
+a623025,Agalsidase beta
 a624005,Vamorolone
-a699053,Aspirin and Extended-Release Dipyridamole
 a601020,Anagrelide
-a618029,Erenumab-aooe Injection
-a623009,Budesonide and Albuterol Oral Inhalation
-a618053,Fremanezumab-vfrm Injection
-a682794,Prednisolone Ophthalmic
-a601114,Sulfacetamide Ophthalmic
-a682660,Tobramycin Ophthalmic
-a686011,Levobunolol Ophthalmic
-a623037,Niraparib and Abiraterone
-a620004,Trifarotene Topical
-a616014,Cyclopentolate Ophthalmic
-a686005,Dipivefrin Ophthalmic
-a607072,Salicylic Acid Topical
-a614053,Netupitant and Palonosetron
-a682793,Hydrocortisone Topical
+a618029,Erenumab
+a608007,Budesonide
+a618053,Fremanezumab
+a615042,Prednisolone
+a686011,Levobunolol
+a617007,Niraparib 
+a611046,Abiraterone
+a620004,Trifarotene
+a616014,Cyclopentolate
+a686005,Dipivefrin
+a607072,Salicylic Acid
 a682545,Brompheniramine
-a601013,Aluminum Hydroxide and Magnesium Hydroxide
-a682683,Simethicone
+a699048,Aluminum Hydroxide 
+a601073,Magnesium Hydroxide
 a697038,Loratadine
-a604033,Ketotifen Ophthalmic
 a610019,Albendazole
-a614031,Albiglutide Injection
-a607004,Albuterol
-a601063,Albuterol and Ipratropium Oral Inhalation
-a611022,Alcaftadine Ophthalmic
-a601111,Spironolactone and Hydrochlorothiazide
+a614031,Albiglutide
+a611022,Alcaftadine
+a601111,Spironolactone
+a682571,Hydrochlorothiazide
 a682627,Spironolactone
-a698010,Imiquimod Topical
+a698010,Imiquimod
 a692009,Aldesleukin
 a682537,Doxylamine
 a682242,Methyldopa
+*,*
 a682341,Chlorothiazide
-a601076,Methyldopa and Hydrochlorothiazide
+a682242,Methyldopa
 a616007,Alectinib
 a608053,Alemtuzumab Injection (Chronic Lymphocytic Leukemia)
 a619012,Alemtuzumab Injection (Multiple Sclerosis)
