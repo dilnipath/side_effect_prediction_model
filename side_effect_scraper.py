@@ -8,10 +8,14 @@ headers = {"User-Agent": "Mozilla/5.0"}
 drug_texts = []
 keys = []
 
-with open('data/drug_keys.csv', newline='', encoding='utf-8') as f:
+with open('side_effect_prediction_model/data/drug_keys.csv', newline='', encoding='utf-8') as f:
     reader = csv.reader(f)
+    i = 0
     for row in reader:
         keys.append(row[0])
+        if i == 100:
+            break
+        i += 1
 
 for key in keys:
     url = base + key + ".html"
@@ -31,14 +35,16 @@ for key in keys:
     text = ""
 
     name = soup.find("h1", "with-also").get_text(" ", strip=True)
+    side_effects = [p.get_text(" ", strip=True) for p in soup.find("div", "section-body", id="section-side-effects").find_all("li")]
 
     drug_texts.append({
         "key": key,
         "name": name,
+        "side_effects": side_effects
     })
 
-    with open('data/drug_keys.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['key', 'name']
+    with open('side_effect_prediction_model/data/drug_side_effects.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['key', 'name', 'side_effects']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(drug_texts)

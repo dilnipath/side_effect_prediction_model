@@ -1,0 +1,58 @@
+import csv
+import ast
+import pandas as pd
+
+# processed_df = pd.read_csv('side_effect_prediction_model/data/drug_side_effects.csv')
+
+# processed_side_effects = []
+
+all_side_effects = {}
+
+none_split = set()
+
+# for _, row in processed_df.iterrows():
+#     effects = row[2]
+#     effects = ast.literal_eval(effects)
+#     processed_drug = []
+#     for e in effects:
+#         print(e)
+#         if e not in none_split:
+#             split = input("Split?")
+#             if split == 's':
+#                 lst = e.split(';')
+#                 for j in lst:
+#                     processed_drug.append(j)
+#             if split == 'c':
+#                 lst = e.split(',')
+#                 for j in lst:
+#                     processed_drug.append(j)
+#             else:
+#                 processed_drug.append(e)
+#                 none_split.add(e)
+#         else:
+#                 processed_drug.append(e)
+#     processed_side_effects.append(processed_drug)
+
+# processed_df['processed_side_effects'] =  processed_side_effects
+# print(processed_df['processed_side_effects'])
+
+# processed_df.to_csv('split_side_effects.csv')
+
+with open('side_effect_prediction_model/data/split_side_effects.csv', newline='', encoding='utf-8') as f:
+    reader = csv.reader(f)
+    next(reader)
+    for row in reader:
+        side_effects = row[4]
+        side_effects = ast.literal_eval(side_effects)
+        for i in side_effects:
+            if i in all_side_effects:
+                all_side_effects[i] += 1
+            else:
+                all_side_effects[i] = 1
+    
+all_side_effects = sorted(all_side_effects.items(), key=lambda item: item[1])
+print(all_side_effects)
+print(len(all_side_effects))
+
+
+
