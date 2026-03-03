@@ -39,8 +39,8 @@ def model(fname):
     df['description'] = df["description"].astype(str)
     df['toxicity'] = df["toxicity"].astype(str)
     df['smiles'] = df["smiles"].astype(str)
-    df['label'] = df['label'].str.replace('"', '').replace("'", '')
-    #df['label'] = ast.literal_eval(df['label'])
+    #df['label'] = df['label'].str.replace('"', '').replace("'", '')
+    #print(type(temp))
 
     train_df, test_df = train_test_split(df, test_size=0.3, random_state=42)
 
@@ -65,9 +65,19 @@ def model(fname):
     test_ds.set_format("torch")
     val_ds.set_format("torch")
 
-    numoflabels = df['label'][2]
+    for row in train_ds:
+        row['label'] = ast.literal_eval(row['label'])
+    for row in test_ds:
+        row['label'] = ast.literal_eval(row['label'])
+    for row in val_ds:
+        row['label'] = ast.literal_eval(row['label'])
+    numoflabels = train_ds['label'][2]
 
-    model = AutoModel.from_pretrained("dmis-lab/biobert-v1.1", num_labels=len(numoflabels))
+    m = AutoModel.from_pretrained("dmis-lab/biobert-v1.1", num_labels=len(numoflabels))
+
+    m(train_ds[0]['input_ids'])
+
+
 
     training_args = TrainingArguments(
         output_dir="./results",
@@ -79,7 +89,7 @@ def model(fname):
     )
 
     trainer = Trainer(
-        model=model,
+        model=m,
         args=training_args,
         train_dataset=train_ds,
         eval_dataset=val_ds,
@@ -100,6 +110,6 @@ def model(fname):
     evaluate("test", test_df["label"], preds)
 
 def main():
-    model("data/sample_dataset.csv")
+    model("data/minidata.csv")
 
 main()
