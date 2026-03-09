@@ -8,7 +8,7 @@ input_path = "./data/train_test_data"
 base_name = os.path.splitext(os.path.basename(input_path))[0]
 output_dir = os.path.dirname(input_path)
 
-data = torch.load("biobert_embeddings_dataset.pt")
+data = torch.load("./embedding_datasets/final_dataset.pt")
 
 # check data structure
 if isinstance(data, tuple) and len(data) == 2:
