@@ -39,8 +39,8 @@ X_train = torch.tensor(X_train_split, dtype=torch.float32)
 y_train = torch.tensor(y_train_split, dtype=torch.float32) 
 X_val = torch.tensor(X_val_split, dtype=torch.float32) 
 y_val = torch.tensor(y_val_split, dtype=torch.float32) 
-X_test = torch.tensor(X_test, dtype=torch.float32)
-y_test = torch.tensor(y_test, dtype=torch.float32) 
+X_test = torch.tensor(X_test.detach().clone(), dtype=torch.float32)
+y_test = torch.tensor(y_test.detach().clone(), dtype=torch.float32) 
 
 train_loader = DataLoader(TensorDataset(X_train, y_train), batch_size=64, shuffle=True)
 val_loader = DataLoader(TensorDataset(X_val, y_val), batch_size=512)
@@ -56,17 +56,16 @@ model = nn.Sequential(
     nn.Linear(hidden_dim, output_dim)
 )
 
-keras.losses.BinaryCrossentropy(
+keras.losses.BinaryFocalCrossentropy(
     from_logits=False,
     label_smoothing=0.0,
     axis=-1,
     reduction="sum_over_batch_size",
-    name="binary_crossentropy",
-    dtype=None,
+    name="binary_focal_crossentropy",
 )
 
 optimizer = optim.Adam(model.parameters(), lr=lr)
-criterion = keras.losses.BinaryCrossentropy(from_logits=True)  # For multi-label classification
+criterion = keras.losses.BinaryFocalCrossentropy(from_logits=True)  # For multi-label classification
 
 best_recall= 0
 patience = 20
@@ -77,8 +76,7 @@ for epoch in range(1, 301):
     for X_batch, y_batch in train_loader:
         optimizer.zero_grad()
         outputs = model(X_batch)
-        loss = criterion(outputs, y_batch)
-        loss.backward()
+        loss = criterion(outputs.detach().numpy(), y_batch.detach().numpy())
         optimizer.step()
 
     model.eval()
