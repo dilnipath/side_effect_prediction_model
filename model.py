@@ -3,11 +3,13 @@ import torch.nn as nn
 import torch.optim as optim
 import json
 from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import argparse
 import os
+import keras
+import tensorflow
 
 results = []
 
@@ -46,18 +48,27 @@ test_loader = DataLoader(TensorDataset(X_test, y_test), batch_size=512)
 
 model = nn.Sequential(
     nn.Linear(input_dim, input_dim),
-    nn.ReLU(),
+    nn.LeakyReLU(),
     nn.Dropout(dropout),
     nn.Linear(input_dim, hidden_dim),
-    nn.ReLU(),
+    nn.LeakyReLU(),
     nn.Dropout(dropout),
     nn.Linear(hidden_dim, output_dim)
 )
 
-optimizer = optim.Adam(model.parameters(), lr=lr)
-criterion = nn.BCEWithLogitsLoss()  # For multi-label classification
+keras.losses.BinaryCrossentropy(
+    from_logits=False,
+    label_smoothing=0.0,
+    axis=-1,
+    reduction="sum_over_batch_size",
+    name="binary_crossentropy",
+    dtype=None,
+)
 
-best_val_acc = 0
+optimizer = optim.Adam(model.parameters(), lr=lr)
+criterion = keras.losses.BinaryCrossentropy(from_logits=True)  # For multi-label classification
+
+best_recall= 0
 patience = 20
 wait = 0
 
@@ -78,12 +89,26 @@ for epoch in range(1, 301):
             y_pred.append(torch.sigmoid(out).cpu())  # Apply sigmoid for threshold
     y_pred = torch.cat(y_pred)
     y_pred_binary = (y_pred > 0.5).float()  # Threshold at 0.5
+
+    pred_score = 0
+    real_score = 0
+
+    for i in range(len(y_val)):
+        for j in range(len(y_val[i])):
+            if y_val[i][j] == 1:
+                real_score += 1
+            if y_val[i][j] == y_pred_binary[i][j] and y_val[i][j] == 1:
+                pred_score += 1
+    ones_correct = pred_score/real_score
+
     acc = accuracy_score(y_val.cpu().numpy(), y_pred_binary.numpy())
+    precision = precision_score(y_val.cpu().numpy(), y_pred_binary.numpy(), average = "micro")
+    recall = recall_score(y_val.cpu().numpy(), y_pred_binary.numpy(), average = "micro")
 
-    print(f"Epoch {epoch}, Val Acc: {acc:.4f}, Best: {best_val_acc:.4f}, Wait: {wait}/{patience}")
+    print(f"Epoch {epoch}, Val Acc: {acc:.4f}, Ones Correct: {ones_correct:.4f}, Best: {best_recall:.4f}, Precision: {precision:.4f}, Recall: {recall: .4f}, Wait: {wait}/{patience}")
 
-    if acc >= best_val_acc:
-        best_val_acc = acc
+    if recall >= best_recall:
+        best_recall = recall
         wait = 0
         save_model_path = "best_model.pth"
         torch.save(model.state_dict(), save_model_path)
@@ -105,15 +130,15 @@ y_pred_test = torch.cat(y_pred_test)
 print(y_pred_test)
 y_pred_test_binary = (y_pred_test > 0.5).float()  # Threshold at 0.5
 print(y_pred_test_binary)
-test_acc = accuracy_score(y_test.cpu().numpy(), y_pred_test_binary.numpy())
-print(f"Final Test Accuracy for: {test_acc:.4f}")
+test_recall = recall_score(y_test.cpu().numpy(), y_pred_test_binary.numpy(), average = "micro")
+print(f"Final Test Recall for: {test_recall:.4f}")
 
-results.append([input_dim, epoch, best_val_acc, test_acc])
+results.append([input_dim, epoch, best_recall, test_recall, precision, acc])
 
 # Save result for each embedding
 for result in results:
     emb_name = result[0]
-    df_single = pd.DataFrame([result], columns=['Input dim', 'Epochs', 'Best Val Accuracy', 'Test Accuracy'])
+    df_single = pd.DataFrame([result], columns=['Input dim', 'Epochs', 'Best Recall Accuracy', 'Test Recall', 'Precision', 'Accuracy'])
     csv_path = "model_result.csv"
     df_single.to_csv(csv_path, index=False)
     print(f"Saved result as model_result.csv")
