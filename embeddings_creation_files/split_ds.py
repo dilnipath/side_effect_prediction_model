@@ -4,7 +4,7 @@ import os
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-input_path = "./data/train_test_data"
+input_path = "./data"
 base_name = os.path.splitext(os.path.basename(input_path))[0]
 output_dir = os.path.dirname(input_path)
 
