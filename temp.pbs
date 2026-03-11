@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#PBS -q workq
+#PBS -l select=1:ncpus=1:mem=3gb:ngpus=0 
+#PBS -l walltime=1:30:00
+
+cd ${PBS_O_WORKDIR}
+source /local/JupyterHub/bin/activate && conda activate nlp
+python delete_tags_from_xml.py
