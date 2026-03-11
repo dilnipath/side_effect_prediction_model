@@ -4,6 +4,9 @@ import os
 import random
 from transformers import AutoTokenizer, AutoModel
 
+
+FEATURE_NAME = "pharmacodynamics"
+
 # Load BioBERT tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained("dmis-lab/biobert-base-cased-v1.1")
 model = AutoModel.from_pretrained("dmis-lab/biobert-base-cased-v1.1")
@@ -28,7 +31,7 @@ def get_biobert_embeddings(text):
     final_embedding = torch.cat(embeddings, dim=0)
     return final_embedding
 
-output_dir = "./biobert_embeddings"
+output_dir = f"./biobert_{FEATURE_NAME}_embeddings"
 os.makedirs(output_dir, exist_ok=True)
 
 saved_count = 0
@@ -37,7 +40,7 @@ with open('data/sample_dataset.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
-        drug_description = row['description']
+        drug_description = row[FEATURE_NAME]
         drug_name = row['name']
 
         try:
@@ -49,6 +52,3 @@ with open('data/sample_dataset.csv', mode='r', encoding='utf-8') as file:
         except Exception as e:
             print(f"Error processing {drug_name}: {e}")
             continue
-
-print("\n Making BioBERT embeddings completed.")
-print(f"Total embeddings saved: {saved_count}")

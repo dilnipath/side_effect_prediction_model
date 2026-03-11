@@ -27,9 +27,6 @@ split_df['labels'] = labels_lst
 features_df = pd.read_csv('data/features.csv')
 features_df["name"] = features_df["name"].str.lower()
 
-# print(features_df.shape)
-# print(split_df.shape)
-
 df_merged = pd.merge(features_df, split_df[["name", "labels"]], on="name")
 
 df_merged.to_csv('data/sample_dataset.csv', index=False)

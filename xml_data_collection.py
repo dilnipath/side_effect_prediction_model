@@ -2,12 +2,12 @@ import xml.etree.ElementTree as ET
 import csv
 import pandas as pd
 
-context = ET.iterparse('side_effect_prediction_model/full database.xml', events=('start', 'end'))
+context = ET.iterparse('full database.xml', events=('start', 'end'))
 
 lst = []
 
-drug_names_df = pd.read_csv('side_effect_prediction_model/data/drug_keys_copy.csv')
-drug_names = drug_names_df['name'].tolist()
+drug_names_df = pd.read_csv('data/drug_keys.csv')
+drug_names = drug_names_df['name'][:101].tolist()
 
 desired_drug = False
 processed_Drugs = []
@@ -31,35 +31,39 @@ for event, elem in context:
             if name is not None and name.text in drug_names:
                 desired_drug = True
                 drug_dict["name"] = name.text
-                description = elem.find("{http://www.drugbank.ca}description")
-                text = description
 
         if desired_drug:
-            if elem.tag == "{http://www.drugbank.ca}description" and "description" not in drug_dict:
+            if elem.tag == "{http://www.drugbank.ca}pharmacodynamics" and "pharmacodynamics" not in drug_dict:
                 if elem.text is not None:
                     text = elem.text.replace(",", "").replace("\n", "").replace("\r", "").replace("\t", "")
-                    drug_dict["description"] = text
+                    drug_dict["pharmacodynamics"] = text
                 else:
-                    drug_dict["description"] = -1
-            if elem.tag == "{http://www.drugbank.ca}toxicity" and "toxicity" not in drug_dict:
-                if elem.text is not None:
-                    text = elem.text.replace(",", "").replace("\n", "").replace("\r", "").replace("\t", "")
-                    drug_dict["toxicity"] = text
-                else:
-                    drug_dict["toxicity"] = -1
-            if elem.tag == '{http://www.drugbank.ca}calculated-properties' and "SMILES" not in drug_dict:
-                for prop in elem:
-                    if prop.text is None or prop is None:
-                        continue
-                    else:
-                        kind = (prop.find("{http://www.drugbank.ca}kind"))
-                        value = (prop.find("{http://www.drugbank.ca}value"))
+                    drug_dict["pharmacodynamics"] = -1
+            # if elem.tag == "{http://www.drugbank.ca}description" and "description" not in drug_dict:
+            #     if elem.text is not None:
+            #         text = elem.text.replace(",", "").replace("\n", "").replace("\r", "").replace("\t", "")
+            #         drug_dict["description"] = text
+            #     else:
+            #         drug_dict["description"] = -1
+            # if elem.tag == "{http://www.drugbank.ca}toxicity" and "toxicity" not in drug_dict:
+            #     if elem.text is not None:
+            #         text = elem.text.replace(",", "").replace("\n", "").replace("\r", "").replace("\t", "")
+            #         drug_dict["toxicity"] = text
+            #     else:
+            #         drug_dict["toxicity"] = -1
+            # if elem.tag == '{http://www.drugbank.ca}calculated-properties' and "SMILES" not in drug_dict:
+            #     for prop in elem:
+            #         if prop.text is None or prop is None:
+            #             continue
+            #         else:
+            #             kind = (prop.find("{http://www.drugbank.ca}kind"))
+            #             value = (prop.find("{http://www.drugbank.ca}value"))
 
-                        if kind is not None and value is not None:
-                            if kind.text == "SMILES":
-                                drug_dict["SMILES"] = value.text
-                if "SMILES" not in drug_dict:
-                    drug_dict["SMILES"] = -1
+            #             if kind is not None and value is not None:
+            #                 if kind.text == "SMILES":
+            #                     drug_dict["SMILES"] = value.text
+            #     if "SMILES" not in drug_dict:
+            #         drug_dict["SMILES"] = -1
 
     if event == 'end':
         if elem.tag == "{http://www.drugbank.ca}drug":
@@ -75,8 +79,8 @@ for event, elem in context:
 
 del context
 
-with open("side_effect_prediction_model/data/sample_data.csv", 'w', newline = '',  encoding='utf-8') as csvfile:
-    fieldnames = ["name", "description", "toxicity", "SMILES"]
+with open("data/sample_data_pharmacodynamics.csv", 'w', newline = '',  encoding='utf-8') as csvfile:
+    fieldnames = ["name", "pharmacodynamics"]
     writer = csv.DictWriter(csvfile, fieldnames = fieldnames)
     writer.writeheader()
     writer.writerows(processed_Drugs)
