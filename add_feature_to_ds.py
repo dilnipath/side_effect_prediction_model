@@ -10,7 +10,7 @@ def add_feature(fname):
     df_columns = df.columns.tolist()[:-1]
     new_feature_df_columns = new_feature_df.columns.tolist()[1:]
     new_columns = df_columns + new_feature_df_columns
-    new_columns.append("labels")
+    new_columns.append("label")
 
     df_merged = df_merged.reindex(columns=new_columns)
     df_merged.to_csv('data/sample_dataset_new.csv', index=False)
