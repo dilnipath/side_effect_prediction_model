@@ -6,7 +6,7 @@ context = ET.iterparse('full database.xml', events=('start', 'end'))
 
 lst = []
 
-drug_names_df = pd.read_csv('data/drug_keys.csv')
+drug_names_df = pd.read_csv('create_multilabel_dataset\drug_keys.csv')
 drug_names = drug_names_df['name'][:101].tolist()
 
 desired_drug = False
@@ -33,12 +33,12 @@ for event, elem in context:
                 drug_dict["name"] = name.text
 
         if desired_drug:
-            if elem.tag == "{http://www.drugbank.ca}pharmacodynamics" and "pharmacodynamics" not in drug_dict:
+            if elem.tag == "{http://www.drugbank.ca}half-life" and "half-life" not in drug_dict:
                 if elem.text is not None:
                     text = elem.text.replace(",", "").replace("\n", "").replace("\r", "").replace("\t", "")
-                    drug_dict["pharmacodynamics"] = text
+                    drug_dict["half-life"] = text
                 else:
-                    drug_dict["pharmacodynamics"] = -1
+                    drug_dict["half-life"] = -1
             # if elem.tag == "{http://www.drugbank.ca}description" and "description" not in drug_dict:
             #     if elem.text is not None:
             #         text = elem.text.replace(",", "").replace("\n", "").replace("\r", "").replace("\t", "")
@@ -79,8 +79,8 @@ for event, elem in context:
 
 del context
 
-with open("data/sample_data_pharmacodynamics.csv", 'w', newline = '',  encoding='utf-8') as csvfile:
-    fieldnames = ["name", "pharmacodynamics"]
+with open("create_multilabel_dataset/sample_data_halflife.csv", 'w', newline = '',  encoding='utf-8') as csvfile:
+    fieldnames = ["name", "half-life"]
     writer = csv.DictWriter(csvfile, fieldnames = fieldnames)
     writer.writeheader()
     writer.writerows(processed_Drugs)

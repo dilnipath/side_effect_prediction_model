@@ -13,9 +13,9 @@ import tensorflow
 
 results = []
 
-hidden_dim = 128
-dropout = 0.3
-lr = 0.001
+hidden_dim = 256
+dropout = 0.7
+lr = 0.1
 
 trainset = torch.load("./train_test_data/data_train.pt")
 testset = torch.load("./train_test_data/data_test.pt")
@@ -64,14 +64,14 @@ keras.losses.BinaryFocalCrossentropy(
     name="binary_focal_crossentropy",
 )
 
-optimizer = optim.Adam(model.parameters(), lr=lr)
+optimizer = optim.Adagrad(model.parameters(), lr=lr)
 criterion = keras.losses.BinaryFocalCrossentropy(from_logits=True)  # For multi-label classification
 
 best_recall= 0
 patience = 20
 wait = 0
 
-for epoch in range(1, 301):
+for epoch in range(1, 11):
     model.train()
     for X_batch, y_batch in train_loader:
         optimizer.zero_grad()
@@ -103,7 +103,7 @@ for epoch in range(1, 301):
     precision = precision_score(y_val.cpu().numpy(), y_pred_binary.numpy(), average = "micro")
     recall = recall_score(y_val.cpu().numpy(), y_pred_binary.numpy(), average = "micro")
 
-    print(f"Epoch {epoch}, Val Acc: {acc:.4f}, Ones Correct: {ones_correct:.4f}, Best: {best_recall:.4f}, Precision: {precision:.4f}, Recall: {recall: .4f}, Wait: {wait}/{patience}")
+    print(f"Epoch {epoch}, Val Acc: {acc:.4f}, Ones Correct: {ones_correct:.4f}, Best: {best_recall:.4f}, Precision: {precision:.4f}, Recall: {recall: .10f}, Wait: {wait}/{patience}")
 
     if recall >= best_recall:
         best_recall = recall
@@ -125,9 +125,7 @@ with torch.no_grad():
         out = model(Xb)
         y_pred_test.append(torch.sigmoid(out).cpu())  # Apply sigmoid for threshold
 y_pred_test = torch.cat(y_pred_test)
-print(y_pred_test)
 y_pred_test_binary = (y_pred_test > 0.5).float()  # Threshold at 0.5
-print(y_pred_test_binary)
 test_recall = recall_score(y_test.cpu().numpy(), y_pred_test_binary.numpy(), average = "micro")
 print(f"Final Test Recall for: {test_recall:.4f}")
 

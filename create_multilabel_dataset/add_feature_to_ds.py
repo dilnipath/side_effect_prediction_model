@@ -1,7 +1,7 @@
 import pandas as pd
 
 def add_feature(fname):
-    df = pd.read_csv('data/sample_dataset.csv')
+    df = pd.read_csv('datasets/sample_dataset.csv')
     new_feature_df = pd.read_csv(fname)
     new_feature_df["name"] = new_feature_df["name"].str.lower()
 
@@ -13,10 +13,10 @@ def add_feature(fname):
     new_columns.append("label")
 
     df_merged = df_merged.reindex(columns=new_columns)
-    df_merged.to_csv('data/sample_dataset_new.csv', index=False)
+    df_merged.to_csv('datasets/sample_dataset_new.csv', index=False)
     
 
 def main():
-    add_feature("data/sample_data_pharmacodynamics.csv")
+    add_feature("create_multilabel_dataset/sample_data_halflife.csv")
 
 main()
