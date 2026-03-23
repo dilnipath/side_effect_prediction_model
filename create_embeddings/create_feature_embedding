@@ -5,7 +5,7 @@ import random
 from transformers import AutoTokenizer, AutoModel
 
 
-FEATURE_NAME = "pharmacodynamics"
+FEATURE_NAME = "half-life"
 
 # Load BioBERT tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained("dmis-lab/biobert-base-cased-v1.1")
@@ -36,7 +36,7 @@ os.makedirs(output_dir, exist_ok=True)
 
 saved_count = 0
 
-with open('data/sample_dataset.csv', mode='r', encoding='utf-8') as file:
+with open('datasets/sample_dataset.csv', mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
