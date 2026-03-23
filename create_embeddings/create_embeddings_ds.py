@@ -13,25 +13,25 @@ embedding_dir = "./final"
 dir_name = os.path.basename(embedding_dir.rstrip("/"))
 output_file = f"{dir_name}_dataset.pt"
 
-df = pd.read_csv("./data/sample_dataset.csv")
+df = pd.read_csv("./datasets/sample_dataset.csv")
 
 X, y = [], []
 
 # load embeddings
 def load_embedding_desc(drug_name):
-    path = os.path.join("./data/biobert_embeddings", f"{drug_name}.pt")
+    path = os.path.join("./drug_embeddings/biobert_embeddings", f"{drug_name}.pt")
     return torch.load(path) if os.path.exists(path) else None
 
 def load_embedding_tox(drug_name):
-    path = os.path.join("./data/biobert_tox_embeddings", f"{drug_name}.pt")
+    path = os.path.join("./drug_embeddings/biobert_tox_embeddings", f"{drug_name}.pt")
     return torch.load(path) if os.path.exists(path) else None
 
 def load_embedding_smiles(drug_name):
-    path = os.path.join("./data/biobert_smiles_embeddings", f"{drug_name}.pt")
+    path = os.path.join("./drug_embeddings/biobert_smiles_embeddings", f"{drug_name}.pt")
     return torch.load(path) if os.path.exists(path) else None
 
 def load_embedding_pharmaco(drug_name):
-    path = os.path.join("./data/biobert_pharmacodynamics_embeddings", f"{drug_name}.pt")
+    path = os.path.join("./drug_embeddings/biobert_pharmacodynamics_embeddings", f"{drug_name}.pt")
     return torch.load(path) if os.path.exists(path) else None
 
 # process drug pairs

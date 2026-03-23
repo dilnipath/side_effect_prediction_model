@@ -4,11 +4,11 @@ import os
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-input_path = "./data"
+input_path = "./datasets"
 base_name = os.path.splitext(os.path.basename(input_path))[0]
 output_dir = os.path.dirname(input_path)
 
-data = torch.load("./embedding_datasets/final_dataset.pt")
+data = torch.load("./datasets/final_dataset.pt")
 
 # check data structure
 if isinstance(data, tuple) and len(data) == 2:

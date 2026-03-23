@@ -17,8 +17,8 @@ hidden_dim = 128
 dropout = 0.3
 lr = 0.001
 
-trainset = torch.load("./data/train_test_data/data_train.pt")
-testset = torch.load("./data/train_test_data/data_test.pt")
+trainset = torch.load("./train_test_data/data_train.pt")
+testset = torch.load("./train_test_data/data_test.pt")
 X_train_full, y_train_full = trainset[0], trainset[1]
 X_test, y_test = testset[0], testset[1]
 
