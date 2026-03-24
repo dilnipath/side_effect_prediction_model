@@ -13,21 +13,45 @@ import tensorflow
 
 results = []
 
-hidden_dim = 256
+hidden_dim = 128
 dropout = 0.7
-lr = 0.1
+lr = 0.6
 
 trainset = torch.load("./train_test_data/data_train.pt")
 testset = torch.load("./train_test_data/data_test.pt")
 X_train_full, y_train_full = trainset[0], trainset[1]
 X_test, y_test = testset[0], testset[1]
 
+new_y_train = []
+for label_set in y_train_full:
+    cur = [0,0,0]
+    if label_set[1] == 1:
+        cur[0] = 1
+    if label_set[3] == 1:
+        cur[1] = 1
+    if label_set[3] == 1:
+        cur[2] = 1
+    new_y_train.append(cur)
+y_train_full = torch.tensor(new_y_train)
+
+new_y_test = []
+for label_set in y_test:
+    cur = [0,0,0]
+    if label_set[1] == 1:
+        cur[0] = 1
+    if label_set[3] == 1:
+        cur[1] = 1
+    if label_set[3] == 1:
+        cur[2] = 1
+    new_y_test.append(cur)
+y_test = torch.tensor(new_y_test)
+
 if y_train_full.min() == 1:
     y_train_full -= 1
     y_test -= 1
 
 input_dim = X_train_full.shape[1]
-output_dim = 685
+output_dim = 3
 
 X_train_np = X_train_full.numpy()
 y_train_np = y_train_full.numpy()
@@ -42,7 +66,7 @@ y_val = torch.tensor(y_val_split, dtype=torch.float32)
 X_test = torch.tensor(X_test.detach().clone(), dtype=torch.float32)
 y_test = torch.tensor(y_test.detach().clone(), dtype=torch.float32) 
 
-train_loader = DataLoader(TensorDataset(X_train, y_train), batch_size=64, shuffle=True)
+train_loader = DataLoader(TensorDataset(X_train, y_train), batch_size=1, shuffle=True)
 val_loader = DataLoader(TensorDataset(X_val, y_val), batch_size=512)
 test_loader = DataLoader(TensorDataset(X_test, y_test), batch_size=512)
 
@@ -71,7 +95,7 @@ best_recall= 0
 patience = 20
 wait = 0
 
-for epoch in range(1, 11):
+for epoch in range(1, 101):
     model.train()
     for X_batch, y_batch in train_loader:
         optimizer.zero_grad()
@@ -91,19 +115,11 @@ for epoch in range(1, 11):
     pred_score = 0
     real_score = 0
 
-    for i in range(len(y_val)):
-        for j in range(len(y_val[i])):
-            if y_val[i][j] == 1:
-                real_score += 1
-            if y_val[i][j] == y_pred_binary[i][j] and y_val[i][j] == 1:
-                pred_score += 1
-    ones_correct = pred_score/real_score
-
     acc = accuracy_score(y_val.cpu().numpy(), y_pred_binary.numpy())
     precision = precision_score(y_val.cpu().numpy(), y_pred_binary.numpy(), average = "micro")
     recall = recall_score(y_val.cpu().numpy(), y_pred_binary.numpy(), average = "micro")
 
-    print(f"Epoch {epoch}, Val Acc: {acc:.4f}, Ones Correct: {ones_correct:.4f}, Best: {best_recall:.4f}, Precision: {precision:.4f}, Recall: {recall: .10f}, Wait: {wait}/{patience}")
+    print(f"Epoch {epoch}, Val Acc: {acc:.4f},, Best: {best_recall:.4f}, Precision: {precision:.4f}, Recall: {recall: .10f}, Wait: {wait}/{patience}")
 
     if recall >= best_recall:
         best_recall = recall
