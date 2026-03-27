@@ -7,13 +7,14 @@ headers = {"User-Agent": "Mozilla/5.0"}
 
 names = []
 
-for i in range(600000, 600100):
+for i in range(655000, 658000):
     url = base + str(i) + ".html"
 
     r = requests.get(url, headers=headers)
     if r.status_code == 200:
         print("Success:", i)
     else:
+        print("Failed", i)
         continue
 
 
@@ -32,8 +33,8 @@ for i in range(600000, 600100):
             "name": name,
         })
 
-    with open('./datasets/medline_names.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['key', 'name']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(names)
+with open('./datasets/medline_names.csv', 'a', newline='', encoding='utf-8') as csvfile:
+    fieldnames = ['key', 'name']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    #writer.writeheader()
+    writer.writerows(names)
