@@ -7,7 +7,7 @@ headers = {"User-Agent": "Mozilla/5.0"}
 
 names = []
 
-for i in range(655000, 658000):
+for i in range(697000, 700000):
     url = base + str(i) + ".html"
 
     r = requests.get(url, headers=headers)

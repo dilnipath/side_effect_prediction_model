@@ -1496,3 +1496,532 @@ key,name
 626031,Bupivacaine and Meloxicam
 626032,Difamilast Topical
 626033,Milsaperidone
+681003,Tobramycin Injection
+681004,Acetaminophen
+681006,Theophylline
+681026,Fenoprofen
+681027,Indomethacin
+681028,Mefenamic Acid
+681029,Naproxen
+681033,Tolmetin
+681036,Acyclovir Injection
+681037,Sulindac
+681038,Trazodone
+681039,Lithium
+681043,Isotretinoin
+681045,Acyclovir
+681047,Beclomethasone Nasal Spray
+681048,Flunisolide Oral Inhalation
+681049,Sucralfate
+681050,Beclomethasone Oral Inhalation
+682001,Sodium Bicarbonate
+682003,Megestrol
+682004,Hydroxyurea
+682006,Floxuridine
+682007,Phenobarbital
+682010,Metaxalone
+682012,Butoconazole Vaginal Cream
+682013,Hydromorphone
+682018,Methotrexate Injection
+682019,Methotrexate
+682020,Levorphanol
+682022,Phenytoin
+682023,Primidone
+682028,Methsuximide
+682037,Diethylpropion
+682040,Chlorpromazine
+682043,Timolol Ophthalmic
+682047,Diazepam
+682050,Oxazepam
+682051,Flurazepam
+682052,Clorazepate
+682053,Lorazepam
+682059,Phenoxybenzamine
+682060,Carmustine
+682063,Doxycycline
+682064,Amantadine
+682065,Codeine
+682077,Meprobamate
+682078,Chlordiazepoxide
+682079,Bromocriptine
+682080,Cyclophosphamide
+682084,Metaproterenol
+682088,Tranylcypromine
+682089,Phenelzine
+682094,Procarbazine
+682097,Ergoloid Mesylates
+682098,Tetracycline
+682099,Thioguanine
+682101,Minocycline
+682103,Demeclocycline
+682108,Sodium Polystyrene Sulfonate
+682116,Prochlorperazine
+682117,Meperidine
+682119,Thioridazine
+682121,Trifluoperazine
+682125,Bleomycin
+682128,Dapsone
+682130,Sulfadiazine
+682132,Oxycodone
+682133,Morphine
+682134,Methadone
+682141,Oxybutynin
+682144,Terbutaline
+682145,Albuterol Oral Inhalation
+682155,Benztropine
+682157,Colestipol
+682158,Maprotiline
+682159,Ibuprofen
+682160,Trihexyphenidyl
+682162,Orphenadrine
+682165,Perphenazine
+682167,Azathioprine
+682172,Fluphenazine
+682180,Haloperidol
+682187,Phentermine
+682188,Methylphenidate
+682198,"Diphtheria, Tetanus, and Pertussis (DTaP) Vaccine"
+682201,Chloral Hydrate
+682202,Amoxapine
+682204,Sulfasalazine
+682206,Hydrocortisone
+682207,Lomustine
+682220,Melphalan
+682221,Doxorubicin
+682222,Cytarabine Injection
+682223,Mechlorethamine
+682224,Dactinomycin
+682229,Pyridostigmine
+682231,Phenazopyridine
+682237,Carbamazepine
+682238,Molindone
+682242,Methyldopa
+682243,Clonidine
+682244,Metronidazole Topical
+682245,Prazosin
+682246,Hydralazine
+682248,Busulfan
+682256,Cimetidine
+682258,Selenium Sulfide
+682271,Fluocinolone Topical
+682272,Halcinonide Topical
+682274,Neomycin Topical
+682275,Gentamicin Injection
+682277,Warfarin
+682279,Clonazepam
+682280,Loperamide
+682284,Promethazine
+682287,Meclofenamate
+682289,Daunorubicin
+682291,Nitrofurantoin
+682295,Griseofulvin
+682296,Methenamine
+682301,Digoxin
+682306,Mesoridazine
+682311,Loxapine
+682315,Mebendazole
+682318,Chloroquine
+682322,Quinine
+682327,Ethosuximide
+682335,Calcitriol
+682336,Leucovorin
+682337,Triamterene
+682338,Lactulose
+682339,Sulfinpyrazone
+682341,Chlorothiazide
+682342,Chlorthalidone
+682345,Metolazone
+682346,Nitroglycerin Topical
+682348,Isosorbide
+682367,Clioquinol Topical
+682381,Erythromycin
+682382,Clindamycin Injection
+682386,Secobarbital
+682387,Desipramine
+682388,Amitriptyline
+682389,Imipramine
+682390,"Doxepin (Depression, Anxiety)"
+682395,Probenecid
+682396,Quinidine
+682398,Procainamide
+682399,Clindamycin
+682401,Isoniazid
+682402,Pyrazinamide
+682403,Rifampin
+682408,Disopyramide
+682412,Valproic Acid
+682414,Tamoxifen
+682415,Mitomycin
+682417,Butabarbital
+682429,Pramoxine
+682437,Tretinoin Topical
+682461,Levothyroxine
+682462,Liothyronine
+682464,Methimazole
+682465,Propylthiouracil
+682470,Medroxyprogesterone
+682475,Thyroid
+682479,Chlorpropamide
+682480,Glucagon Injection
+682481,Tolbutamide
+682482,Tolazamide
+682487,Atropine Ophthalmic
+682492,Dextromethorphan
+682494,Guaifenesin
+682509,Scopolamine Transdermal Patch
+682512,Dinoprostone
+682514,Cyclobenzaprine
+682518,Niacin
+682530,Baclofen
+682537,Doxylamine
+682539,Diphenhydramine
+682541,Cyproheptadine
+682542,Clemastine
+682543,Chlorpheniramine
+682545,Brompheniramine
+682548,Meclizine
+682549,Fludrocortisone Acetate
+682550,Ethambutol
+682563,Tetrahydrozoline Ophthalmic
+682569,Methyclothiazide
+682571,Hydrochlorothiazide
+682576,Dantrolene
+682577,Chlorzoxazone
+682578,Carisoprodol
+682579,Methocarbamol
+682581,Etidronate
+682583,Ascorbic Acid (Vitamin C)
+682586,Thiamine (Vitamin B1)
+682587,Pyridoxine
+682591,Folic Acid
+682598,Silver Sulfadiazine
+682599,Danazol
+682602,Disulfiram
+682607,Propranolol
+682608,Minoxidil
+682611,Human Insulin Injection
+682617,Tolnaftate
+682619,Pseudoephedrine
+682620,Nortriptyline
+682627,Spironolactone
+682640,Benzonatate
+682643,Amphotericin B Injection
+682651,Lindane
+682653,Mercaptopurine
+682659,Phytonadione
+682660,Tobramycin Ophthalmic
+682661,Amikacin Injection
+682666,Nadolol
+682667,Butorphanol Injection
+682668,Nalbuphine Injection
+682669,Gentamicin Ophthalmic
+682672,Cholestyramine Resin
+682673,Allopurinol
+682683,Simethicone
+682685,Oxytocin Injection
+682690,Fluoxymesterone
+682693,Trimethobenzamide
+682701,Lidocaine Viscous Oral Rinse
+682704,Clomiphene
+682706,Flavoxate
+682707,Papaverine
+682708,Fluorouracil Injection
+682711,Colchicine
+682713,Cromolyn Sodium Nasal Solution
+682727,Fluoride
+682729,Cefaclor
+682730,Cefadroxil
+682731,Cefazolin Injection
+682733,Cephalexin
+682737,Cefoxitin Injection
+682750,Dacarbazine
+682753,Clotrimazole Vaginal
+682756,Acetazolamide
+682758,Nystatin
+682765,Cefotaxime Injection
+682778,Iron Supplements
+682788,Calcitonin Salmon Injection
+682791,Triamcinolone Nasal Spray
+682792,Dexamethasone
+682793,Hydrocortisone Topical
+682794,Prednisolone Ophthalmic
+682795,Methylprednisolone
+682799,Betamethasone Topical
+682809,Bacillus Calmette-Guerin (BCG) Vaccine
+682816,Ketoconazole
+682820,Pyrantel
+682821,Thiotepa Injection
+682822,Vincristine Injection
+682823,Captopril
+682826,Heparin Injection
+682830,Dipyridamole
+682831,Isoxsuprine
+682848,Vinblastine
+682849,Bethanechol
+682857,Ethacrynic Acid
+682858,Furosemide
+682860,Colistimethate Injection
+682862,Isoetharine Oral Inhalation
+682864,Metoprolol
+682866,Hydroxyzine
+682867,Thiothixene
+682869,Dexamethasone Ophthalmic
+682871,Hydrocortisone Injection
+682874,Pilocarpine Ophthalmic
+682876,Desmopressin Nasal
+682878,Aspirin
+682880,Salsalate
+682899,Chlorambucil
+682922,Estrogen
+684001,Alprazolam
+684003,Temazepam
+684004,Triazolam
+684007,Dicyclomine
+684010,Hyoscyamine
+684020,Propantheline
+684025,Trimethoprim
+684026,Co-trimoxazole
+684027,Diltiazem
+684028,Nifedipine
+684029,Timolol
+684030,Verapamil
+684031,Atenolol
+684032,Pindolol
+684035,Metoclopramide
+684036,Cisplatin Injection
+684037,Diflunisal
+684044,Cefuroxime Injection
+684045,Piroxicam
+684049,Econazole Topical
+684051,Bumetanide
+684053,Streptozocin
+684054,Cyclosporine Injection
+684055,Etoposide
+684056,Nicotine Gum
+684058,Glyburide
+684060,Glipizide
+684062,Indapamide
+685001,Amoxicillin
+685002,Ampicillin
+685013,"Penicillin G (Potassium, Sodium) Injection"
+685015,Penicillin V Potassium
+685017,Dicloxacillin
+685019,Nafcillin Injection
+685020,Oxacillin Injection
+685022,Flunisolide Nasal Spray
+685024,Amoxicillin and Clavulanic Acid
+685027,Pentoxifylline
+685029,Pentamidine Injection
+685032,Ceftriaxone Injection
+685034,Labetalol
+685038,Auranofin
+685040,Leuprolide Injection
+685041,Naltrexone
+686002,Gemfibrozil
+686003,Guanabenz
+686004,Betaxolol Ophthalmic
+686005,Dipivefrin Ophthalmic
+686007,Ceftazidime Injection
+686008,Clobetasol Topical
+686011,Levobunolol Ophthalmic
+686013,Imipenem and Cilastatin Injection
+686014,Ketoprofen
+686015,Cefotetan Injection
+686018,Pimozide
+686022,Enalapril
+687003,Acebutolol
+687005,Flurbiprofen
+687007,Zidovudine
+687009,Amiodarone
+687010,Aztreonam Injection
+687011,Famotidine
+687014,Mometasone Topical
+688004,Mupirocin topical
+688005,Buspirone
+688006,Lovastatin
+688016,Ciprofloxacin
+688020,Naftifine Topical
+688021,Mesalamine
+688022,"Terconazole Vaginal Cream, Vaginal Suppositories"
+689002,Diclofenac
+689003,Minoxidil Topical
+689004,Oxiconazole
+689006,Fluoxetine
+689009,Misoprostol
+689010,Nimodipine
+689011,Metronidazole
+689014,Ganciclovir Injection
+690002,Fluconazole
+690006,Interferon Alfa-2b Injection
+690007,Cefixime
+691001,Clozapine
+691003,Estazolam
+691004,Idarubicin
+691005,Ofloxacin
+691006,Didanosine
+692003,Fludarabine Injection
+692004,Pentostatin Injection
+692005,Clarithromycin
+692009,Aldesleukin
+692011,Benazepril
+692015,Etodolac
+692016,Felodipine
+692020,Fosinopril
+692022,Nabumetone
+692025,Pravastatin
+692026,Quinapril
+692027,Ramipril
+692030,Simvastatin
+692033,Filgrastim Injection
+692034,"Epoetin Alfa, Injection"
+692044,Amlodipine
+692045,Teniposide Injection
+692049,Itraconazole
+692051,Lisinopril
+693001,Ketorolac
+693002,Oxaprozin
+693003,Atovaquone
+693005,Sargramostim
+693009,Rifabutin
+693010,Sotalol
+693015,Cladribine Injection
+693021,Ampicillin and Sulbactam Injection
+693022,Ciprofloxacin Injection
+693024,Bisoprolol
+693025,Zolpidem
+693040,Interferon Beta-1a Intramuscular Injection
+693045,Doxazosin
+693046,Terazosin
+693048,Isradipine
+693049,Octreotide Injection
+693050,Omeprazole
+694002,Dornase Alfa
+694003,Piperacillin and Tazobactam Injection
+694006,Cisapride
+694007,Gabapentin
+694010,Fluvastatin
+694011,Granisetron Injection
+694014,Lodoxamide Ophthalmic
+694015,Risperidone
+694020,Venlafaxine
+694030,Nizatidine
+694033,Stavudine
+694038,Famciclovir
+695001,Salmeterol Oral Inhalation
+695002,Fluticasone Nasal Spray
+695003,Hepatitis A Vaccine
+695004,Fluvoxamine
+695005,Nefazodone
+695007,Lamotrigine
+695008,Losartan
+695010,Valacyclovir
+695011,Tramadol
+695013,Vinorelbine Injection
+695017,Carboplatin Injection
+695018,Moexipril
+695020,Lansoprazole
+695021,Ipratropium Oral Inhalation
+695022,Alprostadil Urogenital
+695023,Ifosfamide Injection
+695031,Pegaspargase Injection
+695032,Nicardipine
+695033,Bupropion
+695034,Mesna Injection
+695036,Ticlopidine
+696001,Saquinavir
+696005,Metformin
+696006,Dalteparin Injection
+696009,Nisoldipine
+696011,Lamivudine
+696013,Riluzole
+696014,Amifostine Injection
+696015,Acarbose
+696016,Glimepiride
+696018,Anastrozole
+696019,Gemcitabine Injection
+696023,Sumatriptan Injection
+696028,Indinavir
+696029,Ritonavir
+696031,Docetaxel Injection
+696037,Cidofovir Injection
+696038,Meropenem Injection
+697002,Clomipramine
+697003,Latanoprost Ophthalmic
+697006,Topotecan Injection
+697007,Zafirlukast
+697008,Fosfomycin
+697009,Mirtazapine
+697010,Trandolapril
+697011,Etoposide Injection
+697012,Topiramate
+697013,Zileuton
+697014,Azelastine Nasal Spray
+697015,Valsartan
+697021,Insulin Lispro Injection
+697027,Penciclovir Cream
+697029,Pramipexole
+697032,Donepezil
+697034,Nelfinavir
+697035,Fexofenadine
+697037,Azithromycin
+697038,Loratadine
+697040,Levofloxacin
+697042,Carvedilol
+697044,Nilutamide
+697045,Flutamide
+697046,Selegiline
+697047,Bicalutamide
+697048,Sertraline
+697049,Dorzolamide Ophthalmic
+698001,Cefdinir
+698002,Propafenone
+698004,Letrozole
+698007,Raloxifene
+698009,Irbesartan
+698010,Imiquimod Topical
+698012,Tamsulosin
+698013,Ropinirole
+698014,Tiagabine
+698016,Finasteride
+698018,Sulconazole Topical
+698019,Quetiapine
+698021,Cefepime Injection
+698022,Cefprozil
+698023,Ceftibuten
+698024,Cefpodoxime
+698026,Cetirizine Injection
+698029,Rimantadine
+698032,Paroxetine
+698034,Palivizumab Injection
+698036,Tolcapone
+698037,Permethrin Topical
+699001,Citalopram
+699002,Diclofenac and Misoprostol
+699003,Capecitabine
+699004,Efavirenz
+699012,Abacavir
+699015,Sildenafil
+699016,Pioglitazone
+699019,Trastuzumab Injection
+699021,Zanamivir Oral Inhalation
+699022,Celecoxib
+699023,Rosiglitazone
+699026,Tolterodine
+699032,Thalidomide
+699040,Oseltamivir
+699047,Ursodiol
+699048,Aluminum Hydroxide
+699049,Becaplermin Topical
+699050,Colesevelam
+699052,Balsalazide
+699053,Aspirin and Extended-Release Dipyridamole
+699054,Esomeprazole
+699055,Glyburide and Metformin
+699056,Budesonide Oral Inhalation
+699057,Nateglinide
+699058,Galantamine
+699059,Levetiracetam
+699060,Rabeprazole
+699061,Terbinafine
+699062,Ziprasidone
+699063,Fluticasone and Salmeterol Oral Inhalation
