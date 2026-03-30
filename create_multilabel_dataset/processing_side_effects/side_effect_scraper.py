@@ -2,20 +2,17 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-base = "https://medlineplus.gov/druginfo/meds/"
+base = "https://medlineplus.gov/druginfo/meds/a"
 headers = {"User-Agent": "Mozilla/5.0"}
 
 drug_texts = []
 keys = []
 
-with open('side_effect_prediction_model/data/drug_keys.csv', newline='', encoding='utf-8') as f:
+with open('././datasets/match_names.csv', newline='', encoding='utf-8') as f:
     reader = csv.reader(f)
-    i = 0
+    next(reader, None)
     for row in reader:
-        keys.append(row[0])
-        if i == 100:
-            break
-        i += 1
+        keys.append(row[2])
 
 for key in keys:
     url = base + key + ".html"
@@ -35,7 +32,12 @@ for key in keys:
     text = ""
 
     name = soup.find("h1", "with-also").get_text(" ", strip=True)
-    side_effects = [p.get_text(" ", strip=True) for p in soup.find("div", "section-body", id="section-side-effects").find_all("li")]
+    print(name)
+    if soup.find("div", "section-body", id="section-side-effects"):
+        side_effects = [p.get_text(" ", strip=True) for p in soup.find("div", "section-body", id="section-side-effects").find_all("li")]
+    else:
+        print("no side effects found for:", name)
+        continue
 
     drug_texts.append({
         "key": key,
@@ -43,8 +45,8 @@ for key in keys:
         "side_effects": side_effects
     })
 
-    with open('side_effect_prediction_model/data/drug_side_effects.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['key', 'name', 'side_effects']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(drug_texts)
+with open('././datasets/drug_side_effects_full.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    fieldnames = ['key', 'name', 'side_effects']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(drug_texts)

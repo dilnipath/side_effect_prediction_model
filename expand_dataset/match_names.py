@@ -51,7 +51,7 @@ for i, substring in enumerate(substring_ml):
 
 with open('./datasets/match_names.csv', 'w', newline='', encoding='utf-8') as match:
     writer = csv.writer(match)
-    field_names = ['db_name', 'ml_name', 'ml_key']
+    field_names = ['ml_name', 'db_name', 'ml_key']
     writer.writerow(field_names)
     for name in shared_names:
         writer.writerow([name, name, medline_names_ids[name]])

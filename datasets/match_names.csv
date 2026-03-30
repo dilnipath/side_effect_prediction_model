@@ -1,4 +1,4 @@
-db_name,ml_name,ml_key
+ml_name,db_name,ml_key
 Hydromorphone,Hydromorphone,682013
 Tolnaftate,Tolnaftate,682617
 Ranitidine,Ranitidine,601106
@@ -46,7 +46,6 @@ Sonidegib,Sonidegib,615034
 Olaparib,Olaparib,614060
 Mavorixafor,Mavorixafor,624036
 Modafinil,Modafinil,602016
-Hepatitis A Vaccine,Hepatitis A Vaccine,695003
 Sevabertinib,Sevabertinib,626007
 Phenobarbital,Phenobarbital,682007
 Chlorzoxazone,Chlorzoxazone,682577
@@ -950,7 +949,6 @@ Olaparib,Olaparib-bodipy FL,682727
 Oxytocin Injection,Oxytocin,622011
 Valrubicin Intravesical,Valrubicin,619018
 Alcaftadine Ophthalmic,Alcaftadine,682165
-Anti-thymocyte Globulin (Rabbit) Injection,Rabbit,682258
 Lerodalcibep-liga Injection,Lerodalcibep,622078
 Tocilizumab Injection,Tocilizumab,698018
 Norepinephrine Injection,Norepinephrine,619022
@@ -1012,7 +1010,6 @@ Elivaldogene autotemcel Injection,Elivaldogene autotemcel,623025
 Atezolizumab Injection,Atezolizumab,624002
 Glofitamab-gxbm,Glofitamab,625117
 Ibalizumab-uiyk Injection,Ibalizumab,624073
-Varicella (Chickenpox) Vaccine,Chicken,618014
 Thiamine (Vitamin B1),Thiamine,616020
 Luliconazole Topical,Luliconazole,614005
 Retifanlimab-dlwr Injection,Retifanlimab,600042
@@ -1111,7 +1108,6 @@ Pyridoxine,Pyridoxine phosphate,617053
 Teprotumumab-trbw Injection,Teprotumumab,621023
 Daratumumab Injection,Daratumumab,621029
 Podofilox Topical,Podofilox,622077
-Hepatitis B Vaccine,Hepatitis B Vaccine (Recombinant),601099
 Brimonidine Ophthalmic,Brimonidine,682848
 Fondaparinux Injection,Fondaparinux,621033
 Nirsevimab-alip,Nirsevimab,623057
@@ -1213,13 +1209,11 @@ Imiquimod Topical,Imiquimod,605041
 Risankizumab-rzaa Injection,Risankizumab,616002
 Polatuzumab vedotin-piiq Injection,Polatuzumab vedotin,682125
 Zanidatamab-hrli Injection,Zanidatamab,625034
-Japanese Encephalitis Vaccine,"Japanese Encephalitis Vaccine, Inactivated, Adsorbed",607014
 Sarilumab Injection,Sarilumab,601232
 Omalizumab Injection,Omalizumab,612026
 "Terconazole Vaginal Cream, Vaginal Suppositories",Terconazole,623033
 Aztreonam Injection,Aztreonam,611003
 Cefazolin Injection,Cefazolin,624010
-Typhoid Vaccine,Typhoid Vaccine Live,616052
 Econazole Topical,Econazole,601055
 Sotrovimab Injection,Sotrovimab,624028
 Cefiderocol Injection,Cefiderocol,610005
