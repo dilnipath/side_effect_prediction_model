@@ -7,12 +7,12 @@ load_dotenv()  # must be called before anthropic.Anthropic()
 client = anthropic.Anthropic()
 
 drug_df = pd.read_csv("./datasets/full_drug_side_effects.csv", encoding = "utf-8")
-names = drug_df[100:110]["name"]
-side_effects = drug_df[100:110]["side_effects"]
+names = drug_df[500:]["name"]
+side_effects = drug_df[500:]["side_effects"]
 
 split_side_effects = []
 
-for 100 in range(110):
+for i in range(500,1392):
     dict1 = {}
     message = client.messages.create(
         model='claude-opus-4-5',
@@ -24,14 +24,10 @@ for 100 in range(110):
             }
         ],
     )
-    print(i)
+    print(names[i], i)
     dict1["name"] = names[i]
     dict1["side_effects"] = message.content[0].text
     split_side_effects.append(dict1)
-
-# fewshot_side_effects = pd.DataFrame(split_side_effects)
-# print(fewshot_side_effects)
-# fewshot_side_effects.to_csv("datasets/fewshot_side_effects.csv", index = False)
 
 with open("datasets/fewshot_side_effects.csv", "a", encoding = "utf-8") as csvfile:
     fieldnames = ["name", "side_effects"]
