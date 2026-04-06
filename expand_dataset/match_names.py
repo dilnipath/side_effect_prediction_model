@@ -46,8 +46,8 @@ final_substring_ml = []
 for i, substring in enumerate(substring_ml):
     count = substring_ml.count(substring)
     if count == 1:
-        final_substring_db.append(substring)
-        final_substring_ml.append(substring_db[i])
+        final_substring_ml.append(substring)
+        final_substring_db.append(substring_db[i])
 
 with open('./datasets/match_names.csv', 'w', newline='', encoding='utf-8') as match:
     writer = csv.writer(match)
@@ -56,4 +56,4 @@ with open('./datasets/match_names.csv', 'w', newline='', encoding='utf-8') as ma
     for name in shared_names:
         writer.writerow([name, name, medline_names_ids[name]])
     for i in range(len(final_substring_db)):
-        writer.writerow([final_substring_db[i], final_substring_ml[i], medline_names_ids[all_substring_names_ml[i]]])
+        writer.writerow([final_substring_db[i], final_substring_ml[i], medline_names_ids[final_substring_ml[i]]])
