@@ -2,18 +2,44 @@ import csv
 import ast
 import pandas as pd
 
-all_side_effects = {}
+df = pd.read_csv('././datasets/fewshot_side_effects.csv')
 
-labels_ordered = open('data/labels_order.txt', 'r').read()
-labels_ordered = ast.literal_eval(labels_ordered)
+all_side_effects = []
 
-split_df = pd.read_csv('data/split_side_effects.csv')
+dict1 = {}
+
+for j,row in df.iterrows():
+    if row["name"] == "Atezolizumab Injection":
+        continue
+    side_effects = row["side_effects"]
+    side_effects = ast.literal_eval(side_effects)
+    for i in side_effects:
+        if i not in all_side_effects:
+            all_side_effects.append(i)
+        if i not in dict1.keys():
+            dict1[i] = 1
+        else:
+            dict1[i] += 1
+
+print(sorted(dict1.items(), key=lambda item: item[1]))
+
+with open('label_order_full.txt', 'w') as f:
+    for item in all_side_effects:
+        f.write(f"'{item}',")
+
+labels_ordered = all_side_effects
+
+split_df = pd.read_csv('./datasets/fewshot_side_effects.csv', )
 split_df["name"] = split_df["name"].str.lower()
+split_df = split_df[:-1]
 
 labels_lst = []
 
 for _, row in split_df.iterrows():
-    side_effects = row[4]
+    print(row["name"])
+    if row["name"] == "atezolizumab injection":
+        continue
+    side_effects = row["side_effects"]
     side_effects = ast.literal_eval(side_effects)
     label = [0] * len(labels_ordered)
     for s in side_effects:
@@ -24,9 +50,9 @@ for _, row in split_df.iterrows():
 
 split_df['labels'] = labels_lst
 
-features_df = pd.read_csv('data/features.csv')
+features_df = pd.read_csv('./datasets/full_xml_data.csv')
 features_df["name"] = features_df["name"].str.lower()
 
 df_merged = pd.merge(features_df, split_df[["name", "labels"]], on="name")
 
-df_merged.to_csv('data/sample_dataset.csv', index=False)
+df_merged.to_csv('./datasets/full_dataset.csv', index=False)

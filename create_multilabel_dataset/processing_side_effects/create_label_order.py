@@ -9,9 +9,10 @@ all_side_effects = []
 dict1 = {}
 
 for j,row in df.iterrows():
-    if j == 1:
+    if row["name"] == "Atezolizumab Injection":
         continue
-    side_effects = row[1]
+    side_effects = row["side_effects"]
+    print(row["name"])
     side_effects = ast.literal_eval(side_effects)
     for i in side_effects:
         if i not in all_side_effects:
@@ -23,6 +24,6 @@ for j,row in df.iterrows():
 
 print(sorted(dict1.items(), key=lambda item: item[1]))
 
-with open('label_order_500.txt', 'w') as f:
+with open('label_order_full.txt', 'w') as f:
     for item in all_side_effects:
         f.write(f"'{item}',")
