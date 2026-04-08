@@ -2,22 +2,22 @@ import csv
 import anthropic
 import pandas as pd
 from dotenv import load_dotenv
-load_dotenv()  # must be called before anthropic.Anthropic()
+load_dotenv() 
 
 client = anthropic.Anthropic()
 
-drug_df = pd.read_csv("./datasets/full_drug_side_effects.csv", encoding = "utf-8")
-names = drug_df[1000:1250]["name"]
-side_effects = drug_df[1000:1250]["side_effects"]
+drug_df = pd.read_csv("./datasets/drug_side_effects_full.csv", encoding = "utf-8")
+names = drug_df[0:250]["name"]
+side_effects = drug_df[0:250]["side_effects"]
 
 split_side_effects = []
 
 with open("datasets/fewshot_side_effects.csv", "a", encoding = "utf-8") as csvfile:
     fieldnames = ["name", "side_effects"]
     writer = csv.DictWriter(csvfile, fieldnames)
-    writer.writeheader()
+    # writer.writeheader()
 
-    for i in range(1139, 1250):
+    for i in range(2, 250):
         dict1 = {}
         message = client.messages.create(
             model='claude-opus-4-5',
@@ -31,7 +31,7 @@ with open("datasets/fewshot_side_effects.csv", "a", encoding = "utf-8") as csvfi
         )
         print(names[i], i)
         dict1["name"] = names[i]
-        dict1["side_effects"] = message.content[0].text
+        dict1["side_effects"] = message.content[0].text.strip()
         split_side_effects.append(dict1)
 
         writer.writerow(dict1)
