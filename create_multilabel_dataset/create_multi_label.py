@@ -6,39 +6,37 @@ df = pd.read_csv('././datasets/fewshot_side_effects.csv')
 
 all_side_effects = []
 
-dict1 = {}
+# dict1 = {}
 
-for j,row in df.iterrows():
-    if row["name"] == "Atezolizumab Injection":
-        continue
-    side_effects = row["side_effects"]
-    side_effects = ast.literal_eval(side_effects)
-    for i in side_effects:
-        if i not in all_side_effects:
-            all_side_effects.append(i)
-        if i not in dict1.keys():
-            dict1[i] = 1
-        else:
-            dict1[i] += 1
+# for j,row in df.iterrows():
+#     # if row["name"] == "Atezolizumab Injection":
+#     #     continue
+#     side_effects = row["side_effects"]
+#     side_effects = ast.literal_eval(side_effects)
+#     for i in side_effects:
+#         if i not in all_side_effects:
+#             all_side_effects.append(i)
+#         if i not in dict1.keys():
+#             dict1[i] = 1
+#         else:
+#             dict1[i] += 1
 
-print(sorted(dict1.items(), key=lambda item: item[1]))
+# print(sorted(dict1.items(), key=lambda item: item[1]))
 
-with open('label_order_full.txt', 'w') as f:
-    for item in all_side_effects:
-        f.write(f"'{item}',")
+# with open('label_order_250.txt', 'w') as f:
+#     for item in all_side_effects:
+#         f.write(f"'{item}',")
 
-labels_ordered = all_side_effects
 
-split_df = pd.read_csv('./datasets/fewshot_side_effects.csv', )
-split_df["name"] = split_df["name"].str.lower()
-split_df = split_df[:-1]
+labels_ordered = open("./create_multilabel_dataset/label_order_251.txt").read()
+
+split_df = pd.read_csv('./datasets/fewshot_side_effects.csv')
+split_df["db_name"] = split_df["db_name"].str.lower()
 
 labels_lst = []
 
 for _, row in split_df.iterrows():
-    print(row["name"])
-    if row["name"] == "atezolizumab injection":
-        continue
+    print(row["db_name"])
     side_effects = row["side_effects"]
     side_effects = ast.literal_eval(side_effects)
     label = [0] * len(labels_ordered)
@@ -50,9 +48,9 @@ for _, row in split_df.iterrows():
 
 split_df['labels'] = labels_lst
 
-features_df = pd.read_csv('./datasets/full_xml_data.csv')
-features_df["name"] = features_df["name"].str.lower()
+xml_df = pd.read_csv('./datasets/matched_names_xml_data.csv')
+xml_df["db_name"] = xml_df["db_name"].str.lower()
 
-df_merged = pd.merge(features_df, split_df[["name", "labels"]], on="name")
+df_merged = pd.merge(xml_df, split_df[["db_name", "ml_name", "labels"]], on="db_name")
 
-df_merged.to_csv('./datasets/full_dataset.csv', index=False)
+df_merged.to_csv('./datasets/251_dataset.csv', index=False)
