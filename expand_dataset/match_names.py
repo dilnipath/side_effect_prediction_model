@@ -28,7 +28,7 @@ all_substring_names_db = []
 all_substring_names_ml = []
 for db_name in possible_substring:
     for ml_name in medline_names:
-        if (db_name in ml_name or ml_name in db_name) and ml_name.find( " and ") == -1:
+        if (db_name in ml_name or ml_name in db_name) and ml_name.find( " and ") == -1 and ml_name not in shared_names and db_name not in shared_names:
             all_substring_names_db.append(db_name)
             all_substring_names_ml.append(ml_name)
 
@@ -44,12 +44,14 @@ for i, substring in enumerate(all_substring_names_db):
 final_substring_db = []
 final_substring_ml = []
 for i, substring in enumerate(substring_ml):
+    if substring == "Abacavir":
+        print("hi")
     count = substring_ml.count(substring)
     if count == 1:
         final_substring_ml.append(substring)
         final_substring_db.append(substring_db[i])
 
-with open('./datasets/match_names.csv', 'w', newline='', encoding='utf-8') as match:
+with open('./datasets/match_names1.csv', 'w', newline='', encoding='utf-8') as match:
     writer = csv.writer(match)
     field_names = ['ml_name', 'db_name', 'ml_key']
     writer.writerow(field_names)
