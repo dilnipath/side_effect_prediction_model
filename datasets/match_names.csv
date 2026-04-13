@@ -1,1393 +1,1334 @@
-db_name,ml_name,ml_key
-Levorphanol,Levorphanol,682020
-Solifenacin,Solifenacin,605019
-Etoposide,Etoposide,684055
-Felbamate,Felbamate,606011
-Lumateperone,Lumateperone,620014
-Ganaxolone,Ganaxolone,622058
-Selexipag,Selexipag,616031
-Labetalol,Labetalol,685034
-Levetiracetam,Levetiracetam,699059
-Fluphenazine,Fluphenazine,682172
-Nitisinone,Nitisinone,625092
-Irbesartan,Irbesartan,698009
-Dicloxacillin,Dicloxacillin,685017
-Aficamten,Aficamten,626021
-Olanzapine,Olanzapine,601213
-Dicyclomine,Dicyclomine,684007
-Pralsetinib,Pralsetinib,620057
-Selpercatinib,Selpercatinib,620036
-Sapropterin,Sapropterin,608020
-Abrocitinib,Abrocitinib,622008
-Azilsartan,Azilsartan,611028
-Orlistat,Orlistat,601244
-Quinine,Quinine,682322
-Darifenacin,Darifenacin,605039
-Doxycycline,Doxycycline,682063
-Phendimetrazine,Phendimetrazine,626013
-Eslicarbazepine,Eslicarbazepine,614032
-Pregabalin,Pregabalin,605045
-Suvorexant,Suvorexant,614046
-Demeclocycline,Demeclocycline,682103
-Gabapentin,Gabapentin,694007
-Crizotinib,Crizotinib,612018
-Ticagrelor,Ticagrelor,611050
-Omeprazole,Omeprazole,693050
-Brigatinib,Brigatinib,617016
-Desvenlafaxine,Desvenlafaxine,608022
-Eliglustat,Eliglustat,618038
-Escitalopram,Escitalopram,603005
-Chlorthalidone,Chlorthalidone,682342
-Colestipol,Colestipol,682157
-Milnacipran,Milnacipran,609016
-Revumenib,Revumenib,624077
-Ramelteon,Ramelteon,605038
-Tradipitant,Tradipitant,626024
-Plecanatide,Plecanatide,617020
-Asenapine,Asenapine,610015
-Pilocarpine,Pilocarpine,608039
-Bexarotene,Bexarotene,608006
-Secnidazole,Secnidazole,617052
-Moxifloxacin,Moxifloxacin,600002
-Mesoridazine,Mesoridazine,682306
-Lorazepam,Lorazepam,682053
-Cetirizine,Cetirizine,623043
-Sotorasib,Sotorasib,621036
-Rucaparib,Rucaparib,617002
-Enalapril,Enalapril,686022
-Minoxidil,Minoxidil,682608
-Rosiglitazone,Rosiglitazone,699023
-Levofloxacin,Levofloxacin,697040
-Glasdegib,Glasdegib,619004
-Ertugliflozin,Ertugliflozin,618011
-Glimepiride,Glimepiride,696016
-Nefazodone,Nefazodone,695005
-Ibuprofen,Ibuprofen,682159
-Deferiprone,Deferiprone,612016
-Nilutamide,Nilutamide,697044
-Ciprofloxacin,Ciprofloxacin,688016
-Pemigatinib,Pemigatinib,620028
-Thiothixene,Thiothixene,682867
-Darunavir,Darunavir,607042
-Daprodustat,Daprodustat,623010
-Ensartinib,Ensartinib,625004
-Vericiguat,Vericiguat,621014
-Tolnaftate,Tolnaftate,682617
-Lapatinib,Lapatinib,607055
-Miglitol,Miglitol,601079
-Dapagliflozin,Dapagliflozin,614015
-Ozanimod,Ozanimod,620029
-Floxuridine,Floxuridine,682006
-Salsalate,Salsalate,682880
-Abacavir,Abacavir,699012
-Voclosporin,Voclosporin,622021
-Timolol,Timolol,684029
-Tegaserod,Tegaserod,604007
-Amphetamine,Amphetamine,616004
-Ampicillin,Ampicillin,685002
-Simeprevir,Simeprevir,614013
-Vardenafil,Vardenafil,603035
-Chlorpromazine,Chlorpromazine,682040
-Carbamazepine,Carbamazepine,682237
-Fenfluramine,Fenfluramine,620045
+ml_name,db_name,ml_key
 Methyclothiazide,Methyclothiazide,682569
-Hydrocortisone,Hydrocortisone,682206
-Oxymorphone,Oxymorphone,610022
-Vimseltinib,Vimseltinib,625067
-Gepotidacin,Gepotidacin,625059
-Clonazepam,Clonazepam,682279
-Losartan,Losartan,695008
-Opicapone,Opicapone,620059
-Cefprozil,Cefprozil,698022
-Eletriptan,Eletriptan,603029
-Ramipril,Ramipril,692027
-Memantine,Memantine,604006
-Lesinurad,Lesinurad,616015
-Elacestrant,Elacestrant,623011
-Doravirine,Doravirine,618048
-Mavorixafor,Mavorixafor,624036
-Probenecid,Probenecid,682395
-Pivmecillinam,Pivmecillinam,624031
-Telaprevir,Telaprevir,611038
-Diflunisal,Diflunisal,684037
-Empagliflozin,Empagliflozin,614043
-Ropinirole,Ropinirole,698013
-Futibatinib,Futibatinib,622072
-Methylnaltrexone,Methylnaltrexone,616047
-Azithromycin,Azithromycin,697037
-Piroxicam,Piroxicam,684045
-Tazemetostat,Tazemetostat,620018
-Macitentan,Macitentan,615033
-Cabozantinib,Cabozantinib,616037
-Cladribine,Cladribine,619038
-Lazertinib,Lazertinib,624058
-Aliskiren,Aliskiren,607039
-Benzgalantamine,Benzgalantamine,624044
-Ixazomib,Ixazomib,616008
-Tafenoquine,Tafenoquine,618050
-Ziprasidone,Ziprasidone,699062
-Pentazocine,Pentazocine,601092
-Miglustat,Miglustat,604015
-Vorapaxar,Vorapaxar,614044
-Zileuton,Zileuton,697013
-Cyclophosphamide,Cyclophosphamide,682080
-Granisetron,Granisetron,601211
-Avacopan,Avacopan,622023
-Lacosamide,Lacosamide,609028
-Nicardipine,Nicardipine,695032
-Betrixaban,Betrixaban,617050
-Odevixibat,Odevixibat,621049
-Ponatinib,Ponatinib,613029
-Galantamine,Galantamine,699058
-Tedizolid,Tedizolid,614038
-Ceritinib,Ceritinib,614027
-Abiraterone,Abiraterone,611046
-Vadadustat,Vadadustat,624033
-Auranofin,Auranofin,685038
-Canagliflozin,Canagliflozin,613033
-Linagliptin,Linagliptin,611036
-Pacritinib,Pacritinib,622043
-Hydromorphone,Hydromorphone,682013
-Hydralazine,Hydralazine,682246
-Promethazine,Promethazine,682284
-Solriamfetol,Solriamfetol,619040
-Sotagliflozin,Sotagliflozin,624022
-Carvedilol,Carvedilol,697042
-Dextromethorphan,Dextromethorphan,682492
-Lenalidomide,Lenalidomide,608001
-Acyclovir,Acyclovir,681045
-Theophylline,Theophylline,681006
-Acoramidis,Acoramidis,625013
-Taletrectinib,Taletrectinib,625089
-Zidovudine,Zidovudine,687007
+Moxifloxacin,Moxifloxacin,600002
+Octreotide,Octreotide,620051
+Baricitinib,Baricitinib,618033
+Paliperidone,Paliperidone,607005
+Pimavanserin,Pimavanserin,616032
+Tofacitinib,Tofacitinib,613025
+Colestipol,Colestipol,682157
 Amantadine,Amantadine,682064
-Griseofulvin,Griseofulvin,682295
-Adapalene,Adapalene,604001
-Brivaracetam,Brivaracetam,616027
-Gepirone,Gepirone,623052
-Oxaprozin,Oxaprozin,693002
-Apixaban,Apixaban,613032
-Cyproheptadine,Cyproheptadine,682541
-Sevabertinib,Sevabertinib,626007
-Rizatriptan,Rizatriptan,601109
-Nirogacestat,Nirogacestat,624011
-Clarithromycin,Clarithromycin,692005
-Nizatidine,Nizatidine,694030
-Bexagliflozin,Bexagliflozin,623027
-Zuranolone,Zuranolone,623048
-Triazolam,Triazolam,684004
-Fedratinib,Fedratinib,619058
-Arimoclomol,Arimoclomol,624065
-Verapamil,Verapamil,684030
 Riluzole,Riluzole,696013
-Rivaroxaban,Rivaroxaban,611049
-Pyrazinamide,Pyrazinamide,682402
-Ceftibuten,Ceftibuten,698023
-Givinostat,Givinostat,624025
-Ospemifene,Ospemifene,613039
-Methazolamide,Methazolamide,613034
-Naldemedine,Naldemedine,617031
-Roflumilast,Roflumilast,611034
-Bosentan,Bosentan,605001
-Colchicine,Colchicine,682711
-Suzetrigine,Suzetrigine,625039
-Eszopiclone,Eszopiclone,605009
-Pimozide,Pimozide,686018
-Venetoclax,Venetoclax,616028
-Gilteritinib,Gilteritinib,619003
-Buspirone,Buspirone,688005
-Cefditoren,Cefditoren,605003
-Ponesimod,Ponesimod,621025
-Molnupiravir,Molnupiravir,622027
-Cilostazol,Cilostazol,601038
-Phenytoin,Phenytoin,682022
-Tretinoin,Tretinoin,608032
-Droxidopa,Droxidopa,614025
-Afatinib,Afatinib,613044
-Rivastigmine,Rivastigmine,602009
-Vibegron,Vibegron,621015
-Warfarin,Warfarin,682277
-Almotriptan,Almotriptan,603028
-Melphalan,Melphalan,682220
-Cobicistat,Cobicistat,616029
-Misoprostol,Misoprostol,689009
-Topiramate,Topiramate,697012
-Venlafaxine,Venlafaxine,694020
-Omadacycline,Omadacycline,618066
-Eprosartan,Eprosartan,601237
-Pravastatin,Pravastatin,692025
-Bethanechol,Bethanechol,682849
-Velmanase alfa,Velmanase alfa,623015
-Siponimod,Siponimod,619027
-Eluxadoline,Eluxadoline,615054
-Oxcarbazepine,Oxcarbazepine,601245
-Butabarbital,Butabarbital,682417
-Clopidogrel,Clopidogrel,601040
-Fosinopril,Fosinopril,692020
-Ergocalciferol,Ergocalciferol,616042
-Prochlorperazine,Prochlorperazine,682116
-Progesterone,Progesterone,604017
-Quizartinib,Quizartinib,623034
-Atrasentan,Atrasentan,625070
-Pentoxifylline,Pentoxifylline,685027
-Betaine,Betaine,608012
-Ranitidine,Ranitidine,601106
-Tolazamide,Tolazamide,682482
-Erdafitinib,Erdafitinib,619031
-Entrectinib,Entrectinib,619049
-Indapamide,Indapamide,684062
-Metaxalone,Metaxalone,682010
-Nebivolol,Nebivolol,608029
-Capmatinib,Capmatinib,620038
-Maralixibat,Maralixibat,621056
-Sertraline,Sertraline,697048
-Lovastatin,Lovastatin,688006
-Sulindac,Sulindac,681037
-Ritlecitinib,Ritlecitinib,624015
-Chlorambucil,Chlorambucil,682899
-Terbinafine,Terbinafine,699061
-Isradipine,Isradipine,693048
-Procainamide,Procainamide,682398
-Trimipramine,Trimipramine,602010
-Dimenhydrinate,Dimenhydrinate,607046
-Dolasetron,Dolasetron,601001
-Isosorbide,Isosorbide,682348
-Gemfibrozil,Gemfibrozil,686002
-Naloxegol,Naloxegol,615016
-Anastrozole,Anastrozole,696018
-Cefadroxil,Cefadroxil,682730
-Mitomycin,Mitomycin,682415
-Rosuvastatin,Rosuvastatin,603033
-Quinapril,Quinapril,692026
-Sarecycline,Sarecycline,618068
-Megestrol,Megestrol,682003
-Lorlatinib,Lorlatinib,619005
+Benzphetamine,Benzphetamine,626014
+Patiromer,Patiromer,616012
+Doxycycline,Doxycycline,682063
+Vosoritide,Vosoritide,622012
+Propranolol,Propranolol,682607
 Lonafarnib,Lonafarnib,622036
-Rasagiline,Rasagiline,606017
-Panobinostat,Panobinostat,615020
-Methotrexate,Methotrexate,682019
-Frovatriptan,Frovatriptan,604013
-Elagolix,Elagolix,618044
-Potassium,Potassium,601099
-Cefixime,Cefixime,690007
-Brexpiprazole,Brexpiprazole,615046
-Crinecerfont,Crinecerfont,625009
-Midazolam,Midazolam,609003
-Potassium Iodide,Potassium Iodide,611043
-Tolcapone,Tolcapone,698036
-Trospium,Trospium,604037
-Darolutamide,Darolutamide,619045
-Amlodipine,Amlodipine,692044
-Paroxetine,Paroxetine,698032
-Methimazole,Methimazole,682464
-Tetracycline,Tetracycline,682098
-Methylprednisolone,Methylprednisolone,682795
-Temsirolimus,Temsirolimus,607071
-Daridorexant,Daridorexant,622034
-Sulfasalazine,Sulfasalazine,682204
-Valbenazine,Valbenazine,617023
-Treprostinil,Treprostinil,622040
-Quinidine,Quinidine,682396
-Amoxapine,Amoxapine,682202
-Metolazone,Metolazone,682345
-Fluvastatin,Fluvastatin,694010
-Pantoprazole,Pantoprazole,601246
-Brompheniramine,Brompheniramine,682545
-Fostemsavir,Fostemsavir,620046
+Naratriptan,Naratriptan,601083
+Ambrisentan,Ambrisentan,612023
+Brensocatib,Brensocatib,625099
+Sotagliflozin,Sotagliflozin,624022
+Doravirine,Doravirine,618048
+Niraparib,Niraparib,617007
+Tafenoquine,Tafenoquine,618050
+Suvorexant,Suvorexant,614046
+Ticagrelor,Ticagrelor,611050
 Cefaclor,Cefaclor,682729
-Simvastatin,Simvastatin,692030
-Fentanyl,Fentanyl,605043
+Clozapine,Clozapine,691001
+Safinamide,Safinamide,617025
+Quinapril,Quinapril,692026
+Chlordiazepoxide,Chlordiazepoxide,682078
+Momelotinib,Momelotinib,623053
+Bisoprolol,Bisoprolol,693024
+Lomitapide,Lomitapide,614008
+Methadone,Methadone,682134
+Ganaxolone,Ganaxolone,622058
+Cyclosporine,Cyclosporine,601207
+Lusutrombopag,Lusutrombopag,618043
+Fluvoxamine,Fluvoxamine,695004
+Alogliptin,Alogliptin,613026
+Methylnaltrexone,Methylnaltrexone,616047
+Metolazone,Metolazone,682345
+Sebetralstat,Sebetralstat,625087
+Elacestrant,Elacestrant,623011
+Fruquintinib,Fruquintinib,623060
+Rilpivirine,Rilpivirine,611037
+Viloxazine,Viloxazine,621027
+Amoxicillin,Amoxicillin,685001
+Ixazomib,Ixazomib,616008
+Mexiletine,Mexiletine,607064
+Suzetrigine,Suzetrigine,625039
+Flibanserin,Flibanserin,615040
+Brexpiprazole,Brexpiprazole,615046
+Primidone,Primidone,682023
+Benazepril,Benazepril,692011
+Captopril,Captopril,682823
+Stavudine,Stavudine,694033
+Pirtobrutinib,Pirtobrutinib,623012
+Teriflunomide,Teriflunomide,613010
+Valsartan,Valsartan,697015
+Diazepam,Diazepam,682047
+Hydromorphone,Hydromorphone,682013
+Resmetirom,Resmetirom,624021
+Thiothixene,Thiothixene,682867
+Osilodrostat,Osilodrostat,625069
+Ezogabine,Ezogabine,612028
+Estazolam,Estazolam,691003
+Pyridostigmine,Pyridostigmine,682229
+Oxcarbazepine,Oxcarbazepine,601245
+Hydrochlorothiazide,Hydrochlorothiazide,682571
+Glyburide,Glyburide,684058
+Pyrantel,Pyrantel,682820
+Mavorixafor,Mavorixafor,624036
+Prednisolone,Prednisolone,615042
+Bexagliflozin,Bexagliflozin,623027
+Silodosin,Silodosin,609002
+Repaglinide,Repaglinide,600010
+Lorlatinib,Lorlatinib,619005
+Trimethadione,Trimethadione,601127
+Tovorafenib,Tovorafenib,624032
+Trimipramine,Trimipramine,602010
+Benznidazole,Benznidazole,617043
+Spironolactone,Spironolactone,682627
+Aminolevulinic acid,Aminolevulinic acid,625014
+Nystatin,Nystatin,682758
+Finerenone,Finerenone,621038
+Solifenacin,Solifenacin,605019
+Estramustine,Estramustine,608046
+Albendazole,Albendazole,610019
+Venetoclax,Venetoclax,616028
+Sitagliptin,Sitagliptin,606023
+Tazemetostat,Tazemetostat,620018
+Vamorolone,Vamorolone,624005
+Enasidenib,Enasidenib,617040
+Tolmetin,Tolmetin,681033
+Repotrectinib,Repotrectinib,623063
+Tafamidis,Tafamidis,622032
+Timolol,Timolol,684029
+Ciprofloxacin,Ciprofloxacin,688016
+Edoxaban,Edoxaban,614055
+Tramadol,Tramadol,695011
+Brivaracetam,Brivaracetam,616027
+Olmesartan,Olmesartan,603006
+Remibrutinib,Remibrutinib,625116
+Metformin,Metformin,696005
+Pexidartinib,Pexidartinib,619050
+Nabumetone,Nabumetone,692022
+Trifluoperazine,Trifluoperazine,682121
+Pentoxifylline,Pentoxifylline,685027
+Morphine,Morphine,682133
+Vortioxetine,Vortioxetine,614003
+Ivacaftor,Ivacaftor,612012
+Lacosamide,Lacosamide,609028
+Meperidine,Meperidine,682117
+Warfarin,Warfarin,682277
+Reserpine,Reserpine,601107
+Doxercalciferol,Doxercalciferol,616043
+Flecainide,Flecainide,608040
+Dofetilide,Dofetilide,601235
+Nebivolol,Nebivolol,608029
+Binimetinib,Binimetinib,618041
+Propylthiouracil,Propylthiouracil,682465
+Dapsone,Dapsone,682128
+Deutetrabenazine,Deutetrabenazine,617022
+Bisacodyl,Bisacodyl,601027
+Erdafitinib,Erdafitinib,619031
+Fingolimod,Fingolimod,611006
 Ticlopidine,Ticlopidine,695036
-Ropeginterferon alfa-2b,Ropeginterferon alfa-2b,622019
+Diclofenac,Diclofenac,689002
+Ezetimibe,Ezetimibe,603015
+Ceftibuten,Ceftibuten,698023
+Acamprosate,Acamprosate,604028
+Itraconazole,Itraconazole,692049
+Eprosartan,Eprosartan,601237
+Ergocalciferol,Ergocalciferol,616042
+Betaine,Betaine,608012
+Granisetron,Granisetron,601211
+Losartan,Losartan,695008
+Calcitriol,Calcitriol,682335
+Asenapine,Asenapine,610015
+Sulfadiazine,Sulfadiazine,682130
+Amitriptyline,Amitriptyline,682388
+Alprazolam,Alprazolam,684001
+Dactinomycin,Dactinomycin,682224
+Voriconazole,Voriconazole,605022
+Umbralisib,Umbralisib,621019
+Emtricitabine,Emtricitabine,604004
+Isradipine,Isradipine,693048
+Valbenazine,Valbenazine,617023
+Hydrocortisone,Hydrocortisone,682206
+Tapentadol,Tapentadol,610006
+Pazopanib,Pazopanib,610013
+Varenicline,Varenicline,606024
+Rifaximin,Rifaximin,604027
+Celecoxib,Celecoxib,699022
+Futibatinib,Futibatinib,622072
+Tetracycline,Tetracycline,682098
+Pseudoephedrine,Pseudoephedrine,682619
+Ponatinib,Ponatinib,613029
+Dronedarone,Dronedarone,609034
+Lorazepam,Lorazepam,682053
+Triamterene,Triamterene,682337
+Omadacycline,Omadacycline,618066
+Belzutifan,Belzutifan,621047
+Sonidegib,Sonidegib,615034
+Droxidopa,Droxidopa,614025
+Raltegravir,Raltegravir,608004
+Cabozantinib,Cabozantinib,616037
+Hydroxyzine,Hydroxyzine,682866
+Idelalisib,Idelalisib,614040
+Molnupiravir,Molnupiravir,622027
+Propantheline,Propantheline,684020
+Loperamide,Loperamide,682280
+Ozanimod,Ozanimod,620029
+Molindone,Molindone,682238
+Levetiracetam,Levetiracetam,699059
+Vonoprazan,Vonoprazan,624006
+Tadalafil,Tadalafil,604008
+Desipramine,Desipramine,682387
+Triazolam,Triazolam,684004
+Rilzabrutinib,Rilzabrutinib,625102
+Prucalopride,Prucalopride,619011
+Sulfinpyrazone,Sulfinpyrazone,682339
+Everolimus,Everolimus,609032
+Ospemifene,Ospemifene,613039
+Mefloquine,Mefloquine,603030
+Mercaptopurine,Mercaptopurine,682653
+Roflumilast,Roflumilast,611034
+Pemigatinib,Pemigatinib,620028
+Sofpironium,Sofpironium,624052
+Guaifenesin,Guaifenesin,682494
+Nifedipine,Nifedipine,684028
+Ibuprofen,Ibuprofen,682159
+Febuxostat,Febuxostat,609020
+Terbinafine,Terbinafine,699061
+Chlorothiazide,Chlorothiazide,682341
+Levorphanol,Levorphanol,682020
+Benzgalantamine,Benzgalantamine,624044
+Desmopressin,Desmopressin,608010
+Glimepiride,Glimepiride,696016
+Nifurtimox,Nifurtimox,620061
+Rosuvastatin,Rosuvastatin,603033
+Nimodipine,Nimodipine,689010
+Tenofovir alafenamide,Tenofovir alafenamide,602018
+Thioridazine,Thioridazine,682119
+Propafenone,Propafenone,698002
+Quinine,Quinine,682322
+Nilutamide,Nilutamide,697044
+Aldesleukin,Aldesleukin,692009
+Rosiglitazone,Rosiglitazone,699023
+Rizatriptan,Rizatriptan,601109
+Felbamate,Felbamate,606011
+Avanafil,Avanafil,614010
+Daunorubicin,Daunorubicin,682289
+Dipyridamole,Dipyridamole,682830
+Zuranolone,Zuranolone,623048
+Piroxicam,Piroxicam,684045
+Linaclotide,Linaclotide,613007
+Labetalol,Labetalol,685034
+Miglustat,Miglustat,604015
+Oseltamivir,Oseltamivir,699040
+Bosentan,Bosentan,605001
 Semaglutide,Semaglutide,619057
-Prasugrel,Prasugrel,609027
+Methimazole,Methimazole,682464
+Rivaroxaban,Rivaroxaban,611049
+Carvedilol,Carvedilol,697042
+Indinavir,Indinavir,696028
+Danazol,Danazol,682599
+Capivasertib,Capivasertib,623056
+Maprotiline,Maprotiline,682158
+Maralixibat,Maralixibat,621056
+Glucarpidase,Glucarpidase,613009
+Tretinoin,Tretinoin,608032
+Nefazodone,Nefazodone,695005
+Elinzanetant,Elinzanetant,625113
+Benzonatate,Benzonatate,682640
+Codeine,Codeine,682065
+Clindamycin,Clindamycin,682399
+Naltrexone,Naltrexone,685041
+Naldemedine,Naldemedine,617031
+Griseofulvin,Griseofulvin,682295
+Melphalan,Melphalan,682220
+Cabotegravir,Cabotegravir,621010
+Metaxalone,Metaxalone,682010
+Tizanidine,Tizanidine,601121
+Lofexidine,Lofexidine,618036
+Duvelisib,Duvelisib,618056
+Saquinavir,Saquinavir,696001
+Azathioprine,Azathioprine,682167
+Nilotinib,Nilotinib,608002
+Pralsetinib,Pralsetinib,620057
+Clemastine,Clemastine,682542
+Sunvozertinib,Sunvozertinib,625088
+Loratadine,Loratadine,697038
+Imlunestrant,Imlunestrant,625104
+Leniolisib,Leniolisib,623016
+Ketoprofen,Ketoprofen,686014
+Chloroquine,Chloroquine,682318
+Calcifediol,Calcifediol,616041
+Lurasidone,Lurasidone,611016
+Pivmecillinam,Pivmecillinam,624031
+Fostemsavir,Fostemsavir,620046
+Cetirizine,Cetirizine,623043
+Olaparib,Olaparib,614060
+Voclosporin,Voclosporin,622021
+Ponesimod,Ponesimod,621025
+Ramipril,Ramipril,692027
+Levonorgestrel,Levonorgestrel,610021
+Disulfiram,Disulfiram,682602
+Eflornithine,Eflornithine,624008
+Sofosbuvir,Sofosbuvir,614014
+Regorafenib,Regorafenib,613004
+Cariprazine,Cariprazine,615050
+Ritlecitinib,Ritlecitinib,624015
+Letermovir,Letermovir,618006
+Siponimod,Siponimod,619027
+Liotrix,Liotrix,608021
+Mirtazapine,Mirtazapine,697009
+Ramelteon,Ramelteon,605038
+Gepotidacin,Gepotidacin,625059
+Didanosine,Didanosine,691006
+Adagrasib,Adagrasib,623003
+Carisoprodol,Carisoprodol,682578
+Empagliflozin,Empagliflozin,614043
+Nizatidine,Nizatidine,694030
+Milnacipran,Milnacipran,609016
+Dacarbazine,Dacarbazine,682750
+Colchicine,Colchicine,682711
+Letrozole,Letrozole,698004
+Axitinib,Axitinib,612017
+Nerandomilast,Nerandomilast,625107
+Fezolinetant,Fezolinetant,623051
+Progesterone,Progesterone,604017
+Ziprasidone,Ziprasidone,699062
+Ripretinib,Ripretinib,620035
+Cabergoline,Cabergoline,612020
+Epirubicin,Epirubicin,603003
+Clonazepam,Clonazepam,682279
+Oxycodone,Oxycodone,682132
+Cephalexin,Cephalexin,682733
+Thalidomide,Thalidomide,699032
+Levofloxacin,Levofloxacin,697040
+Ampicillin,Ampicillin,685002
+Ubrogepant,Ubrogepant,620016
+Pirfenidone,Pirfenidone,615008
+Frovatriptan,Frovatriptan,604013
+Crofelemer,Crofelemer,613016
+Doxorubicin,Doxorubicin,682221
+Betrixaban,Betrixaban,617050
+Zileuton,Zileuton,697013
+Rimantadine,Rimantadine,698029
+Ruxolitinib,Ruxolitinib,612006
+Orphenadrine,Orphenadrine,682162
+Flavoxate,Flavoxate,682706
+Telotristat,Telotristat,617029
+Topotecan,Topotecan,610007
+Alosetron,Alosetron,601230
+Tivozanib,Tivozanib,621018
+Cyproheptadine,Cyproheptadine,682541
+Rufinamide,Rufinamide,609001
+Zolpidem,Zolpidem,693025
+Dapagliflozin,Dapagliflozin,614015
+Dimenhydrinate,Dimenhydrinate,607046
+Cenobamate,Cenobamate,620021
+Deferiprone,Deferiprone,612016
+Rucaparib,Rucaparib,617002
+Sepiapterin,Sepiapterin,625095
+Nelfinavir,Nelfinavir,697034
+Bethanechol,Bethanechol,682849
+Finasteride,Finasteride,698016
+Darifenacin,Darifenacin,605039
+Sulindac,Sulindac,681037
 Erlotinib,Erlotinib,605008
 Rifabutin,Rifabutin,693009
-Midostaurin,Midostaurin,617033
-Levothyroxine,Levothyroxine,682461
-Diltiazem,Diltiazem,684027
-Albendazole,Albendazole,610019
-Morphine,Morphine,682133
-Dronabinol,Dronabinol,607054
-Guanfacine,Guanfacine,601059
-Chlorothiazide,Chlorothiazide,682341
-Ivacaftor,Ivacaftor,612012
-Vancomycin,Vancomycin,604038
-Clemastine,Clemastine,682542
-Rilpivirine,Rilpivirine,611037
-Acamprosate,Acamprosate,604028
-Cinacalcet,Cinacalcet,605004
+Maraviroc,Maraviroc,607076
+Selinexor,Selinexor,619044
+Cefixime,Cefixime,690007
+Metronidazole,Metronidazole,689011
+Selexipag,Selexipag,616031
+Efavirenz,Efavirenz,699004
+Alfuzosin,Alfuzosin,604002
+Tolterodine,Tolterodine,699026
+Phenazopyridine,Phenazopyridine,682231
+Alectinib,Alectinib,616007
+Aliskiren,Aliskiren,607039
+Posaconazole,Posaconazole,607036
+Nadolol,Nadolol,682666
+Cladribine,Cladribine,619038
+Fluphenazine,Fluphenazine,682172
+Vitamin A,Vitamin A,621028
+Tegaserod,Tegaserod,604007
+Acarbose,Acarbose,696015
+Plecanatide,Plecanatide,617020
+Dextroamphetamine,Dextroamphetamine,605027
+Leflunomide,Leflunomide,600032
+Zafirlukast,Zafirlukast,697007
+Mavacamten,Mavacamten,622047
+Abrocitinib,Abrocitinib,622008
 Fesoterodine,Fesoterodine,609021
-Nitazoxanide,Nitazoxanide,603017
+Telaprevir,Telaprevir,611038
+Gefitinib,Gefitinib,607002
+Phenobarbital,Phenobarbital,682007
+Nitisinone,Nitisinone,625092
+Nisoldipine,Nisoldipine,696009
+Perindopril,Perindopril,602017
+Trimethobenzamide,Trimethobenzamide,682693
+Dabrafenib,Dabrafenib,613038
+Ritonavir,Ritonavir,696029
+Isosorbide,Isosorbide,682348
+Irbesartan,Irbesartan,698009
+Eliglustat,Eliglustat,618038
+Simethicone,Simethicone,682683
+Relugolix,Relugolix,621006
+Simeprevir,Simeprevir,614013
+Hydroxyurea,Hydroxyurea,682004
+Galantamine,Galantamine,699058
+Boceprevir,Boceprevir,611039
+Lemborexant,Lemborexant,620039
+Ribavirin,Ribavirin,605018
+Prasugrel,Prasugrel,609027
+Indomethacin,Indomethacin,681027
+Azilsartan,Azilsartan,611028
+Bosutinib,Bosutinib,613005
+Fexofenadine,Fexofenadine,697035
+Almotriptan,Almotriptan,603028
+Raloxifene,Raloxifene,698007
+Ketoconazole,Ketoconazole,682816
+Ivosidenib,Ivosidenib,618042
+Mitomycin,Mitomycin,682415
+Ofloxacin,Ofloxacin,691005
+Afatinib,Afatinib,613044
+Levothyroxine,Levothyroxine,682461
+Chlorthalidone,Chlorthalidone,682342
+Armodafinil,Armodafinil,607067
+Cyclobenzaprine,Cyclobenzaprine,682514
+Panobinostat,Panobinostat,615020
+Asciminib,Asciminib,621055
+Lenvatinib,Lenvatinib,615015
+Midazolam,Midazolam,609003
+Stiripentol,Stiripentol,618069
+Carmustine,Carmustine,682060
+Fosamprenavir,Fosamprenavir,604012
+Clomipramine,Clomipramine,697002
+Pacritinib,Pacritinib,622043
+Cisapride,Cisapride,694006
+Topiramate,Topiramate,697012
+Rifamycin,Rifamycin,619010
+Anagrelide,Anagrelide,601020
+Theophylline,Theophylline,681006
+Trofinetide,Trofinetide,623019
+Avapritinib,Avapritinib,620013
+Odevixibat,Odevixibat,621049
+Pentazocine,Pentazocine,601092
+Iptacopan,Iptacopan,624009
+Guanfacine,Guanfacine,601059
+Olutasidenib,Olutasidenib,623002
+Altretamine,Altretamine,601200
+Rasagiline,Rasagiline,606017
+Phenoxybenzamine,Phenoxybenzamine,682059
+Aripiprazole,Aripiprazole,603012
+Gepirone,Gepirone,623052
+Pitolisant,Pitolisant,619055
+Atovaquone,Atovaquone,693003
+Penbutolol,Penbutolol,601091
+Chlorpheniramine,Chlorpheniramine,682543
+Phenytoin,Phenytoin,682022
+Methazolamide,Methazolamide,613034
+Digoxin,Digoxin,682301
+Nabilone,Nabilone,607048
+Diltiazem,Diltiazem,684027
+Baclofen,Baclofen,682530
+Rivastigmine,Rivastigmine,602009
+Famciclovir,Famciclovir,694038
+Lefamulin,Lefamulin,619059
+Enalapril,Enalapril,686022
+Budesonide,Budesonide,608007
+Bicalutamide,Bicalutamide,697047
+Lovastatin,Lovastatin,688006
+Penicillamine,Penicillamine,618021
+Donepezil,Donepezil,697032
+Sorafenib,Sorafenib,607051
+Salsalate,Salsalate,682880
+Tipranavir,Tipranavir,606009
+Dalfampridine,Dalfampridine,611005
+Tepotinib,Tepotinib,621012
+Ropeginterferon alfa-2b,Ropeginterferon alfa-2b,622019
+Dolasetron,Dolasetron,601001
+Promethazine,Promethazine,682284
+Pindolol,Pindolol,684032
+Betaxolol,Betaxolol,609023
+Apixaban,Apixaban,613032
+Daclatasvir,Daclatasvir,615044
+Lactulose,Lactulose,682338
+Ketorolac,Ketorolac,693001
+Dasatinib,Dasatinib,607063
+Tacrolimus,Tacrolimus,601117
+Zaleplon,Zaleplon,601251
+Methenamine,Methenamine,682296
+Mobocertinib,Mobocertinib,621048
+Sparsentan,Sparsentan,623018
+Retapamulin,Retapamulin,607049
+Rifampin,Rifampin,682403
+Selpercatinib,Selpercatinib,620036
+Tamsulosin,Tamsulosin,698012
+Imipramine,Imipramine,682389
+Mesoridazine,Mesoridazine,682306
+Dacomitinib,Dacomitinib,618055
+Tucatinib,Tucatinib,620032
+Tolcapone,Tolcapone,698036
+Haloperidol,Haloperidol,682180
+Avatrombopag,Avatrombopag,618032
+Tedizolid,Tedizolid,614038
+Flutamide,Flutamide,697045
+Albuterol,Albuterol,607004
+Doxylamine,Doxylamine,682537
+Exagamglogene autotemcel,Exagamglogene autotemcel,624018
+Allopurinol,Allopurinol,682673
+Midostaurin,Midostaurin,617033
+Potassium Iodide,Potassium Iodide,611043
+Oxaprozin,Oxaprozin,693002
+Chlorzoxazone,Chlorzoxazone,682577
+Palbociclib,Palbociclib,615013
+Amiloride,Amiloride,615029
+Chlorpromazine,Chlorpromazine,682040
+Idarubicin,Idarubicin,691004
+Aprepitant,Aprepitant,604003
+Acoramidis,Acoramidis,625013
+Oxandrolone,Oxandrolone,604024
+Bexarotene,Bexarotene,608006
+Cinacalcet,Cinacalcet,605004
+Sapropterin,Sapropterin,608020
+Alvimopan,Alvimopan,608051
+Opicapone,Opicapone,620059
+Dantrolene,Dantrolene,682576
+Terazosin,Terazosin,693046
+Meclizine,Meclizine,682548
+Gabapentin,Gabapentin,694007
+Trimethoprim,Trimethoprim,684025
+Darunavir,Darunavir,607042
+Paroxetine,Paroxetine,698032
+Inavolisib,Inavolisib,624068
+Nitrofurantoin,Nitrofurantoin,682291
+Lamotrigine,Lamotrigine,695007
+Zolmitriptan,Zolmitriptan,601129
+Palovarotene,Palovarotene,623038
+Furosemide,Furosemide,682858
+Encorafenib,Encorafenib,618040
+Fenfluramine,Fenfluramine,620045
+Brompheniramine,Brompheniramine,682545
+Valganciclovir,Valganciclovir,605021
+Demeclocycline,Demeclocycline,682103
+Desloratadine,Desloratadine,602002
+Acyclovir,Acyclovir,681045
+Tolbutamide,Tolbutamide,682481
+Risdiplam,Risdiplam,625064
+Deucravacitinib,Deucravacitinib,622067
+Bupropion,Bupropion,695033
+Cimetidine,Cimetidine,682256
+Risperidone,Risperidone,694015
+Mirdametinib,Mirdametinib,625043
+Auranofin,Auranofin,685038
+Cefuroxime,Cefuroxime,601206
+Leucovorin,Leucovorin,682336
+Gilteritinib,Gilteritinib,619003
+Glasdegib,Glasdegib,619004
+Oteseconazole,Oteseconazole,624030
+Vigabatrin,Vigabatrin,610016
+Olsalazine,Olsalazine,601088
+Cefadroxil,Cefadroxil,682730
+Diflunisal,Diflunisal,684037
+Hydrocodone,Hydrocodone,614045
+Esomeprazole,Esomeprazole,699054
+Dinoprostone,Dinoprostone,682512
+Sumatriptan,Sumatriptan,601116
+Sarecycline,Sarecycline,618068
+Verapamil,Verapamil,684030
+Temazepam,Temazepam,684003
+Ivermectin,Ivermectin,607069
+Cevimeline,Cevimeline,608025
+Etravirine,Etravirine,608016
+Naloxegol,Naloxegol,615016
+Phenylephrine,Phenylephrine,606008
+Trandolapril,Trandolapril,697010
+Hydralazine,Hydralazine,682246
+Felodipine,Felodipine,692016
+Bromocriptine,Bromocriptine,682079
+Fosfomycin,Fosfomycin,697008
+Tradipitant,Tradipitant,626024
+Niacin,Niacin,682518
+Ethambutol,Ethambutol,682550
+Guanabenz,Guanabenz,686003
+Infigratinib,Infigratinib,621041
+Prazosin,Prazosin,682245
+Metoprolol,Metoprolol,682864
+Quetiapine,Quetiapine,698019
+Arimoclomol,Arimoclomol,624065
+Entacapone,Entacapone,601236
+Isoniazid,Isoniazid,682401
+Azacitidine,Azacitidine,620060
+Capecitabine,Capecitabine,699003
+Ivabradine,Ivabradine,615027
+Elafibranor,Elafibranor,624039
+Migalastat,Migalastat,625101
+Apalutamide,Apalutamide,618018
+Zonisamide,Zonisamide,603008
+Atogepant,Atogepant,621052
+Ranitidine,Ranitidine,601106
+Dordaviprone,Dordaviprone,625097
+Ibrexafungerp,Ibrexafungerp,621039
+Prochlorperazine,Prochlorperazine,682116
+Tasimelteon,Tasimelteon,615004
+Daprodustat,Daprodustat,623010
+Zanubrutinib,Zanubrutinib,620009
+Sotorasib,Sotorasib,621036
+Abacavir,Abacavir,699012
+Upadacitinib,Upadacitinib,619051
+Linezolid,Linezolid,602004
+Sildenafil,Sildenafil,699015
+Telithromycin,Telithromycin,604026
+Abemaciclib,Abemaciclib,617049
+Ensartinib,Ensartinib,625004
+Macitentan,Macitentan,615033
+Lindane,Lindane,682651
+Anakinra,Anakinra,602001
+Lumateperone,Lumateperone,620014
+Eplerenone,Eplerenone,603004
+Taletrectinib,Taletrectinib,625089
+Sucralfate,Sucralfate,681049
+Bleomycin,Bleomycin,682125
+Ceritinib,Ceritinib,614027
+Cefdinir,Cefdinir,698001
+Sotalol,Sotalol,693010
+Brigatinib,Brigatinib,617016
+Epoprostenol,Epoprostenol,622042
+Pimozide,Pimozide,686018
+Dicloxacillin,Dicloxacillin,685017
+Desvenlafaxine,Desvenlafaxine,608022
+Osimertinib,Osimertinib,616005
+Lisinopril,Lisinopril,692051
+Atazanavir,Atazanavir,603019
+Ondansetron,Ondansetron,601209
+Flurbiprofen,Flurbiprofen,687005
+Canagliflozin,Canagliflozin,613033
+Meloxicam,Meloxicam,601242
+Sulfasalazine,Sulfasalazine,682204
+Voxelotor,Voxelotor,620011
+Cannabidiol,Cannabidiol,618051
+Deuruxolitinib,Deuruxolitinib,624047
+Vinblastine,Vinblastine,682848
+Methyldopa,Methyldopa,682242
+Cefprozil,Cefprozil,698022
+Capmatinib,Capmatinib,620038
+Omeprazole,Omeprazole,693050
+Eslicarbazepine,Eslicarbazepine,614032
+Daridorexant,Daridorexant,622034
+Doxazosin,Doxazosin,693045
+Fluoxetine,Fluoxetine,689006
+Temozolomide,Temozolomide,601250
+Vancomycin,Vancomycin,604038
+Oxazepam,Oxazepam,682050
+Lenacapavir,Lenacapavir,623006
+Seladelpar,Seladelpar,624062
+Ziftomenib,Ziftomenib,626005
+Pomalidomide,Pomalidomide,613030
+Iloperidone,Iloperidone,609026
+Cyclophosphamide,Cyclophosphamide,682080
+Levocetirizine,Levocetirizine,607056
+Rifapentine,Rifapentine,616011
+Atrasentan,Atrasentan,625070
+Methocarbamol,Methocarbamol,682579
+Lomustine,Lomustine,682207
+Adapalene,Adapalene,604001
+Ibandronate,Ibandronate,605035
+Tolazamide,Tolazamide,682482
+Nateglinide,Nateglinide,699057
+Pregabalin,Pregabalin,605045
+Alitretinoin,Alitretinoin,601012
+Darolutamide,Darolutamide,619045
+Liothyronine,Liothyronine,682462
+Ganciclovir,Ganciclovir,605011
+Trihexyphenidyl,Trihexyphenidyl,682160
+Sargramostim,Sargramostim,693005
+Palifermin,Palifermin,605017
+Nortriptyline,Nortriptyline,682620
 Tetrabenazine,Tetrabenazine,618009
 Colesevelam,Colesevelam,699050
-Varenicline,Varenicline,606024
-Sirolimus,Sirolimus,602026
-Esomeprazole,Esomeprazole,699054
-Momelotinib,Momelotinib,623053
-Felodipine,Felodipine,692016
-Methyldopa,Methyldopa,682242
-Tasimelteon,Tasimelteon,615004
-Rufinamide,Rufinamide,609001
-Acebutolol,Acebutolol,687003
-Rifaximin,Rifaximin,604027
-Duloxetine,Duloxetine,604030
-Diphenhydramine,Diphenhydramine,682539
-Retapamulin,Retapamulin,607049
-Idarubicin,Idarubicin,691004
-Minocycline,Minocycline,682101
-Tamsulosin,Tamsulosin,698012
-Perampanel,Perampanel,614006
-Desloratadine,Desloratadine,602002
-Ibandronate,Ibandronate,605035
-Fenoprofen,Fenoprofen,681026
-Methenamine,Methenamine,682296
-Tinidazole,Tinidazole,604036
-Metoprolol,Metoprolol,682864
-Flavoxate,Flavoxate,682706
-Dasatinib,Dasatinib,607063
-Pyrantel,Pyrantel,682820
-Finerenone,Finerenone,621038
-Cisapride,Cisapride,694006
-Pioglitazone,Pioglitazone,699016
-Penicillamine,Penicillamine,618021
-Loratadine,Loratadine,697038
-Alectinib,Alectinib,616007
-Epoprostenol,Epoprostenol,622042
-Naproxen,Naproxen,681029
-Furosemide,Furosemide,682858
-Exagamglogene autotemcel,Exagamglogene autotemcel,624018
-Estazolam,Estazolam,691003
-Ulipristal,Ulipristal,610020
-Tenofovir alafenamide,Tenofovir alafenamide,602018
-Amoxicillin,Amoxicillin,685001
-Candesartan,Candesartan,601033
-Posaconazole,Posaconazole,607036
-Vortioxetine,Vortioxetine,614003
-Mercaptopurine,Mercaptopurine,682653
-Trifluoperazine,Trifluoperazine,682121
-Codeine,Codeine,682065
-Bromocriptine,Bromocriptine,682079
-Lenacapavir,Lenacapavir,623006
-Zoliflodacin,Zoliflodacin,626017
-Lomustine,Lomustine,682207
-Alfuzosin,Alfuzosin,604002
-Famciclovir,Famciclovir,694038
-Amitriptyline,Amitriptyline,682388
-Guanabenz,Guanabenz,686003
-Dipyridamole,Dipyridamole,682830
-Regorafenib,Regorafenib,613004
-Alosetron,Alosetron,601230
-Flibanserin,Flibanserin,615040
-Tapentadol,Tapentadol,610006
-Sparsentan,Sparsentan,623018
-Nateglinide,Nateglinide,699057
-Dexlansoprazole,Dexlansoprazole,609017
-Aprepitant,Aprepitant,604003
-Iloperidone,Iloperidone,609026
-Nevirapine,Nevirapine,600035
-Prednisolone,Prednisolone,615042
-Budesonide,Budesonide,608007
-Oxycodone,Oxycodone,682132
-Palovarotene,Palovarotene,623038
-Everolimus,Everolimus,609032
-Binimetinib,Binimetinib,618041
-Imatinib,Imatinib,606018
-Ambrisentan,Ambrisentan,612023
-Zafirlukast,Zafirlukast,697007
-Propranolol,Propranolol,682607
-Spironolactone,Spironolactone,682627
-Tranylcypromine,Tranylcypromine,682088
-Fidaxomicin,Fidaxomicin,611040
-Toremifene,Toremifene,608003
-Valsartan,Valsartan,697015
-Ziftomenib,Ziftomenib,626005
-Saquinavir,Saquinavir,696001
-Entacapone,Entacapone,601236
-Quetiapine,Quetiapine,698019
-Hydroxyzine,Hydroxyzine,682866
-Vemurafenib,Vemurafenib,612009
-Bupropion,Bupropion,695033
-Rifamycin,Rifamycin,619010
-Eplerenone,Eplerenone,603004
-Balsalazide,Balsalazide,699052
-Elinzanetant,Elinzanetant,625113
-Palifermin,Palifermin,605017
-Captopril,Captopril,682823
-Trazodone,Trazodone,681038
-Citalopram,Citalopram,699001
-Vorinostat,Vorinostat,607050
-Cenobamate,Cenobamate,620021
-Sofosbuvir,Sofosbuvir,614014
-Inavolisib,Inavolisib,624068
-Rifampin,Rifampin,682403
-Nortriptyline,Nortriptyline,682620
-Flecainide,Flecainide,608040
-Methylphenidate,Methylphenidate,682188
-Trimethobenzamide,Trimethobenzamide,682693
-Aminophylline,Aminophylline,601015
-Lusutrombopag,Lusutrombopag,618043
-Patiromer,Patiromer,616012
-Paliperidone,Paliperidone,607005
-Trimethadione,Trimethadione,601127
 Protriptyline,Protriptyline,604025
-Pexidartinib,Pexidartinib,619050
-Mobocertinib,Mobocertinib,621048
-Zolmitriptan,Zolmitriptan,601129
-Capecitabine,Capecitabine,699003
-Umbralisib,Umbralisib,621019
-Tolterodine,Tolterodine,699026
-Oxazepam,Oxazepam,682050
-Enzalutamide,Enzalutamide,612033
-Ozenoxacin,Ozenoxacin,618010
-Avanafil,Avanafil,614010
-Vitamin A,Vitamin A,621028
-Indinavir,Indinavir,696028
-Rolapitant,Rolapitant,615041
-Thalidomide,Thalidomide,699032
-Alpelisib,Alpelisib,619036
-Isoniazid,Isoniazid,682401
-Sofpironium,Sofpironium,624052
-Hydroxyurea,Hydroxyurea,682004
-Isavuconazonium,Isavuconazonium,615031
-Diclofenac,Diclofenac,689002
-Gefitinib,Gefitinib,607002
-Atazanavir,Atazanavir,603019
-Loxapine,Loxapine,682311
-Olaparib,Olaparib,614060
-Tacrolimus,Tacrolimus,601117
-Lomitapide,Lomitapide,614008
-Selegiline,Selegiline,697046
-Erythromycin,Erythromycin,682381
-Nadolol,Nadolol,682666
-Fenofibrate,Fenofibrate,601052
-Primidone,Primidone,682023
-Levomilnacipran,Levomilnacipran,613048
-Lurasidone,Lurasidone,611016
-Nimodipine,Nimodipine,689010
-Itraconazole,Itraconazole,692049
-Pseudoephedrine,Pseudoephedrine,682619
-Mirabegron,Mirabegron,612038
-Alitretinoin,Alitretinoin,601012
-Relugolix,Relugolix,621006
-Gemifloxacin,Gemifloxacin,604014
-Vandetanib,Vandetanib,612007
-Ezogabine,Ezogabine,612028
-Dexamethasone,Dexamethasone,682792
-Reserpine,Reserpine,601107
-Seladelpar,Seladelpar,624062
-Tadalafil,Tadalafil,604008
-Stiripentol,Stiripentol,618069
-Exemestane,Exemestane,607006
-Methsuximide,Methsuximide,682028
-Sevelamer,Sevelamer,601248
-Benzphetamine,Benzphetamine,626014
-Delavirdine,Delavirdine,600034
-Methadone,Methadone,682134
-Adefovir,Adefovir,605024
-Nintedanib,Nintedanib,615009
-Letrozole,Letrozole,698004
-Pirtobrutinib,Pirtobrutinib,623012
-Topotecan,Topotecan,610007
-Tovorafenib,Tovorafenib,624032
-Triamcinolone,Triamcinolone,601122
-Risperidone,Risperidone,694015
-Cyclosporine,Cyclosporine,601207
-Letermovir,Letermovir,618006
-Glucarpidase,Glucarpidase,613009
-Loperamide,Loperamide,682280
-Trimethoprim,Trimethoprim,684025
-Encorafenib,Encorafenib,618040
-Meprobamate,Meprobamate,682077
-Etrasimod,Etrasimod,623050
-Tramadol,Tramadol,695011
-Albuterol,Albuterol,607004
-Oxiconazole,Oxiconazole,689004
-Ribavirin,Ribavirin,605018
-Perphenazine,Perphenazine,682165
-Sulfinpyrazone,Sulfinpyrazone,682339
-Phenoxybenzamine,Phenoxybenzamine,682059
-Oxybutynin,Oxybutynin,682141
-Pitolisant,Pitolisant,619055
-Streptozocin,Streptozocin,684053
-Isocarboxazid,Isocarboxazid,605036
-Terbutaline,Terbutaline,682144
-Disopyramide,Disopyramide,682408
-Deucravacitinib,Deucravacitinib,622067
-Finasteride,Finasteride,698016
-Rabeprazole,Rabeprazole,699060
-Silodosin,Silodosin,609002
-Zonisamide,Zonisamide,603008
-Ibrutinib,Ibrutinib,614007
-Tolbutamide,Tolbutamide,682481
-Levonorgestrel,Levonorgestrel,610021
-Clozapine,Clozapine,691001
-Nystatin,Nystatin,682758
-Dabrafenib,Dabrafenib,613038
-Selumetinib,Selumetinib,620030
-Octreotide,Octreotide,620051
-Sunitinib,Sunitinib,607052
-Dabigatran,Dabigatran,610024
-Celecoxib,Celecoxib,699022
-Cobimetinib,Cobimetinib,615057
-Trandolapril,Trandolapril,697010
-Clindamycin,Clindamycin,682399
-Imipramine,Imipramine,682389
-Chlorpheniramine,Chlorpheniramine,682543
-Leniolisib,Leniolisib,623016
-Sargramostim,Sargramostim,693005
-Doxercalciferol,Doxercalciferol,616043
-Carisoprodol,Carisoprodol,682578
-Prazosin,Prazosin,682245
-Crofelemer,Crofelemer,613016
-Ranolazine,Ranolazine,606015
-Propafenone,Propafenone,698002
-Emtricitabine,Emtricitabine,604004
-Liothyronine,Liothyronine,682462
-Diethylpropion,Diethylpropion,682037
-Glipizide,Glipizide,684060
-Phenylephrine,Phenylephrine,606008
-Repotrectinib,Repotrectinib,623063
-Bedaquiline,Bedaquiline,613022
-Ribociclib,Ribociclib,617008
-Trihexyphenidyl,Trihexyphenidyl,682160
-Olmesartan,Olmesartan,603006
-Fluoxymesterone,Fluoxymesterone,682690
-Terazosin,Terazosin,693046
-Riociguat,Riociguat,615005
-Iptacopan,Iptacopan,624009
-Mechlorethamine,Mechlorethamine,682223
-Mirdametinib,Mirdametinib,625043
-Dinoprostone,Dinoprostone,682512
-Praziquantel,Praziquantel,608048
-Cariprazine,Cariprazine,615050
-Bosutinib,Bosutinib,613005
-Selenium Sulfide,Selenium Sulfide,682258
-Secobarbital,Secobarbital,682386
-Lenvatinib,Lenvatinib,615015
-Fexofenadine,Fexofenadine,697035
-Lansoprazole,Lansoprazole,695020
-Telotristat,Telotristat,617029
-Sepiapterin,Sepiapterin,625095
-Ganciclovir,Ganciclovir,605011
-Leflunomide,Leflunomide,600032
-Hydrochlorothiazide,Hydrochlorothiazide,682571
-Hyoscyamine,Hyoscyamine,684010
-Pirfenidone,Pirfenidone,615008
-Pyridoxine,Pyridoxine,682587
-Apremilast,Apremilast,614022
-Cefpodoxime,Cefpodoxime,698024
-Clonidine,Clonidine,682243
-Daclatasvir,Daclatasvir,615044
-Digoxin,Digoxin,682301
-Metformin,Metformin,696005
-Atenolol,Atenolol,684031
-Ubrogepant,Ubrogepant,620016
-Belzutifan,Belzutifan,621047
-Maraviroc,Maraviroc,607076
-Donepezil,Donepezil,697032
-Nabumetone,Nabumetone,692022
-Cannabidiol,Cannabidiol,618051
-Zanubrutinib,Zanubrutinib,620009
-Olutasidenib,Olutasidenib,623002
-Dacomitinib,Dacomitinib,618055
-Primaquine,Primaquine,607037
-Osilodrostat,Osilodrostat,625069
-Meloxicam,Meloxicam,601242
-Fluconazole,Fluconazole,690002
-Bisacodyl,Bisacodyl,601027
-Dextroamphetamine,Dextroamphetamine,605027
-Anakinra,Anakinra,602001
-Modafinil,Modafinil,602016
-Epirubicin,Epirubicin,603003
-Remibrutinib,Remibrutinib,625116
-Prednisone,Prednisone,601102
-Fosfomycin,Fosfomycin,697008
-Doxylamine,Doxylamine,682537
-Perindopril,Perindopril,602017
-Acetaminophen,Acetaminophen,681004
-Sorafenib,Sorafenib,607051
-Mexiletine,Mexiletine,607064
-Apalutamide,Apalutamide,618018
-Sildenafil,Sildenafil,699015
-Baricitinib,Baricitinib,618033
-Febuxostat,Febuxostat,609020
-Mavacamten,Mavacamten,622047
-Chloroquine,Chloroquine,682318
-Mebendazole,Mebendazole,682315
-Carmustine,Carmustine,682060
-Oxandrolone,Oxandrolone,604024
-Nifedipine,Nifedipine,684028
-Ezetimibe,Ezetimibe,603015
-Benzonatate,Benzonatate,682640
-Pimavanserin,Pimavanserin,616032
-Tafamidis,Tafamidis,622032
-Amiodarone,Amiodarone,687009
-Safinamide,Safinamide,617025
-Vosoritide,Vosoritide,622012
-Raloxifene,Raloxifene,698007
-Papaverine,Papaverine,682707
-Phenazopyridine,Phenazopyridine,682231
-Lamotrigine,Lamotrigine,695007
-Meclizine,Meclizine,682548
-Daunorubicin,Daunorubicin,682289
-Calcitriol,Calcitriol,682335
-Cevimeline,Cevimeline,608025
-Stavudine,Stavudine,694033
-Vamorolone,Vamorolone,624005
-Belumosudil,Belumosudil,621043
-Atomoxetine,Atomoxetine,603013
-Levoketoconazole,Levoketoconazole,622025
-Cephalexin,Cephalexin,682733
-Fosamprenavir,Fosamprenavir,604012
-Tipranavir,Tipranavir,606009
-Bleomycin,Bleomycin,682125
-Valganciclovir,Valganciclovir,605021
-Fruquintinib,Fruquintinib,623060
-Imlunestrant,Imlunestrant,625104
-Dolutegravir,Dolutegravir,613043
-Alogliptin,Alogliptin,613026
-Deutetrabenazine,Deutetrabenazine,617022
-Nerandomilast,Nerandomilast,625107
-Etravirine,Etravirine,608016
-Vigabatrin,Vigabatrin,610016
-Guaifenesin,Guaifenesin,682494
-Thioridazine,Thioridazine,682119
-Brensocatib,Brensocatib,625099
-Capivasertib,Capivasertib,623056
-Sulfadiazine,Sulfadiazine,682130
-Nifurtimox,Nifurtimox,620061
-Dutasteride,Dutasteride,603001
-Telbivudine,Telbivudine,607045
-Axitinib,Axitinib,612017
-Anagrelide,Anagrelide,601020
-Baclofen,Baclofen,682530
-Fingolimod,Fingolimod,611006
-Cyclobenzaprine,Cyclobenzaprine,682514
-Mitapivat,Mitapivat,622018
-Dordaviprone,Dordaviprone,625097
-Palbociclib,Palbociclib,615013
-Benznidazole,Benznidazole,617043
-Armodafinil,Armodafinil,607067
-Phenobarbital,Phenobarbital,682007
-Edoxaban,Edoxaban,614055
-Betaxolol,Betaxolol,609023
-Linezolid,Linezolid,602004
-Sunvozertinib,Sunvozertinib,625088
-Idelalisib,Idelalisib,614040
-Avapritinib,Avapritinib,620013
-Niraparib,Niraparib,617007
-Risdiplam,Risdiplam,625064
-Nabilone,Nabilone,607048
-Resmetirom,Resmetirom,624021
-Raltegravir,Raltegravir,608004
-Mefloquine,Mefloquine,603030
-Vismodegib,Vismodegib,612010
-Amlexanox,Amlexanox,601017
-Isotretinoin,Isotretinoin,681043
-Fezolinetant,Fezolinetant,623051
-Sumatriptan,Sumatriptan,601116
-Metoclopramide,Metoclopramide,684035
-Vilazodone,Vilazodone,611020
-Zongertinib,Zongertinib,625093
-Simethicone,Simethicone,682683
-Temazepam,Temazepam,684003
-Orphenadrine,Orphenadrine,682162
-Avatrombopag,Avatrombopag,618032
-Prucalopride,Prucalopride,619011
-Lisinopril,Lisinopril,692051
-Selinexor,Selinexor,619044
-Vorasidenib,Vorasidenib,624055
-Procarbazine,Procarbazine,682094
-Danazol,Danazol,682599
-Oseltamivir,Oseltamivir,699040
-Pomalidomide,Pomalidomide,613030
-Bicalutamide,Bicalutamide,697047
-Dexmethylphenidate,Dexmethylphenidate,603014
-Cabotegravir,Cabotegravir,621010
-Doxazosin,Doxazosin,693045
-Pretomanid,Pretomanid,619056
-Viloxazine,Viloxazine,621027
-Phenelzine,Phenelzine,682089
-Sitagliptin,Sitagliptin,606023
-Pindolol,Pindolol,684032
-Liotrix,Liotrix,608021
-Infigratinib,Infigratinib,621041
-Dronedarone,Dronedarone,609034
-Methocarbamol,Methocarbamol,682579
-Montelukast,Montelukast,600014
-Ondansetron,Ondansetron,601209
-Linaclotide,Linaclotide,613007
-Enasidenib,Enasidenib,617040
-Dofetilide,Dofetilide,601235
-Atogepant,Atogepant,621052
-Ivosidenib,Ivosidenib,618042
-Midodrine,Midodrine,616030
-Nelfinavir,Nelfinavir,697034
-Nitrofurantoin,Nitrofurantoin,682291
-Pyridostigmine,Pyridostigmine,682229
-Estramustine,Estramustine,608046
-Trofinetide,Trofinetide,623019
-Lofexidine,Lofexidine,618036
-Phentermine,Phentermine,682187
-Haloperidol,Haloperidol,682180
-Metronidazole,Metronidazole,689011
-Hydroxychloroquine,Hydroxychloroquine,601240
-Fluoxetine,Fluoxetine,689006
-Ketoconazole,Ketoconazole,682816
-Ritonavir,Ritonavir,696029
-Clomipramine,Clomipramine,697002
-Cimetidine,Cimetidine,682256
-Altretamine,Altretamine,601200
-Lindane,Lindane,682651
-Adagrasib,Adagrasib,623003
-Azathioprine,Azathioprine,682167
-Diphenoxylate,Diphenoxylate,601045
-Chlordiazepoxide,Chlordiazepoxide,682078
-Delafloxacin,Delafloxacin,617046
-Allopurinol,Allopurinol,682673
-Vonoprazan,Vonoprazan,624006
-Benazepril,Benazepril,692011
-Ketoprofen,Ketoprofen,686014
-Amiloride,Amiloride,615029
-Clobazam,Clobazam,612008
-Dacarbazine,Dacarbazine,682750
-Berotralstat,Berotralstat,626011
-Pazopanib,Pazopanib,610013
-Ripretinib,Ripretinib,620035
-Fostamatinib,Fostamatinib,618025
-Cefuroxime,Cefuroxime,601206
-Acetazolamide,Acetazolamide,682756
-Temozolomide,Temozolomide,601250
-Triclabendazole,Triclabendazole,619048
-Desmopressin,Desmopressin,608010
-Naltrexone,Naltrexone,685041
-Dapsone,Dapsone,682128
-Flurazepam,Flurazepam,682051
-Tolmetin,Tolmetin,681033
-Ethosuximide,Ethosuximide,682327
-Osimertinib,Osimertinib,616005
-Sebetralstat,Sebetralstat,625087
-Acalabrutinib,Acalabrutinib,618004
-Entecavir,Entecavir,605028
-Penbutolol,Penbutolol,601091
-Atorvastatin,Atorvastatin,600045
-Ruxolitinib,Ruxolitinib,612006
-Didanosine,Didanosine,691006
-Lemborexant,Lemborexant,620039
-Eltrombopag,Eltrombopag,609011
-Ethambutol,Ethambutol,682550
-Abemaciclib,Abemaciclib,617049
-Acitretin,Acitretin,601010
-Aripiprazole,Aripiprazole,603012
-Telithromycin,Telithromycin,604026
-Teriflunomide,Teriflunomide,613010
-Desipramine,Desipramine,682387
-Mirtazapine,Mirtazapine,697009
-Ofloxacin,Ofloxacin,691005
-Voriconazole,Voriconazole,605022
-Atovaquone,Atovaquone,693003
-Aprocitentan,Aprocitentan,624023
-Nisoldipine,Nisoldipine,696009
-Rimantadine,Rimantadine,698029
-Tamoxifen,Tamoxifen,682414
-Cabergoline,Cabergoline,612020
-Glyburide,Glyburide,684058
-Aminolevulinic acid,Aminolevulinic acid,625014
-Istradefylline,Istradefylline,619053
-Ivermectin,Ivermectin,607069
-Niacin,Niacin,682518
-Busulfan,Busulfan,682248
-Bisoprolol,Bisoprolol,693024
-Saxagliptin,Saxagliptin,610003
-Flutamide,Flutamide,697045
-Lorcaserin,Lorcaserin,613014
-Oteseconazole,Oteseconazole,624030
-Lamivudine,Lamivudine,696011
-Pramipexole,Pramipexole,697029
-Alvimopan,Alvimopan,608051
-Testosterone,Testosterone,619028
-Sonidegib,Sonidegib,615034
-Molindone,Molindone,682238
-Trametinib,Trametinib,613040
-Duvelisib,Duvelisib,618056
-Azacitidine,Azacitidine,620060
-Doxorubicin,Doxorubicin,682221
-Lactulose,Lactulose,682338
-Alprazolam,Alprazolam,684001
-Upadacitinib,Upadacitinib,619051
-Elafibranor,Elafibranor,624039
-Dantrolene,Dantrolene,682576
-Voxelotor,Voxelotor,620011
-Pancrelipase,Pancrelipase,604035
-Levocetirizine,Levocetirizine,607056
-Naratriptan,Naratriptan,601083
+Pilocarpine,Pilocarpine,608039
+Methylprednisolone,Methylprednisolone,682795
 Lubiprostone,Lubiprostone,607034
-Tizanidine,Tizanidine,601121
-Zolpidem,Zolpidem,693025
-Fluvoxamine,Fluvoxamine,695004
-Pitavastatin,Pitavastatin,610018
-Asciminib,Asciminib,621055
-Rilzabrutinib,Rilzabrutinib,625102
-Triamterene,Triamterene,682337
-Lasmiditan,Lasmiditan,620015
-Eflornithine,Eflornithine,624008
-Migalastat,Migalastat,625101
-Acarbose,Acarbose,696015
-Moxidectin,Moxidectin,625105
-Disulfiram,Disulfiram,682602
-Telmisartan,Telmisartan,601249
-Diazepam,Diazepam,682047
-Dactinomycin,Dactinomycin,682224
-Zaleplon,Zaleplon,601251
-Ivabradine,Ivabradine,615027
-Paltusotine,Paltusotine,625106
-Cefdinir,Cefdinir,698001
-Deuruxolitinib,Deuruxolitinib,624047
-Famotidine,Famotidine,687011
-Sucralfate,Sucralfate,681049
-Lisdexamfetamine,Lisdexamfetamine,607047
-Neratinib,Neratinib,617034
-Propantheline,Propantheline,684020
-Nilotinib,Nilotinib,608002
-Leucovorin,Leucovorin,682336
-Hydrocodone,Hydrocodone,614045
-Tucatinib,Tucatinib,620032
-Isoxsuprine,Isoxsuprine,682831
-Etodolac,Etodolac,692015
-Mitotane,Mitotane,608050
-Boceprevir,Boceprevir,611039
-Sotalol,Sotalol,693010
-Repaglinide,Repaglinide,600010
-Ketorolac,Ketorolac,693001
-Bumetanide,Bumetanide,684051
-Tiagabine,Tiagabine,698014
-Calcifediol,Calcifediol,616041
-Chlorpropamide,Chlorpropamide,682479
-Vinblastine,Vinblastine,682848
-Maprotiline,Maprotiline,682158
-Rifapentine,Rifapentine,616011
-Efavirenz,Efavirenz,699004
-Tofacitinib,Tofacitinib,613025
-Indomethacin,Indomethacin,681027
-Lefamulin,Lefamulin,619059
-Moexipril,Moexipril,695018
+Amlodipine,Amlodipine,692044
+Fentanyl,Fentanyl,605043
+Dexamethasone,Dexamethasone,682792
+Vilazodone,Vilazodone,611020
+Balsalazide,Balsalazide,699052
+Phenelzine,Phenelzine,682089
+Carbamazepine,Carbamazepine,682237
+Ulipristal,Ulipristal,610020
+Lorcaserin,Lorcaserin,613014
+Aminophylline,Aminophylline,601015
+Cobimetinib,Cobimetinib,615057
+Lapatinib,Lapatinib,607055
+Nirogacestat,Nirogacestat,624011
 Rimegepant,Rimegepant,620031
-Olsalazine,Olsalazine,601088
-Dalfampridine,Dalfampridine,611005
-Flurbiprofen,Flurbiprofen,687005
-Deferasirox,Deferasirox,606002
-Tepotinib,Tepotinib,621012
-Chlorzoxazone,Chlorzoxazone,682577
-Propylthiouracil,Propylthiouracil,682465
-Aldesleukin,Aldesleukin,692009
+Tinidazole,Tinidazole,604036
+Vardenafil,Vardenafil,603035
+Dexlansoprazole,Dexlansoprazole,609017
+Ozenoxacin,Ozenoxacin,618010
+Hepatitis A Vaccine,Hepatitis A Vaccine,695003
+Glipizide,Glipizide,684060
+Fluconazole,Fluconazole,690002
+Tamoxifen,Tamoxifen,682414
+Pancrelipase,Pancrelipase,604035
+Testosterone,Testosterone,619028
+Butabarbital,Butabarbital,682417
+Acetaminophen,Acetaminophen,681004
+Vadadustat,Vadadustat,624033
+Orlistat,Orlistat,601244
+Eszopiclone,Eszopiclone,605009
+Procarbazine,Procarbazine,682094
+Pretomanid,Pretomanid,619056
+Levoketoconazole,Levoketoconazole,622025
+Minoxidil,Minoxidil,682608
+Exemestane,Exemestane,607006
+Clopidogrel,Clopidogrel,601040
+Adefovir,Adefovir,605024
+Streptozocin,Streptozocin,684053
+Pravastatin,Pravastatin,692025
+Dicyclomine,Dicyclomine,684007
+Atomoxetine,Atomoxetine,603013
+Citalopram,Citalopram,699001
+Toremifene,Toremifene,608003
+Flurazepam,Flurazepam,682051
+Isocarboxazid,Isocarboxazid,605036
+Duloxetine,Duloxetine,604030
+Imatinib,Imatinib,606018
+Nevirapine,Nevirapine,600035
+Sirolimus,Sirolimus,602026
+Fluoxymesterone,Fluoxymesterone,682690
+Etodolac,Etodolac,692015
+Triclabendazole,Triclabendazole,619048
+Entrectinib,Entrectinib,619049
+Acetazolamide,Acetazolamide,682756
+Chlorambucil,Chlorambucil,682899
+Eletriptan,Eletriptan,603029
+Pioglitazone,Pioglitazone,699016
+Memantine,Memantine,604006
+Pitavastatin,Pitavastatin,610018
+Mechlorethamine,Mechlorethamine,682223
+Isoxsuprine,Isoxsuprine,682831
+Lasmiditan,Lasmiditan,620015
 Talazoparib,Talazoparib,618070
-Ibrexafungerp,Ibrexafungerp,621039
-Larotrectinib,Larotrectinib,619006
-Meperidine,Meperidine,682117
+Amphetamine,Amphetamine,616004
+Delafloxacin,Delafloxacin,617046
+Loxapine,Loxapine,682311
+Revumenib,Revumenib,624077
+Lamivudine,Lamivudine,696011
+Trametinib,Trametinib,613040
+Metoclopramide,Metoclopramide,684035
+Deferasirox,Deferasirox,606002
+Ibrutinib,Ibrutinib,614007
+Mebendazole,Mebendazole,682315
+Riociguat,Riociguat,615005
+Gemifloxacin,Gemifloxacin,604014
+Hydroxychloroquine,Hydroxychloroquine,601240
+Linagliptin,Linagliptin,611036
+Zongertinib,Zongertinib,625093
+Clarithromycin,Clarithromycin,692005
 Deflazacort,Deflazacort,617024
-Tivozanib,Tivozanib,621018
-Isatuximab,Isatuximab-irfc Injection,620023
-Agalsidase beta,Agalsidase beta Injection,623025
-Daclizumab,Daclizumab Injection,616036
-Glycopyrronium,Glycopyrronium Topical,618046
-Eculizumab,Eculizumab Injection,612024
-Evinacumab,Evinacumab-dgnb Injection,621023
-Eravacycline,Eravacycline Injection,618047
-Levobunolol,Levobunolol Ophthalmic,686011
-Alcaftadine,Alcaftadine Ophthalmic,611022
-Lifitegrast,Lifitegrast Ophthalmic,616039
-Aceclidine,Aceclidine Ophthalmic,625091
-Butoconazole,Butoconazole Vaginal Cream,682012
-Landiolol,Landiolol Injection,625060
-Fosaprepitant,Aprepitant/Fosaprepitant Injection,617042
-Betaine aldehyde,Betaine,608012
-Barium,Barium Sulfate,606010
-Aflibercept,Aflibercept Injection,612004
-Burosumab,Burosumab-twza Injection,618034
-Brinzolamide,Brinzolamide Ophthalmic,601233
-Trifarotene,Trifarotene Topical,620004
-Penciclovir,Penciclovir Cream,697027
-Mosunetuzumab,Mosunetuzumab-axgb Injection,623007
-Luspatercept,Luspatercept-aamt Injection,620043
-Nanoparticle Epirubicin,Epirubicin,603003
-Terconazole,"Terconazole Vaginal Cream, Vaginal Suppositories",688022
-Efinaconazole,Efinaconazole Topical,614050
-Bromfenac,Bromfenac Ophthalmic,611018
-Plerixafor,Plerixafor Injection,609018
-Naxitamab,Naxitamab-gqgk Injection,621005
-Desoximetasone,Desoximetasone Topical,605026
-Cemiplimab,Cemiplimab-rwlc Injection,618054
-Erenumab,Erenumab-aooe Injection,618029
-Cidofovir,Cidofovir Injection,696037
-Degarelix,Degarelix Injection,609022
-Vinorelbine,Vinorelbine Injection,695013
-Pegloticase,Pegloticase Injection,611015
-Decitabine,Decitabine Injection,608009
-Selenium,Selenium Sulfide,682258
-Tenecteplase,Tenecteplase Injection,625007
-Dulaglutide,Dulaglutide Injection,614047
-Triamcinolone furetonide,Triamcinolone,601122
-Mirikizumab,Mirikizumab-mrkz Injection,623061
-Tocilizumab,Tocilizumab Injection,611004
-Propofol,Propofol Injection,625006
-Olezarsen,Olezarsen Injection,625020
-Carboplatin,Carboplatin Injection,695017
-Tropicamide,Tropicamide Ophthalmic,625117
-Eosin,Budesonide Oral Suspension (Eosinophilic Esophagitis),624013
-Fidanacogene elaparvovec,Fidanacogene elaparvovec-dzkt Injection,624028
-Lurbinectedin,Lurbinectedin Injection,620049
-Esketamine,Esketamine Nasal Spray,619017
-Neomycin,Neomycin Topical,682274
-Sarilumab,Sarilumab Injection,617032
-Teclistamab,Teclistamab-cqyv Injection,622076
-Caspofungin,Caspofungin Injection,615001
-Guselkumab,Guselkumab Injection,617036
-Difamilast,Difamilast Topical,626032
-Alirocumab,Alirocumab Injection,615035
-Flurandrenolide,Flurandrenolide Topical,601055
-Aztreonam,Aztreonam Injection,687010
-Betamethasone,Betamethasone Topical,682799
-Lansoprazole sulfone,Lansoprazole,695020
-Belatacept,Belatacept Injection,612011
-Rezafungin,Rezafungin Injection,623021
-Imiquimod,Imiquimod Topical,698010
-Temazepam acetate,Temazepam,684003
-Dupilumab,Dupilumab Injection,617021
-Ensifentrine,Ensifentrine Oral Inhalation,624040
-Necitumumab,Necitumumab Injection,616009
-Linvoseltamab,Linvoseltamab-gcpt Injection,625085
-Etelcalcetide,Etelcalcetide Injection,617011
-Imetelstat,Imetelstat Injection,624035
-Bimekizumab,Bimekizumab-bkzx injection,623049
-Morphine glucuronide,Morphine,682133
-Becaplermin,Becaplermin Topical,699049
-Metformin C-11,Metformin,696005
-Delgocitinib,Delgocitinib Topical,625094
-D-Levofloxacin,Levofloxacin,697040
-Panitumumab,Panitumumab Injection,607066
-Meropenem,Meropenem Injection,696038
-Pegunigalsidase alfa,Pegunigalsidase alfa-iwxj Injection,623031
-Permethrin,Permethrin Topical,698037
-Tofersen,Tofersen Injection,623024
-Siltuximab,Siltuximab Injection,614028
-Vutrisiran,Vutrisiran Injection,622061
-Tremelimumab,Tremelimumab-actl Injection,622078
-Concizumab,Concizumab-mtci Injection,625040
-Mogamulizumab,Mogamulizumab-kpkc Injection,618064
-Nirsevimab,Nirsevimab-alip,623033
-Inclisiran,Inclisiran injection,622009
-Ceftriaxone,Ceftriaxone Injection,685032
-Doripenem,Doripenem Injection,608015
-Econazole,Econazole Topical,684049
-Tedizolid phosphate,Tedizolid,614038
-Oxaliplatin,Oxaliplatin Injection,607035
-Cabazitaxel,Cabazitaxel Injection,611009
-Clobetasol,Clobetasol Topical,686008
-Pemivibart,Pemivibart injection,624061
-Digoxin Immune Fab (Ovine),Digoxin,682301
-Avelumab,Avelumab Injection,617006
-Polyethylene glycol,Polyethylene glycol-electrolyte solution (PEG-ES),601097
-Fluocinolone,Fluocinolone Topical,682271
-Tisagenlecleucel,Tisagenlecleucel Injection,617053
-Eplontersen,Eplontersen injection,624017
-Pregabalin naproxencarbil,Pregabalin,605045
-Somapacitan,Somapacitan-beco Injection,622020
-Malathion,Malathion Topical,611010
-Amifostine,Amifostine Injection,696014
-Elranatamab,Elranatamab-bcmm,623045
-Pemetrexed,Pemetrexed Injection,607043
-Telotristat ethyl,Telotristat,617029
-Clesrovimab,Clesrovimab-cfor Injection,625082
-Teriparatide,Teriparatide Injection,603018
-Nelarabine,Nelarabine Injection,607077
-Toripalimab,Toripalimab-tpzi Injection,624004
-Dobutamine,Dobutamine Injection,625018
-Lodoxamide,Lodoxamide Ophthalmic,694014
-Oseltamivir acid,Oseltamivir,699040
-Cosibelimab,Cosibelimab-ipdl Injection,625002
-Fosinoprilat,Fosinopril,692020
-Pasireotide,Pasireotide Injection,622029
-Sibeprenlimab,Sibeprenlimab-szsi Injection,626008
-Chloramphenicol,Chloramphenicol Injection,608008
-Cholestyramine,Cholestyramine Resin,682672
-Teprotumumab,Teprotumumab-trbw Injection,620025
-Docetaxel,Docetaxel Injection,696031
-Difluprednate,Difluprednate Ophthalmic,609025
-Gadolinium,Gadolinium-based Contrast Agents,624076
-Carfilzomib,Carfilzomib Injection,612031
-(S)-Indapamide,Indapamide,684062
-Delandistrogene moxeparvovec,Delandistrogene moxeparvovec-rokl Injection,623058
-Tarlatamab,Tarlatamab-dlle Injection,624037
-Icatibant,Icatibant injection,623036
-Perindoprilat,Perindopril,602017
-(R)-Atenolol,Atenolol,684031
-Fremanezumab,Fremanezumab-vfrm Injection,618053
-Palopegteriparatide,Palopegteriparatide Injection,624051
-Copper,Copper Histidinate Injection,626027
-Talc,Talc Intrapleural,608011
-Talquetamab,Talquetamab-tgvs,623047
-Alteplase,Alteplase Injection,625001
-Prademagene zamikeracel,Prademagene zamikeracel topical,625079
-Triptorelin,Triptorelin Injection,611047
-Lebrikizumab,Lebrikizumab-lbkz Injection,624064
-Abaloparatide,Abaloparatide Injection,617038
-Perfluorohexyloctane,Perfluorohexyloctane ophthalmic,623054
-Dalbavancin,Dalbavancin Injection,614036
-Perphenazine enanthate,Perphenazine,682165
-Teniposide,Teniposide Injection,692045
-Natalizumab,Natalizumab Injection,605006
-Verteporfin,Verteporfin Injection,607060
-"Thyroid, porcine",Thyroid,682475
-Cetuximab,Cetuximab Injection,607041
-Mupirocin,Mupirocin topical,688004
-Spesolimab,Spesolimab-sbzo injection,624054
-Enzalutamide d3,Enzalutamide,612033
-Allopurinol riboside,Allopurinol,682673
-Olaratumab,Olaratumab Injection,616053
-Oxytocin,Oxytocin Injection,682685
-Glatiramer,Glatiramer Injection,603016
-Tavaborole,Tavaborole Topical,614049
-Efgartigimod alfa,Efgartigimod alfa-fcab Injection,622057
-Dalteparin,Dalteparin Injection,696006
-(R)-Bicalutamide,Bicalutamide,697047
-Iodide,Potassium Iodide,611043
-Dorzolamide,Dorzolamide Ophthalmic,697049
-Metipranolol,Metipranolol Ophthalmic,601078
-Risankizumab,Risankizumab-rzaa Injection,619035
-Filgrastim,Filgrastim Injection,692033
-Treosulfan,Treosulfan Injection,625065
-Diclofenac etalhyaluronate,Diclofenac,689002
-Tildrakizumab,Tildrakizumab-asmn injection,618026
-Ocrelizumab,Ocrelizumab Injection,617026
-Lixisenatide,Lixisenatide Injection,617005
-Eladocagene exuparvovec,Eladocagene exuparvovec-tneq Injection,624080
-Albendazole oxide,Albendazole,610019
-Prasterone,Prasterone Vaginal,617012
-Brentuximab,Brentuximab Vedotin Injection,611052
-Omidubicel,Omidubicel-onlv Injection,626012
-Loperamide oxide,Loperamide,682280
-Histrelin,Histrelin Implant,601146
-Moexiprilat,Moexipril,695018
-Caplacizumab,Caplacizumab-yhdp Injection,619030
-Albiglutide,Albiglutide Injection,614031
-Nipocalimab,Nipocalimab-aahu Injection,625078
-Arformoterol,Arformoterol Oral Inhalation,607061
-Sulfacetamide,Sulfacetamide Ophthalmic,601114
-Apraclonidine,Apraclonidine Ophthalmic,608005
-Ferumoxytol,Ferumoxytol Injection,614023
-Crizanlizumab,Crizanlizumab-tmca Injection,620010
-Sertaconazole,Sertaconazole Topical,608047
-Aclidinium,Aclidinium Oral Inhalation,613001
-Narsoplimab,Narsoplimab-wuug Injection,626025
-Cerliponase alfa,Cerliponase alfa Injection,624045
-Lerodalcibep,Lerodalcibep-liga Injection,626018
-Halcinonide,Halcinonide Topical,682272
-Zenocutuzumab,Zenocutuzumab-zbco Injection,625011
-Oxazepam acetate,Oxazepam,682050
-Exenatide,Exenatide Injection,605034
-Cefepime,Cefepime Injection,698021
-Penpulimab,Penpulimab-kcqx Injection,625068
-Riboflavin,Riboflavin 5'-phosphate ophthalmic,625119
-Ramucirumab,Ramucirumab Injection,614026
-Tralokinumab,Tralokinumab-ldrm injection,622011
-Bamlanivimab,Bamlanivimab Injection,620062
-Etoposide toniribate,Etoposide,684055
-Denosumab,Denosumab Injection,610023
-Vedolizumab,Vedolizumab Injection,614034
-Quinaprilat,Quinapril,692026
-Donanemab,Donanemab-azbt injection,624048
-Trastuzumab,Trastuzumab Injection,699019
-Nedosiran,Nedosiran Injection,624010
-Omalizumab,Omalizumab Injection,603031
-Canakinumab,Canakinumab Injection,622024
-Nafcillin,Nafcillin Injection,685019
-Cyclopentolate,Cyclopentolate Ophthalmic,616014
-Interferon Gamma,Interferon Gamma-1b Injection,601152
-Atezolizumab,Atezolizumab Injection,616035
-Uridine,Uridine Triacetate,616020
-Nemolizumab,Nemolizumab-ilto injection,624059
-Luliconazole,Luliconazole Topical,614020
-Alprostadil,Alprostadil Urogenital,695022
-Stavudine triphosphate,Stavudine,694033
-(+)-Mefloquine,Mefloquine,603030
-Daptomycin,Daptomycin Injection,608045
-Amisulpride,Amisulpride Injection,622062
-Loteprednol,Loteprednol Ophthalmic,619025
-Pirbuterol,Pirbuterol Acetate Oral Inhalation,601096
-Oxacillin,Oxacillin Injection,685020
-DaxibotulinumtoxinA,DaxibotulinumtoxinA-lanm,622066
-Nedocromil,Nedocromil Ophthalmic,601243
-Zolbetuximab,Zolbetuximab-clzb Injection,624072
-Anacaulase,Anacaulase-bcdb topical,624067
-Zanamivir,Zanamivir Oral Inhalation,699021
-Tirzepatide,Tirzepatide injection,622044
-Fluocinonide,Fluocinonide Topical,601054
-Treprostinil palmitil,Treprostinil,622040
-Marstacimab,Marstacimab-hncq injection,624071
-Difelikefalin,Difelikefalin Injection,622055
-Mipomersen,Mipomersen Injection,613023
-Mitoxantrone,Mitoxantrone Injection,608019
-Abatacept,Abatacept Injection,606016
-Medroxyprogesterone acetate,Medroxyprogesterone,682470
-Tezepelumab,Tezepelumab Injection,622010
-Nogapendekin alfa,Nogapendekin alfa inbakicept-pmln Intravesical,624034
-Atropine,Atropine Ophthalmic,682487
-Rasburicase,Rasburicase Injection,610008
-Baloxavir,Baloxavir Marboxil,618062
-Retifanlimab,Retifanlimab-dlwr Injection,623017
-Evolocumab,Evolocumab Injection,615043
-Scopolamine,Scopolamine Transdermal Patch,682509
-Thiamine,Thiamine (Vitamin B1),682586
-Acoltremon,Acoltremon Ophthalmic,625071
-Deferoxamine,Deferoxamine Injection,625110
-Galcanezumab,Galcanezumab-gnlm Injection,618063
-Enalaprilat,Enalapril,686022
-Etanercept,Etanercept Injection,602013
-Lifileucel,Lifileucel Injection,624019
-Cisplatin,Cisplatin Injection,684036
-Trandolaprilat,Trandolapril,697010
-Sutimlimab,Sutimlimab-jome Injection,622048
-Inebilizumab,Inebilizumab-cdon Injection,625074
-Tesamorelin,Tesamorelin Injection,611035
-Elivaldogene autotemcel,Elivaldogene autotemcel Injection,622071
-Sacituzumab govitecan,Sacituzumab govitecan-hziy Injection,620034
-Fludrocortisone,Fludrocortisone Acetate,682549
-Palivizumab,Palivizumab Injection,698034
-Romiplostim,Romiplostim Injection,609008
-Brolucizumab,Brolucizumab-dbll Injection,620001
-Rabbit,Anti-thymocyte Globulin (Rabbit) Injection,626020
-Berdazimer,Berdazimer Topical,624007
-Cefoxitin,Cefoxitin Injection,682737
-Belinostat,Belinostat Injection,614035
-Reslizumab,Reslizumab Injection,616023
-Terlipressin,Terlipressin Injection,625010
-Pyridoxine phosphate,Pyridoxine,682587
-Besifloxacin,Besifloxacin Ophthalmic,610011
-Mecasermin,Mecasermin Injection,622026
-Ixabepilone,Ixabepilone Injection,608042
-Brodalumab,Brodalumab Injection,617009
-Dipivefrin,Dipivefrin Ophthalmic,686005
-Romosozumab,Romosozumab-aqqg Injection,619026
-Polatuzumab vedotin,Polatuzumab vedotin-piiq Injection,619039
-Cefotetan,Cefotetan Injection,686015
-Pegaspargase,Pegaspargase Injection,695031
-Vinblastine N-oxide,Vinblastine,682848
-Benazeprilat,Benazepril,692011
-Levodopa,Levodopa Oral Inhalation,619018
-Fosphenytoin,Fosphenytoin Injection,619063
-Lonapegsomatropin,Lonapegsomatropin-tcgd injection,622017
-Somatrogon,Somatrogon-ghla injection,623041
-Niacinamide ascorbate,Niacin,682518
-Clioquinol,Clioquinol Topical,682367
-Tislelizumab,Tislelizumab-jsgr injection,624026
-L-Eflornithine,Eflornithine,624008
-Teduglutide,Teduglutide Injection,613019
-Dinoprost,Dinoprostone,682512
-Melphalan flufenamide,Melphalan,682220
-Procaine,Penicillin G Procaine Injection,615052
-Pegaptanib,Pegaptanib Injection,607057
-Onasemnogene abeparvovec,Onasemnogene abeparvovec-xioi Injection,626009
-Heparin,Heparin Injection,682826
-Plazomicin,Plazomicin Injection,618037
-Setmelanotide,Setmelanotide Injection,622059
-Spinosad,Spinosad Topical,611012
-Dabigatran etexilate,Dabigatran,610024
-Beremagene geperpavec,Beremagene geperpavec-svdt,623026
-Unoprostone,Unoprostone Ophthalmic,613036
-Depemokimab,Depemokimab-ulaa Injection,626019
-Infliximab,Infliximab Injection,604023
-Bortezomib,Bortezomib Injection,607007
-Crisaborole,Crisaborole Topical,617019
-Brexanolone,Brexanolone Injection,619037
-Emapalumab,Emapalumab-lzsg Injection,619024
-Leuprolide,Leuprolide Injection,685040
-Ibalizumab,Ibalizumab-uiyk Injection,618020
-Colistimethate,Colistimethate Injection,682860
-Goserelin,Goserelin Implant,601002
-Ibuprofen piconol,Ibuprofen,682159
-Rituximab,Rituximab Injection,607038
-L-Baclofen,Baclofen,682530
-Bremelanotide,Bremelanotide Injection,619054
-Naproxen etemesil,Naproxen,681029
-Epinastine,Epinastine Ophthalmic,604011
-Dostarlimab,Dostarlimab-gxly Injection,621030
-Peramivir,Peramivir Injection,614062
-Isoetharine,Isoetharine Oral Inhalation,682862
-Ifosfamide,Ifosfamide Injection,695023
-Tiotropium,Tiotropium Oral Inhalation,604018
-Oliceridine,Oliceridine Injection,622064
-Amivantamab,Amivantamab-vmjw Injection,621034
-Calaspargase pegol,Calaspargase pegol-mknl Injection,619015
-Tisotumab vedotin,Tisotumab vedotin-tftv,621054
-Margetuximab,Margetuximab-cmkb Injection,621004
-Enfuvirtide,Enfuvirtide Injection,603023
-Rotigotine,Rotigotine Transdermal Patch,607059
-Tafasitamab,Tafasitamab-cxix Injection,620053
-Fondaparinux,Fondaparinux Injection,612026
-Liothyronine I-131,Liothyronine,682462
-Tazarotene,Tazarotene Topical,616052
-Valrubicin,Valrubicin Intravesical,611021
-Palonosetron,Palonosetron Injection,610002
-Tipranavir C-14,Tipranavir,606009
-Formoterol,Formoterol Oral Inhalation,602023
-Diazoxide,Diazoxide Choline,625073
-Zanidatamab,Zanidatamab-hrli Injection,624078
-Tirbanibulin,Tirbanibulin Topical,621013
-Nalbuphine,Nalbuphine Injection,682668
-Nafarelin,Nafarelin Nasal Spray,601082
-Glofitamab,Glofitamab-gxbm,623046
-Oritavancin,Oritavancin Injection,614042
-Satralizumab,Satralizumab-mwge Injection,620065
-Cenegermin,Cenegermin-bkbj Ophthalmic,619001
-Cefotaxime,Cefotaxime Injection,682765
-Ramiprilat,Ramipril,692027
-Quinidine barbiturate,Quinidine,682396
-Etonogestrel,Etonogestrel Implant,625057
-Pentostatin,Pentostatin Injection,692004
-Ketamine,Ketamine Injection,626003
-Levoleucovorin,Levoleucovorin Injection,608044
-Pegfilgrastim,Pegfilgrastim Injection,607058
-Trabectedin,Trabectedin Injection,615059
-Trilaciclib,Trilaciclib Injection,621020
-Copanlisib,Copanlisib Injection,617044
-Thiotepa,Thiotepa Injection,682821
-Bebtelovimab,Bebtelovimab Injection,622014
-Mitomycin A,Mitomycin,682415
-Diflorasone,Diflorasone Topical,602019
-Emicizumab,Emicizumab-kxwh Injection,622046
-Anifrolumab,Anifrolumab-fnia Injection,621046
-Pembrolizumab,Pembrolizumab Injection,614048
-Eribulin,Eribulin Injection,611007
-Epcoritamab,Epcoritamab-bysp Injection,623023
-Brimonidine,Brimonidine Ophthalmic,601232
-Donidalorsen,Donidalorsen Injection,625098
-Dinutuximab,Dinutuximab Injection,615022
-Belimumab,Belimumab Injection,611027
-Durvalumab,Durvalumab Injection,617030
-Romidepsin,Romidepsin Injection,610005
-Motixafortide,Motixafortide Injection,624066
-Etripamil,Etripamil nasal spray,626015
-Cipaglucosidase alfa,Cipaglucosidase alfa-atga,623057
-Fludarabine,Fludarabine Injection,692003
-Pramlintide,Pramlintide Injection,605031
-Bezlotoxumab,Bezlotoxumab Injection,617003
-Efbemalenograstim alfa,Efbemalenograstim alfa-vuxw Injection,624001
-Eptinezumab,Eptinezumab-jjmr Injection,620022
-Rozanolixizumab,Rozanolixizumab-noli,623040
-Lovotibeglogene autotemcel,Lovotibeglogene autotemcel Injection,624020
-Blinatumomab,Blinatumomab Injection,614061
-Plozasiran,Plozasiran Injection,626006
-Silver,Silver Sulfadiazine,682598
-Lanadelumab,Lanadelumab-flyo injection,622035
-Aducanumab,Aducanumab-avwa Injection,621033
-Ketotifen,Ketotifen Ophthalmic,604033
-Foscarnet,Foscarnet Injection,601144
-Pozelimab,Pozelimab-bbfg Injection,623055
-Travoprost,Travoprost Ophthalmic,602027
-Etranacogene dezaparvovec,Etranacogene dezaparvovec-drlb Injection,623001
-Zilucoplan,Zilucoplan Injection,624002
-Aripiprazole lauroxil,Aripiprazole,603012
-Tapinarof,Tapinarof Topical,622049
-Garadacimab,Garadacimab-gxii Injection,625083
-Daratumumab,Daratumumab Injection,616002
-Gabapentin enacarbil,Gabapentin,694007
-Ciclopirox,Ciclopirox Topical,604021
+Isavuconazonium,Isavuconazonium,615031
+Methylphenidate,Methylphenidate,682188
+Etoposide,Etoposide,684055
+Apremilast,Apremilast,614022
+Clonidine,Clonidine,682243
+Perampanel,Perampanel,614006
+Quizartinib,Quizartinib,623034
+Sertraline,Sertraline,697048
+Neratinib,Neratinib,617034
+Bumetanide,Bumetanide,684051
+Crinecerfont,Crinecerfont,625009
+Methotrexate,Methotrexate,682019
+Tranylcypromine,Tranylcypromine,682088
+Disopyramide,Disopyramide,682408
+Aficamten,Aficamten,626021
+Telmisartan,Telmisartan,601249
+Buspirone,Buspirone,688005
+Diphenhydramine,Diphenhydramine,682539
+Solriamfetol,Solriamfetol,619040
+Naproxen,Naproxen,681029
+Famotidine,Famotidine,687011
+Entecavir,Entecavir,605028
+Gemfibrozil,Gemfibrozil,686002
+Busulfan,Busulfan,682248
+Midodrine,Midodrine,616030
+Erythromycin,Erythromycin,682381
+Moxidectin,Moxidectin,625105
+Lenalidomide,Lenalidomide,608001
+Dexmethylphenidate,Dexmethylphenidate,603014
+Vandetanib,Vandetanib,612007
+Methsuximide,Methsuximide,682028
+Treprostinil,Treprostinil,622040
+Montelukast,Montelukast,600014
+Berotralstat,Berotralstat,626011
+Sevelamer,Sevelamer,601248
+Velmanase alfa,Velmanase alfa,623015
+Nicardipine,Nicardipine,695032
+Amoxapine,Amoxapine,682202
+Atorvastatin,Atorvastatin,600045
+Paltusotine,Paltusotine,625106
+Pyrazinamide,Pyrazinamide,682402
+Amiodarone,Amiodarone,687009
+Escitalopram,Escitalopram,603005
+Alpelisib,Alpelisib,619036
+Zidovudine,Zidovudine,687007
+Sunitinib,Sunitinib,607052
+Pantoprazole,Pantoprazole,601246
+Vericiguat,Vericiguat,621014
+Secnidazole,Secnidazole,617052
+Minocycline,Minocycline,682101
+Cefditoren,Cefditoren,605003
+Atenolol,Atenolol,684031
+Oxiconazole,Oxiconazole,689004
+Floxuridine,Floxuridine,682006
+Primaquine,Primaquine,607037
+Levomilnacipran,Levomilnacipran,613048
+Moexipril,Moexipril,695018
+Candesartan,Candesartan,601033
+Secobarbital,Secobarbital,682386
+Isotretinoin,Isotretinoin,681043
+Givinostat,Givinostat,624025
+Vorasidenib,Vorasidenib,624055
+Sevabertinib,Sevabertinib,626007
+Perphenazine,Perphenazine,682165
+Zoliflodacin,Zoliflodacin,626017
+Phendimetrazine,Phendimetrazine,626013
+Dutasteride,Dutasteride,603001
+Fidaxomicin,Fidaxomicin,611040
+Abiraterone,Abiraterone,611046
+Megestrol,Megestrol,682003
+Fenoprofen,Fenoprofen,681026
+Lansoprazole,Lansoprazole,695020
+Bedaquiline,Bedaquiline,613022
+Dabigatran,Dabigatran,610024
+Ropinirole,Ropinirole,698013
+Indapamide,Indapamide,684062
+Aprocitentan,Aprocitentan,624023
+Avacopan,Avacopan,622023
+Mitapivat,Mitapivat,622018
+Trospium,Trospium,604037
+Diethylpropion,Diethylpropion,682037
+Lazertinib,Lazertinib,624058
+Nintedanib,Nintedanib,615009
+Procainamide,Procainamide,682398
+Acitretin,Acitretin,601010
+Pyridoxine,Pyridoxine,682587
+Cefpodoxime,Cefpodoxime,698024
+Terbutaline,Terbutaline,682144
+Miglitol,Miglitol,601079
+Modafinil,Modafinil,602016
+Tiagabine,Tiagabine,698014
+Clobazam,Clobazam,612008
+Ethosuximide,Ethosuximide,682327
+Fedratinib,Fedratinib,619058
+Venlafaxine,Venlafaxine,694020
+Crizotinib,Crizotinib,612018
+Acebutolol,Acebutolol,687003
+Vorapaxar,Vorapaxar,614044
+Mitotane,Mitotane,608050
+Telbivudine,Telbivudine,607045
+Dronabinol,Dronabinol,607054
+Tolnaftate,Tolnaftate,682617
+Lesinurad,Lesinurad,616015
+Ribociclib,Ribociclib,617008
+Fosinopril,Fosinopril,692020
+Quinidine,Quinidine,682396
+Nitazoxanide,Nitazoxanide,603017
+Temsirolimus,Temsirolimus,607071
+Misoprostol,Misoprostol,689009
+Oxymorphone,Oxymorphone,610022
+Fluvastatin,Fluvastatin,694010
+Probenecid,Probenecid,682395
+Hyoscyamine,Hyoscyamine,684010
+Vorinostat,Vorinostat,607050
+Selenium Sulfide,Selenium Sulfide,682258
+Ertugliflozin,Ertugliflozin,618011
+Anastrozole,Anastrozole,696018
+Istradefylline,Istradefylline,619053
+Meprobamate,Meprobamate,682077
+Rabeprazole,Rabeprazole,699060
+Amlexanox,Amlexanox,601017
+Phentermine,Phentermine,682187
+Rolapitant,Rolapitant,615041
+Selegiline,Selegiline,697046
+Eluxadoline,Eluxadoline,615054
+Elagolix,Elagolix,618044
+Lisdexamfetamine,Lisdexamfetamine,607047
+Vemurafenib,Vemurafenib,612009
+Saxagliptin,Saxagliptin,610003
+Diphenoxylate,Diphenoxylate,601045
+Prednisone,Prednisone,601102
+Eltrombopag,Eltrombopag,609011
+Azithromycin,Azithromycin,697037
+Vismodegib,Vismodegib,612010
+Etrasimod,Etrasimod,623050
+Vibegron,Vibegron,621015
+Ranolazine,Ranolazine,606015
+Olanzapine,Olanzapine,601213
+Delavirdine,Delavirdine,600034
+Papaverine,Papaverine,682707
+Pramipexole,Pramipexole,697029
+Potassium,Potassium,601099
+Fostamatinib,Fostamatinib,618025
+Acalabrutinib,Acalabrutinib,618004
+Cilostazol,Cilostazol,601038
+Enzalutamide,Enzalutamide,612033
+Vimseltinib,Vimseltinib,625067
+Praziquantel,Praziquantel,608048
+Oxybutynin,Oxybutynin,682141
+Chlorpropamide,Chlorpropamide,682479
+Dextromethorphan,Dextromethorphan,682492
+Cobicistat,Cobicistat,616029
+Larotrectinib,Larotrectinib,619006
+Trazodone,Trazodone,681038
+Dolutegravir,Dolutegravir,613043
+Fenofibrate,Fenofibrate,601052
+Selumetinib,Selumetinib,620030
+Triamcinolone,Triamcinolone,601122
+Belumosudil,Belumosudil,621043
+Mirabegron,Mirabegron,612038
+Simvastatin,Simvastatin,692030
 Olodaterol,Olodaterol Oral Inhalation,615019
-Senna leaf,Senna,601112
-Tafluprost,Tafluprost Ophthalmic,612030
-Pralatrexate,Pralatrexate Injection,610001
-Axatilimab,Axatilimab-csfr Injection,624043
-Prednisone acetate,Prednisone,601102
-Ravulizumab,Ravulizumab-cwvz Injection,619014
-Remdesivir,Remdesivir Injection,620033
-Pegvaliase,Pegvaliase-pqpz Injection,618057
-Mycophenolate mofetil,Mycophenolate,601081
-Eslicarbazepine acetate,Eslicarbazepine,614032
-Bentoquatam,Bentoquatam Topical,607074
-Enfortumab vedotin,Enfortumab vedotin-ejfv Injection,620005
-Abacavir hydroxyacetate,Abacavir,699012
-Zavegepant,Zavegepant Nasal Spray,623065
-Indacaterol,Indacaterol Oral Inhalation,612014
-Bendamustine,Bendamustine Injection,608034
-Metronidazole benzoate,Metronidazole,689011
-Nivolumab,Nivolumab Injection,614056
-Ceftazidime,Ceftazidime Injection,686007
-Datopotamab deruxtecan,Datopotamab deruxtecan-dlnk Injection,625030
-Valoctocogene roxaparvovec,Valoctocogene roxaparvovec-rvox Injection,623064
-Dexrazoxane,Dexrazoxane Injection,609010
-Fitusiran,Fitusiran Injection,625058
-Gatifloxacin,Gatifloxacin Ophthalmic,605012
-Piroxicam cinnamate,Piroxicam,684045
-Defibrotide,Defibrotide Injection,616024
-Sugammadex,Sugammadex Injection,625008
-Dasiglucagon,Dasiglucagon Injection,621022
-Bepotastine,Bepotastine Ophthalmic,610012
-Telavancin,Telavancin Injection,610004
-Dexmedetomidine,Dexmedetomidine Injection,625003
-Netarsudil,Netarsudil Ophthalmic,618014
-Ublituximab,Ublituximab-xiiy injection,623008
-Pegcetacoplan,Pegcetacoplan Injection,621045
-Sucrose,Iron Sucrose Injection,614017
-Teplizumab,Teplizumab-mzwv injection,622077
-Obinutuzumab,Obinutuzumab Injection,614012
-Fulvestrant,Fulvestrant Injection,607031
-Clofarabine,Clofarabine Injection,607012
-Cefazolin,Cefazolin Injection,682731
-Tetracycline phosphate complex,Tetracycline,682098
-Desonide,Desonide Topical,605025
-Umeclidinium,Umeclidinium Oral Inhalation,614024
-Cefiderocol,Cefiderocol Injection,620008
-Icosapent,Icosapent Ethyl,613024
-Rilonacept,Rilonacept Injection,622030
-Naftifine,Naftifine Topical,688020
-Elamipretide,Elamipretide Injection,625103
-Ertapenem,Ertapenem Injection,614001
-Cantharidin,Cantharidin Topical,623044
-Idoxuridine,Idoxuridine Ophthalmic,601062
-Mepolizumab,Mepolizumab Injection,615058
-Faricimab,Faricimab-svoa Injection,624073
-Norepinephrine,Norepinephrine Injection,625019
-Enoxaparin,Enoxaparin Injection,601210
-Ipilimumab,Ipilimumab Injection,611023
-Pertuzumab,Pertuzumab Injection,612027
-Lecanemab,Lecanemab-irmb Injection,623004
-Sipuleucel-T,Sipuleucel-T Injection,611025
-Milrinone,Milrinone Injection,626002
-Podofilox,Podofilox Topical,625034
-Nepafenac,Nepafenac Ophthalmic,606007
-Imipramine oxide,Imipramine,682389
-Ixekizumab,Ixekizumab Injection,616025
-Nusinersen,Nusinersen Injection,617010
-Corticotropin,"Corticotropin, Repository Injection",613006
-Adefovir dipivoxil,Adefovir,605024
-Tagraxofusp,Tagraxofusp-erzs Injection,619022
-Golimumab,Golimumab Injection,610010
-Secukinumab,Secukinumab Injection,615011
-Nadofaragene firadenovec,Nadofaragene firadenovec-vncg Intravesical,623062
-Benralizumab,Benralizumab Injection,618002
-Bevacizumab,Bevacizumab Injection,607001
-Sotrovimab,Sotrovimab Injection,621037
-Sulconazole,Sulconazole Topical,698018
-Adalimumab,Adalimumab Injection,603010
+Natalizumab,Natalizumab Injection,605006
+Vedolizumab,Vedolizumab Injection,614034
+Butoconazole,Butoconazole Vaginal Cream,682012
+Brodalumab,Brodalumab Injection,617009
 Liraglutide,Liraglutide Injection,611003
-Pimecrolimus,Pimecrolimus Topical,603027
-Candesartan cilexetil,Candesartan,601033
-Betibeglogene autotemcel,Betibeglogene autotemcel Injection,622065
-Reteplase,Reteplase Injection,625038
-Megestrol acetate,Megestrol,682003
-Crovalimab,Crovalimab-akkz injection,624046
-Estramustine phosphate,Estramustine,608046
-Revefenacin,Revefenacin Oral Inhalation,619009
-Elotuzumab,Elotuzumab Injection,616001
-Tebentafusp,Tebentafusp injection,622033
-Norethindrone enanthate,Norethindrone,604034
-Sotatercept,Sotatercept-csrk Injection,624053
-Micafungin,Micafungin Injection,624050
-Lanreotide,Lanreotide Injection,615007
-Tigecycline,Tigecycline Injection,614002
-Olaparib-bodipy FL,Olaparib,614060
+Ketamine,Ketamine Injection,626003
+Evolocumab,Evolocumab Injection,615043
+Perfluorohexyloctane,Perfluorohexyloctane ophthalmic,623054
+Rotigotine,Rotigotine Transdermal Patch,607059
+Guselkumab,Guselkumab Injection,617036
+Teriparatide,Teriparatide Injection,603018
+Glofitamab,Glofitamab-gxbm,623046
+Zenocutuzumab,Zenocutuzumab-zbco Injection,625011
+Secukinumab,Secukinumab Injection,615011
+Icatibant,Icatibant injection,623036
+Chloramphenicol,Chloramphenicol Injection,608008
+Thiotepa,Thiotepa Injection,682821
+Brimonidine,Brimonidine Ophthalmic,601232
 Ustekinumab,Ustekinumab Injection,611013
-Abiraterone decanoate,Abiraterone,611046
+Tazarotene,Tazarotene Topical,616052
+Landiolol,Landiolol Injection,625060
+Oxaliplatin,Oxaliplatin Injection,607035
+Etranacogene dezaparvovec,Etranacogene dezaparvovec-drlb Injection,623001
+Fidanacogene elaparvovec,Fidanacogene elaparvovec-dzkt Injection,624028
+Sacituzumab govitecan,Sacituzumab govitecan-hziy Injection,620034
+Pegcetacoplan,Pegcetacoplan Injection,621045
+Nadofaragene firadenovec,Nadofaragene firadenovec-vncg Intravesical,623062
+Tavaborole,Tavaborole Topical,614049
+Formoterol,Formoterol Oral Inhalation,602023
+Brexanolone,Brexanolone Injection,619037
+Docetaxel,Docetaxel Injection,696031
+Fosaprepitant,Aprepitant/Fosaprepitant Injection,617042
+Pemivibart,Pemivibart injection,624061
+Efinaconazole,Efinaconazole Topical,614050
+Indacaterol,Indacaterol Oral Inhalation,612014
+Aztreonam,Aztreonam Injection,687010
+Ensifentrine,Ensifentrine Oral Inhalation,624040
+Tofersen,Tofersen Injection,623024
+Gadolinium,Gadolinium-based Contrast Agents,624076
+Verteporfin,Verteporfin Injection,607060
+Cyclopentolate,Cyclopentolate Ophthalmic,616014
+Sutimlimab,Sutimlimab-jome Injection,622048
+Pegaspargase,Pegaspargase Injection,695031
+Foscarnet,Foscarnet Injection,601144
+Canakinumab,Canakinumab Injection,622024
+Trifarotene,Trifarotene Topical,620004
+Teplizumab,Teplizumab-mzwv injection,622077
+Talquetamab,Talquetamab-tgvs,623047
+Mycophenolate mofetil,Mycophenolate,601081
+Silver,Silver Sulfadiazine,682598
+Sucrose,Iron Sucrose Injection,614017
+Nivolumab,Nivolumab Injection,614056
+Imiquimod,Imiquimod Topical,698010
+Nafarelin,Nafarelin Nasal Spray,601082
+Trabectedin,Trabectedin Injection,615059
+Tenofovir,Tenofovir disproxil fumarate,625081
+Cabazitaxel,Cabazitaxel Injection,611009
+Revefenacin,Revefenacin Oral Inhalation,619009
+Travoprost,Travoprost Ophthalmic,602027
+Tirzepatide,Tirzepatide injection,622044
+Palopegteriparatide,Palopegteriparatide Injection,624051
+Nedocromil,Nedocromil Ophthalmic,601243
+Inclisiran,Inclisiran injection,622009
+Luspatercept,Luspatercept-aamt Injection,620043
+Isatuximab,Isatuximab-irfc Injection,620023
+Cefotetan,Cefotetan Injection,686015
+Crizanlizumab,Crizanlizumab-tmca Injection,620010
+Golimumab,Golimumab Injection,610010
+Berdazimer,Berdazimer Topical,624007
+Ramucirumab,Ramucirumab Injection,614026
+Dobutamine,Dobutamine Injection,625018
+Fitusiran,Fitusiran Injection,625058
+Panitumumab,Panitumumab Injection,607066
+Apraclonidine,Apraclonidine Ophthalmic,608005
+Sertaconazole,Sertaconazole Topical,608047
+Clofarabine,Clofarabine Injection,607012
+Tarlatamab,Tarlatamab-dlle Injection,624037
+Caplacizumab,Caplacizumab-yhdp Injection,619030
+Tirbanibulin,Tirbanibulin Topical,621013
+Lebrikizumab,Lebrikizumab-lbkz Injection,624064
+Difelikefalin,Difelikefalin Injection,622055
+Desonide,Desonide Topical,605025
+Beremagene geperpavec,Beremagene geperpavec-svdt,623026
+Penciclovir,Penciclovir Cream,697027
+Infliximab,Infliximab Injection,604023
+Bebtelovimab,Bebtelovimab Injection,622014
+Zanidatamab,Zanidatamab-hrli Injection,624078
+Datopotamab deruxtecan,Datopotamab deruxtecan-dlnk Injection,625030
+Dostarlimab,Dostarlimab-gxly Injection,621030
+Penpulimab,Penpulimab-kcqx Injection,625068
+Pegvaliase,Pegvaliase-pqpz Injection,618057
+Pembrolizumab,Pembrolizumab Injection,614048
+Retifanlimab,Retifanlimab-dlwr Injection,623017
+Neomycin,Neomycin Topical,682274
+Bezlotoxumab,Bezlotoxumab Injection,617003
+Sibeprenlimab,Sibeprenlimab-szsi Injection,626008
+Fludarabine,Fludarabine Injection,692003
+Esketamine,Esketamine Nasal Spray,619017
+Tagraxofusp,Tagraxofusp-erzs Injection,619022
+Flurandrenolide,Flurandrenolide Topical,601055
+Hepatitis B Vaccine (Recombinant),Hepatitis B Vaccine,607014
+Palivizumab,Palivizumab Injection,698034
+Pentostatin,Pentostatin Injection,692004
+Tremelimumab,Tremelimumab-actl Injection,622078
+Olezarsen,Olezarsen Injection,625020
+Difamilast,Difamilast Topical,626032
+Lecanemab,Lecanemab-irmb Injection,623004
+Etonogestrel,Etonogestrel Implant,625057
+Romidepsin,Romidepsin Injection,610005
+Epinastine,Epinastine Ophthalmic,604011
+Albiglutide,Albiglutide Injection,614031
+Eravacycline,Eravacycline Injection,618047
+Cefotaxime,Cefotaxime Injection,682765
+Mepolizumab,Mepolizumab Injection,615058
+Cipaglucosidase alfa,Cipaglucosidase alfa-atga,623057
+Permethrin,Permethrin Topical,698037
+Levodopa,Levodopa Oral Inhalation,619018
+Nepafenac,Nepafenac Ophthalmic,606007
+Filgrastim,Filgrastim Injection,692033
+Pirbuterol,Pirbuterol Acetate Oral Inhalation,601096
+Cefepime,Cefepime Injection,698021
+Trastuzumab,Trastuzumab Injection,699019
+Enfortumab vedotin,Enfortumab vedotin-ejfv Injection,620005
+Bepotastine,Bepotastine Ophthalmic,610012
+Narsoplimab,Narsoplimab-wuug Injection,626025
+Atropine,Atropine Ophthalmic,682487
+Adalimumab,Adalimumab Injection,603010
+Agalsidase beta,Agalsidase beta Injection,623025
+Spesolimab,Spesolimab-sbzo injection,624054
+Metipranolol,Metipranolol Ophthalmic,601078
+Necitumumab,Necitumumab Injection,616009
+Donanemab,Donanemab-azbt injection,624048
+"Thyroid, porcine",Thyroid,682475
+Dipivefrin,Dipivefrin Ophthalmic,686005
+Romiplostim,Romiplostim Injection,609008
+Cidofovir,Cidofovir Injection,696037
+Linvoseltamab,Linvoseltamab-gcpt Injection,625085
+Amisulpride,Amisulpride Injection,622062
+Pegfilgrastim,Pegfilgrastim Injection,607058
+Bentoquatam,Bentoquatam Topical,607074
+Sipuleucel-T,Sipuleucel-T Injection,611025
+Cholestyramine,Cholestyramine Resin,682672
+Meropenem,Meropenem Injection,696038
+Eribulin,Eribulin Injection,611007
+Tebentafusp,Tebentafusp injection,622033
+Denosumab,Denosumab Injection,610023
+Fulvestrant,Fulvestrant Injection,607031
+Cantharidin,Cantharidin Topical,623044
+Mitoxantrone,Mitoxantrone Injection,608019
+Belinostat,Belinostat Injection,614035
+Alirocumab,Alirocumab Injection,615035
+Dulaglutide,Dulaglutide Injection,614047
+Emicizumab,Emicizumab-kxwh Injection,622046
+Halcinonide,Halcinonide Topical,682272
+Teduglutide,Teduglutide Injection,613019
+Cemiplimab,Cemiplimab-rwlc Injection,618054
+Dupilumab,Dupilumab Injection,617021
+Tislelizumab,Tislelizumab-jsgr injection,624026
+Ravulizumab,Ravulizumab-cwvz Injection,619014
+Clobetasol,Clobetasol Topical,686008
+Goserelin,Goserelin Implant,601002
+Levobunolol,Levobunolol Ophthalmic,686011
+Mogamulizumab,Mogamulizumab-kpkc Injection,618064
+Tralokinumab,Tralokinumab-ldrm injection,622011
+Terlipressin,Terlipressin Injection,625010
+Pegunigalsidase alfa,Pegunigalsidase alfa-iwxj Injection,623031
+Pozelimab,Pozelimab-bbfg Injection,623055
+Ertapenem,Ertapenem Injection,614001
+Efgartigimod alfa,Efgartigimod alfa-fcab Injection,622057
+Colistimethate,Colistimethate Injection,682860
+Doripenem,Doripenem Injection,608015
+Romosozumab,Romosozumab-aqqg Injection,619026
+Crisaborole,Crisaborole Topical,617019
+Delandistrogene moxeparvovec,Delandistrogene moxeparvovec-rokl Injection,623058
+Loteprednol,Loteprednol Ophthalmic,619025
+Belimumab,Belimumab Injection,611027
+Abatacept,Abatacept Injection,606016
+Zolbetuximab,Zolbetuximab-clzb Injection,624072
+Durvalumab,Durvalumab Injection,617030
+Tezepelumab,Tezepelumab Injection,622010
+Cefiderocol,Cefiderocol Injection,620008
+Nalbuphine,Nalbuphine Injection,682668
+Delgocitinib,Delgocitinib Topical,625094
+Fluocinonide,Fluocinonide Topical,601054
+Rabbit,Anti-thymocyte Globulin (Rabbit) Injection,626020
+Pramlintide,Pramlintide Injection,605031
+Typhoid Vaccine Live,Typhoid Vaccine,607028
+Enoxaparin,Enoxaparin Injection,601210
+Lifitegrast,Lifitegrast Ophthalmic,616039
+Reteplase,Reteplase Injection,625038
+Pimecrolimus,Pimecrolimus Topical,603027
+Oliceridine,Oliceridine Injection,622064
+Copanlisib,Copanlisib Injection,617044
+Benralizumab,Benralizumab Injection,618002
+Elivaldogene autotemcel,Elivaldogene autotemcel Injection,622071
+Naftifine,Naftifine Topical,688020
+Micafungin,Micafungin Injection,624050
+Dasiglucagon,Dasiglucagon Injection,621022
+Arformoterol,Arformoterol Oral Inhalation,607061
+Tesamorelin,Tesamorelin Injection,611035
+Pegaptanib,Pegaptanib Injection,607057
+Somapacitan,Somapacitan-beco Injection,622020
 Acetylcysteine,Acetylcysteine Oral Inhalation,615021
+Ipilimumab,Ipilimumab Injection,611023
+Calaspargase pegol,Calaspargase pegol-mknl Injection,619015
+Glatiramer,Glatiramer Injection,603016
+Tapinarof,Tapinarof Topical,622049
+Lifileucel,Lifileucel Injection,624019
+Teniposide,Teniposide Injection,692045
+Bremelanotide,Bremelanotide Injection,619054
+Clioquinol,Clioquinol Topical,682367
+Zilucoplan,Zilucoplan Injection,624002
+Somatrogon,Somatrogon-ghla injection,623041
+Isoetharine,Isoetharine Oral Inhalation,682862
+Pemetrexed,Pemetrexed Injection,607043
+Heparin,Heparin Injection,682826
+Lodoxamide,Lodoxamide Ophthalmic,694014
+Avelumab,Avelumab Injection,617006
+Nirsevimab,Nirsevimab-alip,623033
+Deferoxamine,Deferoxamine Injection,625110
+Obinutuzumab,Obinutuzumab Injection,614012
+Sotatercept,Sotatercept-csrk Injection,624053
+Teprotumumab,Teprotumumab-trbw Injection,620025
 Salmeterol,Salmeterol Oral Inhalation,695001
+Daratumumab,Daratumumab Injection,616002
+Decitabine,Decitabine Injection,608009
+Toripalimab,Toripalimab-tpzi Injection,624004
+Cefazolin,Cefazolin Injection,682731
+Reslizumab,Reslizumab Injection,616023
+Elamipretide,Elamipretide Injection,625103
+Valoctocogene roxaparvovec,Valoctocogene roxaparvovec-rvox Injection,623064
+Brolucizumab,Brolucizumab-dbll Injection,620001
+Nelarabine,Nelarabine Injection,607077
+Eptinezumab,Eptinezumab-jjmr Injection,620022
+Unoprostone,Unoprostone Ophthalmic,613036
+Setmelanotide,Setmelanotide Injection,622059
+Chicken,Varicella (Chickenpox) Vaccine,607029
+Cosibelimab,Cosibelimab-ipdl Injection,625002
+Tenecteplase,Tenecteplase Injection,625007
+Nafcillin,Nafcillin Injection,685019
+Etanercept,Etanercept Injection,602013
+Teclistamab,Teclistamab-cqyv Injection,622076
+Econazole,Econazole Topical,684049
+Eculizumab,Eculizumab Injection,612024
+Anifrolumab,Anifrolumab-fnia Injection,621046
+Alteplase,Alteplase Injection,625001
+Betamethasone,Betamethasone Topical,682799
+Rilonacept,Rilonacept Injection,622030
+Sulfacetamide,Sulfacetamide Ophthalmic,601114
+Terconazole,"Terconazole Vaginal Cream, Vaginal Suppositories",688022
+Tisagenlecleucel,Tisagenlecleucel Injection,617053
+Lanadelumab,Lanadelumab-flyo injection,622035
+Tisotumab vedotin,Tisotumab vedotin-tftv,621054
+Becaplermin,Becaplermin Topical,699049
+Ixekizumab,Ixekizumab Injection,616025
+Elranatamab,Elranatamab-bcmm,623045
+Abaloparatide,Abaloparatide Injection,617038
+Etelcalcetide,Etelcalcetide Injection,617011
+Bendamustine,Bendamustine Injection,608034
+Levoleucovorin,Levoleucovorin Injection,608044
+Anacaulase,Anacaulase-bcdb topical,624067
+Histrelin,Histrelin Implant,601146
+Siltuximab,Siltuximab Injection,614028
+Caspofungin,Caspofungin Injection,615001
+Uridine,Uridine Triacetate,616020
+Oxacillin,Oxacillin Injection,685020
+Naxitamab,Naxitamab-gqgk Injection,621005
+Betibeglogene autotemcel,Betibeglogene autotemcel Injection,622065
+Amifostine,Amifostine Injection,696014
+Margetuximab,Margetuximab-cmkb Injection,621004
+Treosulfan,Treosulfan Injection,625065
+Prademagene zamikeracel,Prademagene zamikeracel topical,625079
+Garadacimab,Garadacimab-gxii Injection,625083
+Ketotifen,Ketotifen Ophthalmic,604033
+Bromfenac,Bromfenac Ophthalmic,611018
+Lanreotide,Lanreotide Injection,615007
+Vinorelbine,Vinorelbine Injection,695013
+Fremanezumab,Fremanezumab-vfrm Injection,618053
+Emapalumab,Emapalumab-lzsg Injection,619024
+Tafasitamab,Tafasitamab-cxix Injection,620053
+Aflibercept,Aflibercept Injection,612004
+Tafluprost,Tafluprost Ophthalmic,612030
+Ciclopirox,Ciclopirox Topical,604021
+Procaine,Penicillin G Procaine Injection,615052
+Erenumab,Erenumab-aooe Injection,618029
+Fludrocortisone,Fludrocortisone Acetate,682549
+Lurbinectedin,Lurbinectedin Injection,620049
+Luliconazole,Luliconazole Topical,614020
+Dalteparin,Dalteparin Injection,696006
+Ceftazidime,Ceftazidime Injection,686007
+Plazomicin,Plazomicin Injection,618037
+Efbemalenograstim alfa,Efbemalenograstim alfa-vuxw Injection,624001
+Clesrovimab,Clesrovimab-cfor Injection,625082
+Omalizumab,Omalizumab Injection,603031
+Pasireotide,Pasireotide Injection,622029
+Umeclidinium,Umeclidinium Oral Inhalation,614024
+Cerliponase alfa,Cerliponase alfa Injection,624045
+Polyethylene glycol,Polyethylene glycol-electrolyte solution (PEG-ES),601097
+Ibalizumab,Ibalizumab-uiyk Injection,618020
+Tildrakizumab,Tildrakizumab-asmn injection,618026
+Donidalorsen,Donidalorsen Injection,625098
+Pegloticase,Pegloticase Injection,611015
+Peramivir,Peramivir Injection,614062
+Faricimab,Faricimab-svoa Injection,624073
+Sugammadex,Sugammadex Injection,625008
+Pralatrexate,Pralatrexate Injection,610001
+Ceftriaxone,Ceftriaxone Injection,685032
+Rezafungin,Rezafungin Injection,623021
+Mipomersen,Mipomersen Injection,613023
+Dinutuximab,Dinutuximab Injection,615022
+Diflorasone,Diflorasone Topical,602019
+Dexrazoxane,Dexrazoxane Injection,609010
+Polatuzumab vedotin,Polatuzumab vedotin-piiq Injection,619039
+Nipocalimab,Nipocalimab-aahu Injection,625078
+Dalbavancin,Dalbavancin Injection,614036
+Plozasiran,Plozasiran Injection,626006
+Nogapendekin alfa,Nogapendekin alfa inbakicept-pmln Intravesical,624034
+Nemolizumab,Nemolizumab-ilto injection,624059
+Onasemnogene abeparvovec,Onasemnogene abeparvovec-xioi Injection,626009
+Tiotropium,Tiotropium Oral Inhalation,604018
+Desoximetasone,Desoximetasone Topical,605026
+Interferon Gamma,Interferon Gamma-1b Injection,601152
+Baloxavir,Baloxavir Marboxil,618062
+Daclizumab,Daclizumab Injection,616036
+Marstacimab,Marstacimab-hncq injection,624071
+Difluprednate,Difluprednate Ophthalmic,609025
+Ixabepilone,Ixabepilone Injection,608042
+Acoltremon,Acoltremon Ophthalmic,625071
+Lerodalcibep,Lerodalcibep-liga Injection,626018
+Thiamine,Thiamine (Vitamin B1),682586
+Telavancin,Telavancin Injection,610004
+Senna leaf,Senna,601112
+Dorzolamide,Dorzolamide Ophthalmic,697049
+Riboflavin,Riboflavin 5'-phosphate ophthalmic,625119
+Alprostadil,Alprostadil Urogenital,695022
+Propofol,Propofol Injection,625006
+Evinacumab,Evinacumab-dgnb Injection,621023
+Idoxuridine,Idoxuridine Ophthalmic,601062
+Cetuximab,Cetuximab Injection,607041
+Scopolamine,Scopolamine Transdermal Patch,682509
+Olaratumab,Olaratumab Injection,616053
+Motixafortide,Motixafortide Injection,624066
+Alcaftadine,Alcaftadine Ophthalmic,611022
+Netarsudil,Netarsudil Ophthalmic,618014
+Zanamivir,Zanamivir Oral Inhalation,699021
+Aceclidine,Aceclidine Ophthalmic,625091
+Brinzolamide,Brinzolamide Ophthalmic,601233
+Gatifloxacin,Gatifloxacin Ophthalmic,605012
+Zavegepant,Zavegepant Nasal Spray,623065
+Oxytocin,Oxytocin Injection,682685
+Palonosetron,Palonosetron Injection,610002
+Lonapegsomatropin,Lonapegsomatropin-tcgd injection,622017
+Concizumab,Concizumab-mtci Injection,625040
+Burosumab,Burosumab-twza Injection,618034
+Atezolizumab,Atezolizumab Injection,616035
+Amivantamab,Amivantamab-vmjw Injection,621034
+Norepinephrine,Norepinephrine Injection,625019
+Vutrisiran,Vutrisiran Injection,622061
+Bortezomib,Bortezomib Injection,607007
+Bamlanivimab,Bamlanivimab Injection,620062
+DaxibotulinumtoxinA,DaxibotulinumtoxinA-lanm,622066
+Elotuzumab,Elotuzumab Injection,616001
+Ferumoxytol,Ferumoxytol Injection,614023
+Risankizumab,Risankizumab-rzaa Injection,619035
+Dexmedetomidine,Dexmedetomidine Injection,625003
+Nedosiran,Nedosiran Injection,624010
+Eladocagene exuparvovec,Eladocagene exuparvovec-tneq Injection,624080
+Trilaciclib,Trilaciclib Injection,621020
+Pertuzumab,Pertuzumab Injection,612027
+Rozanolixizumab,Rozanolixizumab-noli,623040
+Diazoxide,Diazoxide Choline,625073
+Fluocinolone,Fluocinolone Topical,682271
+Spinosad,Spinosad Topical,611012
+Aducanumab,Aducanumab-avwa Injection,621033
+Rituximab,Rituximab Injection,607038
+Malathion,Malathion Topical,611010
+Ublituximab,Ublituximab-xiiy injection,623008
+Degarelix,Degarelix Injection,609022
+Mosunetuzumab,Mosunetuzumab-axgb Injection,623007
+Sulconazole,Sulconazole Topical,698018
+Prasterone,Prasterone Vaginal,617012
+Mirikizumab,Mirikizumab-mrkz Injection,623061
+Talc,Talc Intrapleural,608011
+Corticotropin,"Corticotropin, Repository Injection",613006
+Etripamil,Etripamil nasal spray,626015
+Nusinersen,Nusinersen Injection,617010
+Imetelstat,Imetelstat Injection,624035
+Norethindrone enanthate,Norethindrone,604034
+Galcanezumab,Galcanezumab-gnlm Injection,618063
+Satralizumab,Satralizumab-mwge Injection,620065
+Exenatide,Exenatide Injection,605034
+Oritavancin,Oritavancin Injection,614042
+Depemokimab,Depemokimab-ulaa Injection,626019
+Tocilizumab,Tocilizumab Injection,611004
+Glycopyrronium,Glycopyrronium Topical,618046
+Medroxyprogesterone acetate,Medroxyprogesterone,682470
+Epcoritamab,Epcoritamab-bysp Injection,623023
+Besifloxacin,Besifloxacin Ophthalmic,610011
+Lovotibeglogene autotemcel,Lovotibeglogene autotemcel Injection,624020
+Oral Polio Vaccine,Polio Vaccine,601177
+Inebilizumab,Inebilizumab-cdon Injection,625074
+Leuprolide,Leuprolide Injection,685040
+Eosin,Budesonide Oral Suspension (Eosinophilic Esophagitis),624013
+Rasburicase,Rasburicase Injection,610008
+Valrubicin,Valrubicin Intravesical,611021
+Plerixafor,Plerixafor Injection,609018
+Bevacizumab,Bevacizumab Injection,607001
+Icosapent,Icosapent Ethyl,613024
+Belatacept,Belatacept Injection,612011
+Mupirocin,Mupirocin topical,688004
+Cefoxitin,Cefoxitin Injection,682737
+Defibrotide,Defibrotide Injection,616024
+Sarilumab,Sarilumab Injection,617032
+Enfuvirtide,Enfuvirtide Injection,603023
+Milrinone,Milrinone Injection,626002
+Mecasermin,Mecasermin Injection,622026
+Podofilox,Podofilox Topical,625034
+Cenegermin,Cenegermin-bkbj Ophthalmic,619001
+Ocrelizumab,Ocrelizumab Injection,617026
+Blinatumomab,Blinatumomab Injection,614061
+Crovalimab,Crovalimab-akkz injection,624046
+Barium,Barium Sulfate,606010
+Tigecycline,Tigecycline Injection,614002
+Fondaparinux,Fondaparinux Injection,612026
+Lixisenatide,Lixisenatide Injection,617005
+Triptorelin,Triptorelin Injection,611047
+Aclidinium,Aclidinium Oral Inhalation,613001
+"Japanese Encephalitis Vaccine, Inactivated, Adsorbed",Japanese Encephalitis Vaccine,607019
+Copper,Copper Histidinate Injection,626027
+Bimekizumab,Bimekizumab-bkzx injection,623049
+Fosphenytoin,Fosphenytoin Injection,619063
+Daptomycin,Daptomycin Injection,608045
+Carboplatin,Carboplatin Injection,695017
+Omidubicel,Omidubicel-onlv Injection,626012
+Axatilimab,Axatilimab-csfr Injection,624043
+Tropicamide,Tropicamide Ophthalmic,625117
+Carfilzomib,Carfilzomib Injection,612031
+Remdesivir,Remdesivir Injection,620033
+Cisplatin,Cisplatin Injection,684036
+Ifosfamide,Ifosfamide Injection,695023
+Eplontersen,Eplontersen injection,624017
+Sotrovimab,Sotrovimab Injection,621037
+Brentuximab,Brentuximab Vedotin Injection,611052
