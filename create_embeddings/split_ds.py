@@ -8,7 +8,7 @@ input_path = "./datasets"
 base_name = os.path.splitext(os.path.basename(input_path))[0]
 output_dir = os.path.dirname(input_path)
 
-data = torch.load("./datasets/final_dataset.pt")
+data = torch.load("./datasets/251_dataset.pt")
 
 # check data structure
 if isinstance(data, tuple) and len(data) == 2:
@@ -29,8 +29,8 @@ X_train, X_test = X[train_idx], X[test_idx]
 y_train, y_test = y[train_idx], y[test_idx]
 
 # save paths
-train_file = os.path.join(output_dir, f"{base_name}_train.pt")
-test_file  = os.path.join(output_dir, f"{base_name}_test.pt")
+train_file = os.path.join(output_dir, "251_train.pt")
+test_file  = os.path.join(output_dir, "251_test.pt")
 
 # save files
 torch.save((X_train, y_train), train_file)
