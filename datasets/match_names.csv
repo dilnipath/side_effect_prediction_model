@@ -1,4 +1,4 @@
-ml_name,db_name,ml_key
+db_name,ml_name,ml_key
 Levorphanol,Levorphanol,682020
 Solifenacin,Solifenacin,605019
 Etoposide,Etoposide,684055
@@ -585,7 +585,6 @@ Atenolol,Atenolol,684031
 Ubrogepant,Ubrogepant,620016
 Belzutifan,Belzutifan,621047
 Maraviroc,Maraviroc,607076
-Hepatitis A Vaccine,Hepatitis A Vaccine,695003
 Donepezil,Donepezil,697032
 Nabumetone,Nabumetone,692022
 Cannabidiol,Cannabidiol,618051
@@ -1069,17 +1068,14 @@ Brentuximab,Brentuximab Vedotin Injection,611052
 Omidubicel,Omidubicel-onlv Injection,626012
 Loperamide oxide,Loperamide,682280
 Histrelin,Histrelin Implant,601146
-Hepatitis B Vaccine (Recombinant),Hepatitis B Vaccine,607014
 Moexiprilat,Moexipril,695018
 Caplacizumab,Caplacizumab-yhdp Injection,619030
 Albiglutide,Albiglutide Injection,614031
-Typhoid Vaccine Live,Typhoid Vaccine,607028
 Nipocalimab,Nipocalimab-aahu Injection,625078
 Arformoterol,Arformoterol Oral Inhalation,607061
 Sulfacetamide,Sulfacetamide Ophthalmic,601114
 Apraclonidine,Apraclonidine Ophthalmic,608005
 Ferumoxytol,Ferumoxytol Injection,614023
-Chicken,Varicella (Chickenpox) Vaccine,607029
 Crizanlizumab,Crizanlizumab-tmca Injection,620010
 Sertaconazole,Sertaconazole Topical,608047
 Aclidinium,Aclidinium Oral Inhalation,613001
@@ -1118,7 +1114,6 @@ Stavudine triphosphate,Stavudine,694033
 Daptomycin,Daptomycin Injection,608045
 Amisulpride,Amisulpride Injection,622062
 Loteprednol,Loteprednol Ophthalmic,619025
-"Japanese Encephalitis Vaccine, Inactivated, Adsorbed",Japanese Encephalitis Vaccine,607019
 Pirbuterol,Pirbuterol Acetate Oral Inhalation,601096
 Oxacillin,Oxacillin Injection,685020
 DaxibotulinumtoxinA,DaxibotulinumtoxinA-lanm,622066
@@ -1343,7 +1338,6 @@ Tetracycline phosphate complex,Tetracycline,682098
 Desonide,Desonide Topical,605025
 Umeclidinium,Umeclidinium Oral Inhalation,614024
 Cefiderocol,Cefiderocol Injection,620008
-Oral Polio Vaccine,Polio Vaccine,601177
 Icosapent,Icosapent Ethyl,613024
 Rilonacept,Rilonacept Injection,622030
 Naftifine,Naftifine Topical,688020
