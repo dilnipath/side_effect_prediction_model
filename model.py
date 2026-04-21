@@ -53,38 +53,37 @@ lr = 0.01       # was 0.6
 batch_size = 16  # was 1
 
 # I don't have these files so I wasn't able to test
-trainset = torch.load("./train_test_data/data_train_100.pt")
-testset = torch.load("./train_test_data/data_test_100.pt")
+trainset = torch.load("./train_test_data/train.pt")
+testset = torch.load("./train_test_data/test.pt")
 X_train_full, y_train_full = trainset[0], trainset[1]
 X_test, y_test = testset[0], testset[1]
 
-#TODO
-new_y_train = []
-for label_set in y_train_full:
-    cur = [0,0,0]
-    if label_set[1] == 1:
-        cur[0] = 1
-    if label_set[3] == 1:
-        cur[1] = 1
-    if label_set[4] == 1:  # TODO: address the overlap with line 64
-        cur[2] = 1
-    new_y_train.append(cur)
-y_train_full = torch.tensor(new_y_train)
+# new_y_train = []
+# for label_set in y_train_full:
+#     cur = [0,0,0]
+#     if label_set[1] == 1:
+#         cur[0] = 1
+#     if label_set[3] == 1:
+#         cur[1] = 1
+#     if label_set[4] == 1:  # TODO: address the overlap with line 64
+#         cur[2] = 1
+#     new_y_train.append(cur)
+# y_train_full = torch.tensor(new_y_train)
 
-new_y_test = []
-for label_set in y_test:
-    cur = [0,0,0]
-    if label_set[1] == 1:
-        cur[0] = 1
-    if label_set[3] == 1:
-        cur[1] = 1
-    if label_set[4] == 1:  # TODO: address the overlap with line 76
-        cur[2] = 1
-    new_y_test.append(cur)
-y_test = torch.tensor(new_y_test)
+# new_y_test = []
+# for label_set in y_test:
+#     cur = [0,0,0]
+#     if label_set[1] == 1:
+#         cur[0] = 1
+#     if label_set[3] == 1:
+#         cur[1] = 1
+#     if label_set[4] == 1:  # TODO: address the overlap with line 76
+#         cur[2] = 1
+#     new_y_test.append(cur)
+# y_test = torch.tensor(new_y_test)
 
 input_dim = X_train_full.shape[1]
-output_dim = 3
+output_dim = 4827
 
 X_train_np = X_train_full.numpy()
 y_train_np = y_train_full.numpy()
@@ -120,16 +119,18 @@ best_recall = 0
 patience = 20
 wait = 0
 
+
 for epoch in range(1, 101):
     model.train()
-    for X_batch, y_batch in train_loader:
+    loss_total = 0
+    for X_batch, y_batch in train_loader:   
         optimizer.zero_grad()
         outputs = model(X_batch)
-
         loss = criterion(outputs, y_batch)  # outputs kept in graph (no .detach())
-        loss.backward()                     # compute gradients — was missing
+        loss.backward()
+        loss_total+=loss.item()                    # compute gradients — was missing
         optimizer.step()
-        print("Loss", loss.item())
+        # print("Loss", loss.item())
     model.eval()
     y_pred = []
     with torch.no_grad():
@@ -138,6 +139,8 @@ for epoch in range(1, 101):
             y_pred.append(torch.sigmoid(out).cpu())
     y_pred = torch.cat(y_pred)
     y_pred_binary = (y_pred > 0.5).float()
+    print(loss_total/len(X_batch))
+    loss_total = 0
 
     acc = accuracy_score(y_val.cpu().numpy(), y_pred_binary.numpy())
     precision = precision_score(y_val.cpu().numpy(), y_pred_binary.numpy(), average="micro", zero_division=0)
