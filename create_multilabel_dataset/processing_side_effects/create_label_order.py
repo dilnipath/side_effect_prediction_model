@@ -24,6 +24,6 @@ for j,row in df.iterrows():
 
 print(sorted(dict1.items(), key=lambda item: item[1]))
 
-with open('label_order_251.txt', 'w') as f:
+with open('label_order_temp.txt', 'w') as f:
     for item in all_side_effects:
-        f.write(f"'{item}',")
+        f.write(f'"{item}",')

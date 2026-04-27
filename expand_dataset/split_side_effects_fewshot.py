@@ -12,7 +12,7 @@ db_names = drug_df[1250:]["db_name"]
 side_effects = drug_df[1250:]["side_effects"]
 
 split_side_effects = []
-
+4
 with open("datasets/fewshot_side_effects.csv", "a", encoding = "utf-8") as csvfile:
     fieldnames = ["ml_name", "side_effects", "db_name"]
     writer = csv.DictWriter(csvfile, fieldnames)
