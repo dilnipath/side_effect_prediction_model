@@ -7,6 +7,7 @@ generalized = {
 ("swelling of the eyes", "swelling of the face", "swelling of the lips","swelling of the throat", "swelling of the hands", "swelling of the feet", "swelling of the ankles", "swelling of the lower legs", "swelling of your face", "swelling of your tongue", "swelling of your throat", "swollen ankles", "swollen lower legs", "swollen face"): "edema",
 
 ("pain in the upper right part of the stomach", "pain in the upper right area of the stomach", "right upper abdominal pain", "pain in the right upper part of the stomach", "pain in right upper stomach area", "pain in the upper right side of the stomach"): "upper right abdominal pain",
+
 ("uncontrollable shaking of part of the body", "uncontrollable shaking of any part of the body", "shaking of your body that you cannot control", "shaking of a part of the body that you cannot control", "uncontrollable shaking of a part of your body"): "uncontrollable shaking",
 
 ("thoughts of suicide", "thoughts of dying", "thoughts of hurting yourself", "planning to hurt yourself", "trying to hurt yourself", "thinking about killing yourself", "suicidal thoughts"): "suicidal ideation or behavior",
@@ -17,7 +18,7 @@ generalized = {
 
 ("pain in hands", "pain in feet", "pain in other parts of the body", "pain in the hands", "pain in the feet", "pain in your hands", "pain in your feet"): "extremity pain",
 ("vision changes", "changes in vision", "blurred vision", "double vision", "vision loss", "sudden decrease of vision"): "vision problems",
-("sores in the mouth", "mouth sores", "sores on the lips", "sores on the mouth", "sores in your mouth", "mouth ulcers"): "oral sores",
+
 ("unexplained muscle pain", "unexplained muscle tenderness", "unexplained muscle weakness", "muscle aches", "muscle pain", "muscle cramps"): "muscle problems",
 ("bloody urine", "blood in urine", "red urine", "pink urine", "rust-colored urine"): "hematuria",
 
@@ -63,18 +64,10 @@ generalized = {
     "swelling where this medication was applied", 
     "swelling near the injection site"): "swelling where the medication was applied",
 
-("itching in a place where you injected this medication", 
-    "itching of the treated area", 
-    "itching where this medication was applied", 
-    "itching near the injection site"): "itching where the medication was applied",
-
 ("burning at the site where the injection was given", 
     "burning of the treated area", 
     "burning at the injection site", 
     "burning at the application site"): "burning where the medication was applied",
-
-("blisters in the place where this medication was injected", 
-    "blisters near the injection site"): "blisters where the medication was applied",
 
 ("sores in the place where this medication was injected", 
     "sores in the mouth in the area where you placed this medication", 
@@ -126,13 +119,13 @@ generalized = {
 
 ("hives on arms","hives on lower legs","hives on buttocks","hives on trunk"): "hives on parts of body",
 
-("seeing things that do not exist", "hallucinating", "hearing voices that do not exist", 'hallucinations while going to sleep', 'hallucinations while waking up','hallucinations', 'hallucination'): "hallucinatinf",
+("seeing things that do not exist", "hallucinating", "hearing voices that do not exist", 'hallucinations while going to sleep', 'hallucinations while waking up','hallucinations', 'hallucination'): "hallucinating",
 
 ("feeling unsteady","trouble keeping your balance"): "Feeling Unsteady",
 
 ("blistering of the skin","blisters of the skin"): "Blistering Skin",
 
-("itching in the area where this medication was injected", "itching near the spot that this medication was injected", "itching at the spot that this medication was injected", "itching that occurs a few days after stopping this medication after taking for a long time", "itching near the spot this medication was injected", "itching in the place this medication was injected", "itching at the place where this medication was applied", "itching at the place where you applied this medication", "itching in the place where you applied this medication", "itching near the spot where this medication was injected", "itching at the place where this medication was inserted", "itching of the skin where you injected this medication", "itching where the medication was applied", "itching at the injection site", "injection site itching", "itching at injection site", "itchiness at the injection site", "itching at the this medication injection site"): "itchiness where the medication was applied",
+("itching in the area where this medication was injected", "itching near the spot that this medication was injected", "itching at the spot that this medication was injected", "itching that occurs a few days after stopping this medication after taking for a long time", "itching near the spot this medication was injected", "itching in the place this medication was injected", "itching at the place where this medication was applied", "itching at the place where you applied this medication", "itching in the place where you applied this medication", "itching near the spot where this medication was injected", "itching at the place where this medication was inserted", "itching of the skin where you injected this medication", "itching where the medication was applied", "itching at the injection site", "injection site itching", "itching at injection site", "itchiness at the injection site", "itching at the this medication injection site", "itching in a place where you injected this medication", "itching of the treated area", "itching where this medication was applied", "itching near the injection site"): "itchiness where the medication was applied",
 
 ("redness in the area where this medication was injected", "redness near the spot that this medication was injected", "redness at the spot that this medication was injected", "worsening redness in a place you injected this medication", "redness at the spot where this medication was injected", "redness in the areas where you applied this medication", "redness near the place where this medication was injected", "redness near the spot this medication was injected", "redness in the place where you applied this medication", "redness in the place this medication was injected", "redness at the place where this medication was applied", "redness at the place where you applied this medication", "redness at the place this medication was injected", "redness near the spot where this medication was injected", "redness at the place where this medication was inserted", "redness at the this medication injection site", "redness at the site where this medication was injected", "redness of the skin where you injected this medication", "redness where the medication was applied", "injection site redness", "skin redness at injection site", "redness at injection site"): "redness where the medication was applied",
 
@@ -154,8 +147,6 @@ generalized = {
 
 ("numbness of the arms in the area where this medication was injected","numbness of the legs in the area where this medication was injected"): "numbness where the medication was applied",
 
-("severe lower abdominal pain 3 to 5 weeks after taking this medication", "severe lower abdominal pain (3 to 5 weeks after taking this medication)"): "severe lower abdominal pain 3 to 5 weeks after taking this medication",
-
 ("worsening oozing in a place you injected this medication", "oozing pus in the place where you applied this medication", "oozing at the place where you applied this medication", "oozing in the place where you applied this medication", "fluid at the injection site", "pus at the injection site"): "oozing where the medication was applied",
 
 ("burning in the areas where you applied this medication", "burning in the place this medication was injected", "burning at the place where you applied this medication", "burning feeling at or near the area that you applied this medication", "burning in the place where you applied this medication", "burning after instilling this medication", "burning where the medication was applied", "burning at injection site", "burning around the injection site"): "burning where the medication was applied",
@@ -170,7 +161,7 @@ generalized = {
 
 ("dryness at the place where this medication was applied", "dryness at the site where this medication was injected"): "dryness where the medication was applied",
 
-("skin blistering in the area where this medication was injected", "blistering at the place where this medication was applied", "blistering at the place where you applied this medication", "blistering in the place where you applied this medication", "blisters where the medication was applied", "blistering at injection site", "blistering at the injection site"): "blistering where the medication was applied",
+("skin blistering in the area where this medication was injected", "blistering at the place where this medication was applied", "blistering at the place where you applied this medication", "blistering in the place where you applied this medication", "blisters where the medication was applied", "blistering at injection site", "blistering at the injection site", "blisters in the place where this medication was injected", "blisters near the injection site"): "blistering where the medication was applied",
 
 ("painful eyes if this medication comes in contact with eyes","irritated eyes if this medication comes in contact with eyes","red eyes if this medication comes in contact with eyes","loss of vision if this medication comes in contact with eyes"): "irritation of eyes if medication comes into contact with eyes",
 
@@ -226,7 +217,7 @@ generalized = {
 
 ("pain when urinating", "painful urination", "pain urinating", "painful urinating", "burning pain during urination", "pain upon urination", "painful urination during treatment and for up to 3 months after your final dose", "pain with urination", "pain while urinating", "pain on urination", "pain during urination", "painful urination occurring more than 24 hours after treatment", "pain when you urinate"): "pain while urinating",
 
-("abdominal pain", "pain in the upper abdominal area", "severe abdominal pain", "lower abdominal pain", "right-sided abdominal pain", "abdominal pain (in children)","abdominal pain that may go around to your back", "new abdominal pain", "worsening abdominal pain", "unusual abdominal pain", "sudden sharp abdominal pain", "abdominal pain that goes around to your back", "severe upper abdominal pain", "upper right abdominal pain", "severe lower abdominal pain 3 to 5 weeks after taking this medication"): "abdominal pain",
+("abdominal pain", "pain in the upper abdominal area", "severe abdominal pain", "lower abdominal pain", "right-sided abdominal pain", "abdominal pain (in children)","abdominal pain that may go around to your back", "new abdominal pain", "worsening abdominal pain", "unusual abdominal pain", "sudden sharp abdominal pain", "abdominal pain that goes around to your back", "severe upper abdominal pain", "severe lower abdominal pain 3 to 5 weeks after taking this medication", "severe lower abdominal pain (3 to 5 weeks after taking this medication)"): "abdominal pain",
 
 ("skin pain", "slight pain of the skin that comes and goes", "painful skin", "pain on the skin", "pain of skin", "pain of the skin on your hands", "pain of the skin on your feet", "pain of the treated skin", "pain of the skin", "new painful area on your skin", "pain of the skin area"): "skin pain",
 
@@ -295,8 +286,6 @@ generalized = {
 ("blistering of eyes","blistering of the eyes","blisters around the eyes","blisters on the eyes","blisters in the eyes","sores around eyes","sores around the eyes","sores on the inside of your eyes","sores in the eyes","ulcers around the eyes",): "eye sores, blisters, or ulcers",
 
 ("slowed healing of sores","sores on skin that are slow to heal","ulcers on skin that are slow to heal",):"slow healing sores or ulcers",
-
-("palmar-plantar sores","blistering of skin on the palms of the hands","blistering on the palms","blistering on the soles","palmar-plantar blistering",): "palmar-plantar sores, blisters, or ulcers",
 
 ("blistering of the hands","rash with blisters on hands",): "hand blisters",
 
@@ -456,7 +445,7 @@ generalized = {
 
 ("feeling cold","cold feeling","feeling of coldness",): "feeling cold",
 
-("cold hands","cold feet","cold sensation in legs","feeling cold in the arms","feeling cold in the legs","cold fingers","cold toes","feeling cold, especially in the arms or legs","coldness in hands or feet","cool hands","cool feet","fingers feeling cool","toes feeling cool",) :",cold or cool extremities",
+("cold hands","cold feet","cold sensation in legs","feeling cold in the arms","feeling cold in the legs","cold fingers","cold toes","feeling cold, especially in the arms or legs","coldness in hands or feet","cool hands","cool feet","fingers feeling cool","toes feeling cool",) :"cold or cool extremities",
 
 ("menstrual bleeding", "menstruation",): "menstruation",
 
@@ -496,13 +485,16 @@ for lst in generalized.keys():
     for side_effect in lst:
         # print(side_effect)
         if side_effect not in labels_ordered:
-            print(side_effect)
+            continue
+            # print(side_effect)
         else:
             labels_ordered.remove(side_effect)
     labels_ordered.append(generalized[lst])
-    keyslst.append(generalized[lst])
+    # if generalized[lst] == "palmar-plantar blistering":
+    #     print(labels_ordered)
+    # keyslst.append(generalized[lst])
     
-# print(labels_ordered)
+print(labels_ordered)
 print(len(labels_ordered))
 # print(keyslst)
 
