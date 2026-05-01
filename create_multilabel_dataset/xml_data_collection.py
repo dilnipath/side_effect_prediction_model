@@ -16,9 +16,6 @@ since_drug_tag = 0
 count_since_drug_tag = False
 for event, elem in context:
 
-    #ifi find name we want, toggle true
-    #if run into desired tag, grab it
-    #next drug tag, toggle false
     if event == 'start':
         if elem.tag == "{http://www.drugbank.ca}drug":
             count_since_drug_tag = True

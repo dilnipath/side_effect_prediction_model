@@ -6,26 +6,6 @@ df = pd.read_csv('././datasets/fewshot_side_effects.csv')
 
 all_side_effects = []
 
-# dict1 = {}
-
-# for j,row in df.iterrows():
-#     # if row["name"] == "Atezolizumab Injection":
-#     #     continue
-#     side_effects = row["side_effects"]
-#     side_effects = ast.literal_eval(side_effects)
-#     for i in side_effects:
-#         if i not in all_side_effects:
-#             all_side_effects.append(i)
-#         if i not in dict1.keys():
-#             dict1[i] = 1
-#         else:
-#             dict1[i] += 1
-
-# print(sorted(dict1.items(), key=lambda item: item[1]))
-
-# with open('label_order_250.txt', 'w') as f:
-#     for item in all_side_effects:
-#         f.write(f"'{item}',")
 generalized = {
 ("numbness in hands", "numbness in feet", "numbness in other parts of the body", "numbness in the hands", "numbness in the arms", "numbness in the feet", "numbness in the legs", "numbness of an arm", "numbness of a leg", "numbness of face", "numbness on skin", "numbness in your hands", "numbness in your joints", "numbness in your arms", "numbness in your legs"): "numbness",
 ("tingling sensations", "prickling sensations", "burning sensations", "tingling of the lips", "tingling of the fingers", "tingling of the feet", "tingling in the hands", "tingling in the feet", "tingling feeling on the skin", "feeling of pins and needles", "tingling in your arms", "tingling in your legs", "tingling in hands", "tingling in feet"): "paresthesia",
@@ -528,7 +508,6 @@ for _, row in split_df.iterrows():
     label = [0] * len(labels)
     print(len(label))
     print(len(labels))
-    # print(general_side_effects)
     for s in general_side_effects:
         index = labels.index(s)
         if index != -1:

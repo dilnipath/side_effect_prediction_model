@@ -483,20 +483,13 @@ keyslst= []
 
 for lst in generalized.keys():
     for side_effect in lst:
-        # print(side_effect)
         if side_effect not in labels_ordered:
             continue
-            # print(side_effect)
         else:
             labels_ordered.remove(side_effect)
     labels_ordered.append(generalized[lst])
-    # if generalized[lst] == "palmar-plantar blistering":
-    #     print(labels_ordered)
-    # keyslst.append(generalized[lst])
     
 print(labels_ordered)
-print(len(labels_ordered))
-# print(keyslst)
 
 with open('./create_multilabel_dataset/label_order_full.txt', 'w', encoding="utf-8") as f:
     for item in labels_ordered:
