@@ -1,3 +1,5 @@
+"""Finds the drug names that match in DrugBank and MedlinePlus"""
+
 import csv
 
 drugbank_names = set()

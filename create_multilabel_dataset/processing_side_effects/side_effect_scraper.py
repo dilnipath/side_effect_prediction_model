@@ -1,3 +1,5 @@
+"""Collects side effects from MedlinePlus"""
+
 import requests
 from bs4 import BeautifulSoup
 import csv

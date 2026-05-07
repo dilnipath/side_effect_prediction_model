@@ -1,8 +1,10 @@
+"""complies a list of all side effects of drugs in order to create multi-label classification"""
+
 import csv
 import ast
 import pandas as pd
 
-df = pd.read_csv('././datasets/fewshot_side_effects.csv')
+df = pd.read_csv('././datasets/match_names_fewshot_side_effects.csv')
 
 all_side_effects = []
 

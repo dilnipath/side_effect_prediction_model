@@ -1,3 +1,5 @@
+"""Utilizes Claude AI API to split side effects into smallest possible units. Ex: 'difficulty breathing and swallowing' --> ['difficulty breathing', 'difficult swallowing']"""
+
 import csv
 import anthropic
 import pandas as pd

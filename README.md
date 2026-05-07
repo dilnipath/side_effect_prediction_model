@@ -52,6 +52,6 @@ The model is a Sequential Model with three linear layers, dropout, and LeakyReLU
 
 Our model had a higher recall when there were less side effects, so for future steps we first would like to continue to generalize side effects. Additionally, we would like to add more features and determine which set of features gives the best results. Further, we would like to implement hyperparameter optimization and experiment with new models.
 
-# Contributions
+## Contributions
 
 [Grace Kenney](https://github.com/gkenney1598)

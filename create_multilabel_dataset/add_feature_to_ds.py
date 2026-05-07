@@ -1,7 +1,9 @@
+"""when wanting to add new features, this takes feature information of each drug and merges it into the pre-existing dataset"""
+
 import pandas as pd
 
 def add_feature(fname):
-    df = pd.read_csv('datasets/sample_dataset.csv')
+    df = pd.read_csv('datasets/dataset.csv')
     new_feature_df = pd.read_csv(fname)
     new_feature_df["name"] = new_feature_df["name"].str.lower()
 
@@ -17,6 +19,6 @@ def add_feature(fname):
     
 
 def main():
-    add_feature("create_multilabel_dataset/sample_data_halflife.csv")
+    add_feature("create_multilabel_dataset/data_halflife.csv")
 
 main()

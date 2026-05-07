@@ -1,3 +1,5 @@
+"""creates bioBERT embeddings of indicated feature"""
+
 import torch
 import csv
 import os

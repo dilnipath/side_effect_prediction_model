@@ -1,3 +1,5 @@
+"""Splits dataset.pt into training and testing pt files"""
+
 import torch
 import sys
 import os
