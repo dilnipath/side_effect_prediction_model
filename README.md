@@ -28,10 +28,14 @@ Run model.py to train model on a dataset and get results.
 
 # Data
 
-### DrugBank ([https://go.drugbank.com/])
+### DrugBank 
+https://go.drugbank.com/
+
 Dataset containing properties, characteristics, and descriptions of 15,000+ drugs.
 
-### MedlinePlus ([https://medlineplus.gov/])
+### MedlinePlus 
+https://medlineplus.gov/
+
 Online health resource ran by US government containing descriptions and side effects of approved drugs.
 
 ## Data Collection 
