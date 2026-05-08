@@ -10,20 +10,7 @@ import pandas as pd
 import argparse
 import os
 
-# Fixes
-# Fix 1 and 2: Removed keras and tensorflow. I see that you were using it for binary
-# focal cross entropy but mixing that library with pytorch is difficult. I've
-# added a verison of binary focal loss (taken from AI). 
-# Fix 3: Not really a fix but I tweaked the hyperparameters
-# Fix 4: Not really a fix either but I think there is a bug 
-# Fix 5: loss.backward() was missing, so learning was not possible. 
-# Also removed .detach().numpy() on outputs: detaching cuts the tensor from the
-# computation graph, making backprop impossible even if .backward() had been
-# called.
-# Fix 6: Not really a fix, but the early stopping was using patience set to
-# epoch >= 200 which was never triggered in our test runs. So I just relaxed
-# this, so early stopping is possible whenever. When we switch back to more
-# data, we should think about this more. 
+torch.manual_seed(900)
 
 class BinaryFocalLoss(nn.Module):
     def __init__(self, gamma=2.0, alpha=0.25):
@@ -47,43 +34,19 @@ class BinaryFocalLoss(nn.Module):
 
 results = []
 
-hidden_dim = 128
-dropout = 0.3   # was 0.7
-lr = 0.01       # was 0.6
-batch_size = 16  # was 1
+hidden_dim = 256
+dropout = 0.5  
+lr = 0.1      
+batch_size = 16 
 
-# I don't have these files so I wasn't able to test
-trainset = torch.load("./train_test_data/train.pt")
-testset = torch.load("./train_test_data/test.pt")
+trainset = torch.load("./train_test_data/train_general.pt")
+testset = torch.load("./train_test_data/test_general.pt")
 X_train_full, y_train_full = trainset[0], trainset[1]
 X_test, y_test = testset[0], testset[1]
 
-# new_y_train = []
-# for label_set in y_train_full:
-#     cur = [0,0,0]
-#     if label_set[1] == 1:
-#         cur[0] = 1
-#     if label_set[3] == 1:
-#         cur[1] = 1
-#     if label_set[4] == 1:  # TODO: address the overlap with line 64
-#         cur[2] = 1
-#     new_y_train.append(cur)
-# y_train_full = torch.tensor(new_y_train)
-
-# new_y_test = []
-# for label_set in y_test:
-#     cur = [0,0,0]
-#     if label_set[1] == 1:
-#         cur[0] = 1
-#     if label_set[3] == 1:
-#         cur[1] = 1
-#     if label_set[4] == 1:  # TODO: address the overlap with line 76
-#         cur[2] = 1
-#     new_y_test.append(cur)
-# y_test = torch.tensor(new_y_test)
 
 input_dim = X_train_full.shape[1]
-output_dim = 4827
+output_dim = 2888
 
 X_train_np = X_train_full.numpy()
 y_train_np = y_train_full.numpy()
@@ -113,14 +76,14 @@ model = nn.Sequential(
 )
 
 optimizer = optim.Adagrad(model.parameters(), lr=lr)
-criterion = BinaryFocalLoss(gamma=2.0, alpha=0.25)  # Pure PyTorch focal loss
+criterion = nn.BCEWithLogitsLoss(weight= torch.tensor(25))  # Pure PyTorch focal loss
 
 best_recall = 0
 patience = 20
 wait = 0
 
 
-for epoch in range(1, 101):
+for epoch in range(1, 301):
     model.train()
     loss_total = 0
     for X_batch, y_batch in train_loader:   
