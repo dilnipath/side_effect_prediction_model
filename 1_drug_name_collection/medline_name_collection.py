@@ -38,5 +38,4 @@ for i in range(697000, 700000):
 with open('./datasets/medline_names.csv', 'a', newline='', encoding='utf-8') as csvfile:
     fieldnames = ['key', 'name']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    #writer.writeheader()
     writer.writerows(names)

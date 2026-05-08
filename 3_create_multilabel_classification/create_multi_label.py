@@ -35,8 +35,6 @@ for _, row in split_df.iterrows():
             general_side_effects.append(side_effects[i])
     labels = ast.literal_eval(labels_ordered)
     label = [0] * len(labels)
-    print(len(label))
-    print(len(labels))
     for s in general_side_effects:
         index = labels.index(s)
         if index != -1:

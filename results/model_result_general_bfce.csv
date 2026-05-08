@@ -1,0 +1,4 @@
+Input dim,Epochs,Best Recall Accuracy,Test Recall,Precision,Accuracy
+768,22,0.005451842061787543,0.0002770083102493075,1.0,0.0
+
+With binary focal cross entropy, seed 9999

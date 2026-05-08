@@ -12,7 +12,6 @@ dict1 = {}
 
 for j,row in df.iterrows():
     side_effects = row["side_effects"]
-    print(row["ml_name"])
     side_effects = ast.literal_eval(side_effects)
     for i in side_effects:
         if i not in all_side_effects:

@@ -1,0 +1,2 @@
+Input dim,Epochs,Best Recall Accuracy,Test Recall,Precision,Accuracy
+768,300,0.4826388888888889,0.4553014553014553,0.026430880395512456,0.0

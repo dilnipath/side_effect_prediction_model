@@ -31,7 +31,6 @@ with open("datasets/fewshot_side_effects.csv", "a", encoding = "utf-8") as csvfi
                 }
             ],
         )
-        print(ml_names[i], i)
         dict1["ml_name"] = ml_names[i]
         dict1["db_name"] = db_names[i]
         dict1["side_effects"] = message.content[0].text.strip()

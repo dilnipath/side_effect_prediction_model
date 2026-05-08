@@ -14,8 +14,9 @@ drug_names = drug_names_df['db_name'].tolist()
 desired_drug = False
 processed_Drugs = []
 drug_dict = {}
-since_drug_tag = 0
-count_since_drug_tag = False
+since_drug_tag = 0 #used to obtain the correct name of the drug since there are multiple name tags in one drug
+count_since_drug_tag = False 
+
 for event, elem in context:
 
     if event == 'start':
@@ -52,12 +53,14 @@ for event, elem in context:
                     drug_dict["description"] = text
                 else:
                     drug_dict["description"] = -1
+                    
             if elem.tag == "{http://www.drugbank.ca}toxicity" and "toxicity" not in drug_dict:
                 if elem.text is not None:
                     text = elem.text.replace(",", "").replace("\n", "").replace("\r", "").replace("\t", "")
                     drug_dict["toxicity"] = text
                 else:
                     drug_dict["toxicity"] = -1
+
             if elem.tag == '{http://www.drugbank.ca}calculated-properties' and "SMILES" not in drug_dict:
                 for prop in elem:
                     if prop.text is None or prop is None:
@@ -69,6 +72,7 @@ for event, elem in context:
                         if kind is not None and value is not None:
                             if kind.text == "SMILES":
                                 drug_dict["SMILES"] = value.text
+
                 if "SMILES" not in drug_dict:
                     drug_dict["SMILES"] = -1
 
@@ -76,6 +80,7 @@ for event, elem in context:
         if elem.tag == "{http://www.drugbank.ca}drug":
             since_drug_tag = 0
             count_since_drug_tag = False
+
             if desired_drug:
                 desired_drug = False
                 processed_Drugs.append(drug_dict)

@@ -1,0 +1,8 @@
+Input dim,Epochs,Best Recall Accuracy,Test Recall,Precision,Accuracy
+768,21,0.2522716008590781,0.13504155124653738,0.5676258992805755,0.0
+
+hidden_dim = 256
+dropout = 0.5  
+lr = 0.1    
+
+With BCE logits lost weight of 25

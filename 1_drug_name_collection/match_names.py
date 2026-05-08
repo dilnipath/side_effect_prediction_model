@@ -46,8 +46,6 @@ for i, substring in enumerate(all_substring_names_db):
 final_substring_db = []
 final_substring_ml = []
 for i, substring in enumerate(substring_ml):
-    if substring == "Abacavir":
-        print("hi")
     count = substring_ml.count(substring)
     if count == 1:
         final_substring_ml.append(substring)

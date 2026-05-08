@@ -1,7 +1,0 @@
-#description, SMILES, toxicity, pharmaco, half-life
-#hidden dims = 128
-#dropout = 0.7
-#learning rate = 0.6
-
-Input dim,Epochs,Best Recall Accuracy,Test Recall,Precision,Accuracy
-768,10,0.5625,0.5405405405405406,0.030927835051546393,0.0

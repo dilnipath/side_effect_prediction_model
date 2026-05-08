@@ -93,7 +93,6 @@ for epoch in range(1, 301):
         loss.backward()
         loss_total+=loss.item()                    # compute gradients — was missing
         optimizer.step()
-        # print("Loss", loss.item())
     model.eval()
     y_pred = []
     with torch.no_grad():
